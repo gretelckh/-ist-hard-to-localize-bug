@@ -45,6 +45,25 @@
 把已发表的 **QRS 会议版**（纯访谈）扩展重写成 **IST 期刊版**。
 核心主题：**为什么 MCP 的 bug 这么难定位**（fault localization / 故障定位根因实证研究）。
 
+> ## ⭐【2026-10-11 最新 · 已整理发布目录 + 四层/四组件修正 + 中文版补摘要 · 最新 zip=v3】
+> **【整理发布目录】`C:\Users\kehuichen2\Desktop\IST\MCP-IST-Release\`**（新建干净文件夹，只留最新 49-bug 产物，
+> 便于传 GitHub）。含：`PAPER/`（论文最新版）、`BENCHMARK/`（49-bug 实验：analysis/metrics/runner/faultcases/
+> data/full_pool + real_raw/figs/docs）、`PROGRESS/`（RECOVERY_README/QHISTORY/TASK）、`README.md`（总说明+速查）。
+> 旧口径（MCP-Fault-20/80 runs/real 28-run/旧图/旧 paper/main_body.tex/桌面旧 zip）均未拷入。原目录保留不动。
+> ⚠️ **【最近 zip = `C:\Users\kehuichen2\Desktop\IST\IST_Right_merged_49bug_v3.zip`】**（27 文件，自包含可编译，含四层/四组件修正）。
+> ⚠️ **【四层/四组件概念修正（2026-10-11 续27）】用户指出**：MCP 调用真正组件是 Host/Client/Server 三个，Transport
+>   是组件间传输过程，不是第 4 个"层/组件"。**方案 A**（保 `four-layer taxonomy` 作故障分类框架，改误导措辞）：
+>   sec_intro / sec_related / main.tex 摘要 / sec_method taxonomy 引入（加官方 4 组件含 Resource 澄清）均已改；
+>   "four-layer MCP architecture" 改 "four-layer fault taxonomy"。官方 4 组件（Host/Client/Server/Resource）多处一致。
+> ⚠️ **paper_chinese.md（旧 MCP-Fault-20 口径）已删除**；中文版审阅.md 已补摘要+关键词，成唯一完整中文版。
+> ⚠️ **中文版交付物**：`C:\Users\kehuichen2\Desktop\IST\中文版审阅.md` + `中文版审阅.pdf`（含摘要，最新英文版翻译）。
+> ✅ **【GitHub 发布已完成 2026-10-11】仓库 = `https://github.com/gretelckh/-ist-hard-to-localize-bug`**（新仓库，未用原 `IST-bug`）。
+>   本地仓库 = `C:\Users\kehuichen2\Desktop\IST\MCP-IST-Release`（已 git init + 身份 gretelckh/1242208690@qq.com + commit）。
+>   已推送 250 文件（main，与 origin/main 同步）：`BENCHMARK/`（49-bug 实验）+ `PROGRESS/` + `README.md` + `文件位置说明` + `.gitignore`。
+>   ⚠️ **PAPER/ 已从仓库移除**（用户要求论文不传 GitHub），本地磁盘文件完整保留，PAPER/ 已加 gitignore。
+>   ⚠️ `.env`（API key）未提交，只提交 `.env.example`。
+>   ⚠️ 用户曾发疑似密码 `Ckh990820.`，已提醒其尽快修改（推送用 git 凭据，未用该密码）。
+
 > ## ⭐【2026-10-11 最新工作区 · 用户在改「IST_Right_merged」这套 · 最近 zip 见下】
 > **用户指定的主工作区 = `C:\Users\kehuichen2\Desktop\IST\IST_Right_merged`**（`main.tex` + `sec_*.tex`
 > 按章节拆分，格式用户认为"比较对"）。这一套已全部统一到 49-bug/真实 bug 口径，且**额外加了**：

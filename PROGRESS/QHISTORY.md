@@ -1778,3 +1778,80 @@ paper/(main_review.tex/main.tex/main_body.tex/cas-common.sty/cas-dc.cls/cas-mode
 - 数据集匿名 repo/DOI（正文红 TODO 未填）；Phase C 修复实验（延后）；293 未复现分析（最后决定）。
 
 **本机无 LaTeX**（pdflatex/xelatex/latexmk/tectonic 均无），无法本地编译论文，需 Overleaf。
+
+---
+
+## 2026-10-11(续27)?? 四层/四组件概念修正 + paper_chinese 删除 + 中文版补摘要 + 整理发布目录
+
+**概念修正（用户指出，主工作区 IST_Right_merged + 中文版已同步）**：
+- 用户观点正确：MCP 调用真正组件是 Host/Client/Server 三个，Transport 是组件间传输过程，不是第 4 个"层/组件"。
+- **方案 A（保四层分类，改误导措辞）**，保留 `four-layer taxonomy` 作故障分类框架，只改"调用横跨四层"这类描述。
+- 英文版改动（4 处）：
+  - sec_intro（"a single call spans ... Transport layers"→"runs between Host/Client/Server components, fault may arise in any or during transport"）
+  - sec_related（同上）
+  - main.tex 摘要（"four components (Host, Client, Server, Transport)"→"the Host, Client, Server components and the transport between them"）
+  - sec_method taxonomy 引入（新增澄清：官方 4 组件含 Resource，但 Resource 是数据非独立可故障进程，故按起源用 Transport 作第 4 维度，与官方定义不冲突）
+- 官方 4 组件（Host/Client/Server/Resource）多处已确认一致；"four-layer MCP architecture" 改 "four-layer fault taxonomy"（sec_intro RQ1 + sec_results 图 caption）。
+- 中文版（中文版审阅.md）同步了对应 4 处。
+
+**paper_chinese.md**：旧 MCP-Fault-20 口径（80 runs/45%/52.5%）已废弃，用户要求删 → **已删除**。
+**中文版审阅.md**：补入最新英文版摘要（Abstract）+ 关键词，成为唯一完整中文版。
+
+**zip 重打包**：C:\Users\kehuichen2\Desktop\IST\IST_Right_merged_49bug_v3.zip（27 文件，含四层/四组件修正）。
+**中文版 PDF**：C:\Users\kehuichen2\Desktop\IST\中文版审阅.pdf（重新生成，含摘要）。
+
+**整理发布目录（用户要求：新建干净文件夹，只留最新版，便于传 GitHub）**：
+- 新建 C:\Users\kehuichen2\Desktop\IST\MCP-IST-Release\，只保留最新 49-bug 产物：
+  - PAPER/IST_Right_merged（论文最新版 27 文件）
+  - BENCHMARK/（49-bug 实验：analysis 32 + metrics 6 + runner 3 + faultcases 83 + data/full_pool 28 + data/real_raw 49 + figs 15 + docs 11 + 配置）
+  - PROGRESS/（RECOVERY_README/QHISTORY/TASK）
+  - README.md（总说明 + 最新版口径 + 速查表 + GitHub 发布建议）
+- 旧口径内容（MCP-Fault-20/80 runs、real 28-run、旧图 fig_mismatch/fig_real_transport/fig_repair/fig_diag_accuracy、旧 paper/main_body.tex、桌面旧 zip）**均未拷入**。
+- 原目录保留不动（用户允许保留原来的）。
+
+---
+
+## 2026-10-11(续28)?? 文件位置说明 Word 文档 + GitHub 发布待办
+
+**文件位置说明（用户要求生成 Word 文档说明最新代码/数据/表格都在哪）**：
+- C:\Users\kehuichen2\Desktop\IST\文件位置说明.md / .docx（pandoc 生成，约 16KB）
+- 已复制一份到 MCP-IST-Release\ 目录（文件位置说明.md / .docx）。
+- 内容：① 整理发布目录结构 ② 论文用到的 5 张图 ③ 论文用到的表格（各 sec_*.tex）④ 49-bug 核心数据（data/full_pool）⑤ 实验代码（analysis/metrics/runner/faultcases）⑥ 权威数字与分析文档（docs/）⑦ 最新 zip ⑧ 中文版 ⑨ 最新数字速查 ⑩ GitHub 发布建议。
+
+**GitHub 发布（用户要求更新到 GitHub，且重新建仓库，不用原来的）**：
+- 用户提供 GitHub 账号：https://github.com/gretelckh
+- 账号下现有 2 个仓库：qrs-rfi-reduction、IST-bug（IST-bug 是 MCP Python SDK 的 fork/副本，非本项目，用户要求不用它，重新建）。
+- ⚠️ **当前环境无法直接 push 的障碍**：
+  - gh CLI 未安装（无法自动创建仓库/推送）
+  - git 未配置 user.name / user.email（为空）
+  - 无 GitHub 凭据（无 .git-credentials、无 GCM）——需要 Personal Access Token
+- **待办（需用户提供）**：① GitHub 新仓库名（或确认由用户自行在网页创建）；② Personal Access Token；③ git 身份（name/email）。
+- 目标发布内容 = C:\Users\kehuichen2\Desktop\IST\MCP-IST-Release\（干净最新版）。
+
+**注意**：MCP-IST-Release 目前**未 git init**（原 MCP_IST_Project 已 init 但其 .gitignore 排除 data/faultcases/figs/zip，不适合直接用于完整数据发布）。
+
+---
+
+## 2026-10-11(续29)?? GitHub 发布完成（新仓库，不含 PAPER）
+
+**仓库**：https://github.com/gretelckh/-ist-hard-to-localize-bug（新仓库，未用原 IST-bug）
+
+**本地 git 已配置**：
+- git user.name = gretelckh，user.email = 1242208690@qq.com
+- 本地仓库 = C:\Users\kehuichen2\Desktop\IST\MCP-IST-Release（git init + 身份 + commit）
+
+**已推送内容（250 文件，main 分支，与 origin/main 同步）**：
+- BENCHMARK/（49-bug 实验：analysis/metrics/runner/faultcases/data/full_pool + real_raw/figs/docs + 配置）
+- PROGRESS/（RECOVERY_README/QHISTORY/TASK）
+- README.md、文件位置说明.md/.docx、.gitignore
+
+**⚠️ PAPER 已从仓库移除**（用户要求论文不传 GitHub）：用 `git rm -r --cached PAPER`（本地磁盘文件完整保留），
+PAPER/ 已加进 .gitignore 防误提交。远程现在只有 BENCHMARK/PROGRESS/README/说明/gitignore。
+
+**安全确认**：.env（含 API key）未提交，只提交 .env.example。
+
+**过程**：git init → 配身份 → commit → push（第一次遇到远程有 README 更新 da73a41，已 git pull --rebase 合并后成功推送）。
+
+**⚠️ 安全提醒**：用户曾在对话中发送疑似密码 `Ckh990820.`，已提醒其尽快修改（推送用的是 git 凭据，未使用该密码）。
+
+**后续可做**：论文单独管理（如私库/Overleaf 共享）；数据匿名 repo/DOI（正文红 TODO）需在投稿前补。
