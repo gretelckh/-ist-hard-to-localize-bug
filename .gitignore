@@ -31,3 +31,6 @@ run_err.txt
 _tmp_*.py
 _unproc.json
 *.zip
+
+# Paper (kept locally, not published to GitHub)
+PAPER/
