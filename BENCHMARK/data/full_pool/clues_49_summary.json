@@ -1,0 +1,17 @@
+{
+ "baseline": {
+  "overall": 77.6,
+  "nonserver": 15.4,
+  "n_nonserver": 13
+ },
+ "honest_clue": {
+  "overall": 79.6,
+  "nonserver": 23.1,
+  "n_nonserver": 13
+ },
+ "leaky_label": {
+  "overall": 73.5,
+  "nonserver": 0.0,
+  "n_nonserver": 13
+ }
+}

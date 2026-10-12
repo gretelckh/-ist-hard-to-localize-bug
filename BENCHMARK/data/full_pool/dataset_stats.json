@@ -1,0 +1,14 @@
+{
+ "active_total": 342,
+ "removed_fixed": 56,
+ "confirmed_total": 398,
+ "layer": {
+  "Server": 91,
+  "Host": 48,
+  "Client": 118,
+  "Transport": 85
+ },
+ "open": 93,
+ "closed": 249,
+ "reproduced": 49
+}

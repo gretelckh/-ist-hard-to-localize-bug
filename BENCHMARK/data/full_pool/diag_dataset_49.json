@@ -1,0 +1,345 @@
+[
+  {
+    "issue": 110,
+    "origin": "Client",
+    "channel": "pushed-server",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-110', 'version': ''}} content=[TextContent(type='text', text='Error executing tool bad', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_110.txt"
+  },
+  {
+    "issue": 234,
+    "origin": "Server",
+    "channel": "single-layer-correct",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-234', 'version': ''}} content=[TextContent(type='text', text='Unknown tool: no_such_tool', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_234.txt"
+  },
+  {
+    "issue": 244,
+    "origin": "Server",
+    "channel": "registration-error",
+    "surface_text": "RAISED-AT-REG:ValueError:Resource 'data://r' has no URI template variables, but the handler declares parameters {'ctx'}. Add matching {...} variables to the URI or remove the parameters.",
+    "file": "real_244.txt"
+  },
+  {
+    "issue": 348,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-348', 'version': ''}} content=[TextContent(type='text', text='Error executing tool img', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_348.txt"
+  },
+  {
+    "issue": 417,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-417', 'version': ''}} content=[TextContent(type='text', text='Error executing tool boom', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_417.txt"
+  },
+  {
+    "issue": 698,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-698', 'version': ''}} content=[TextContent(type='text', text='Error executing tool boom', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_698.txt"
+  },
+  {
+    "issue": 743,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-743', 'version': ''}} content=[TextContent(type='text', text='Error executing tool boom', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_743.txt"
+  },
+  {
+    "issue": 891,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-891', 'version': ''}} content=[TextContent(type='text', text='Error executing tool f', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_891.txt"
+  },
+  {
+    "issue": 1060,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-1060', 'version': ''}} content=[TextContent(type='text', text='Error executing tool img', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_1060.txt"
+  },
+  {
+    "issue": 1361,
+    "origin": "Client",
+    "channel": "pushed-server",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-1361', 'version': ''}} content=[TextContent(type='text', text='Error executing tool boom', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_1361.txt"
+  },
+  {
+    "issue": 1579,
+    "origin": "Server",
+    "channel": "single-layer-correct",
+    "surface_text": "RAISED:MCPError:Unknown resource: data://missing",
+    "file": "real_1579.txt"
+  },
+  {
+    "issue": 1702,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-1702', 'version': ''}} content=[TextContent(type='text', text='Error executing tool get_name', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_1702.txt"
+  },
+  {
+    "issue": 1974,
+    "origin": "Server",
+    "channel": "registration-error",
+    "surface_text": "RAISED-AT-REG:AttributeError:'Handler' object has no attribute '__name__'",
+    "file": "real_1974.txt"
+  },
+  {
+    "issue": 2057,
+    "origin": "Client",
+    "channel": "silent",
+    "surface_text": "HTTP 202",
+    "file": "real_2057.txt"
+  },
+  {
+    "issue": 2114,
+    "origin": "Client",
+    "channel": "pushed-server",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-2114', 'version': ''}} content=[TextContent(type='text', text='Error executing tool boom', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_2114.txt"
+  },
+  {
+    "issue": 2153,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-2153', 'version': ''}} content=[TextContent(type='text', text='Error executing tool boom', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_2153.txt"
+  },
+  {
+    "issue": 2386,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-2386', 'version': ''}} content=[TextContent(type='text', text='Error executing tool boom', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_2386.txt"
+  },
+  {
+    "issue": 2422,
+    "origin": "Server",
+    "channel": "single-layer-correct",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-2422', 'version': ''}} content=[TextContent(type='text', text='Unknown tool: no_such_tool', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_2422.txt"
+  },
+  {
+    "issue": 2431,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-2431', 'version': ''}} content=[TextContent(type='text', text='Error executing tool boom', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_2431.txt"
+  },
+  {
+    "issue": 2539,
+    "origin": "Server",
+    "channel": "silent",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-2539', 'version': ''}} content=[TextContent(type='text', text='{\\n  \"text\": null\\n}', annotations=None, meta=None)] structured_content={'text': None} is_error=False result_type='complete'",
+    "file": "real_2539.txt"
+  },
+  {
+    "issue": 2618,
+    "origin": "Transport",
+    "channel": "silent",
+    "surface_text": "HTTP 200 | event: message | data: {\"jsonrpc\":\"2.0\",\"id\":1,\"result\":{\"capabilities\":{\"experimental\":{},\"prompts\":{\"listChanged\":false},\"resources\":{\"listChanged\":false,\"subscribe\":false},\"tools\":{\"listChanged\":false}},\"protocolVersion\":\"2024-11-05\",\"serverInfo\":{\"name\":\"real-proto\",\"version\":\"\"}}}",
+    "file": "real_2618.txt"
+  },
+  {
+    "issue": 2741,
+    "origin": "Transport",
+    "channel": "pushed-server",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-2741', 'version': ''}} content=[TextContent(type='text', text='Error executing tool boom', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_2741.txt"
+  },
+  {
+    "issue": 2770,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-2770', 'version': ''}} content=[TextContent(type='text', text='Error executing tool boom', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_2770.txt"
+  },
+  {
+    "issue": 3067,
+    "origin": "Server",
+    "channel": "silent",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-3067', 'version': ''}} content=[TextContent(type='text', text='3', annotations=None, meta=None)] structured_content={'result': 3} is_error=False result_type='complete'",
+    "file": "real_3067.txt"
+  },
+  {
+    "issue": 3099,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-3099', 'version': ''}} content=[TextContent(type='text', text='Error executing tool ext', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_3099.txt"
+  },
+  {
+    "issue": 3266,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-3266', 'version': ''}} content=[TextContent(type='text', text='Error executing tool boom', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_3266.txt"
+  },
+  {
+    "issue": 3341,
+    "origin": "Server",
+    "channel": "single-layer-correct",
+    "surface_text": "RAISED:RuntimeError:Invalid structured content returned by tool nan: None is not of type 'number' | Failed validating 'type' in schema['properties']['result']: | {'title': 'Result', 'type': 'number'} | On instance['result']: | None",
+    "file": "real_3341.txt"
+  },
+  {
+    "issue": 3342,
+    "origin": "Server",
+    "channel": "single-layer-correct",
+    "surface_text": "RAISED:MCPError:Internal server error",
+    "file": "real_3342.txt"
+  },
+  {
+    "issue": 3351,
+    "origin": "Server",
+    "channel": "single-layer-correct",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-3351', 'version': ''}} content=[TextContent(type='text', text=\"Error executing tool f: 1 validation error for fArguments\\nx\\n  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='not_an_int', input_type=str]\\n    For further information visit https://errors.pydantic.dev/2.12/v/int_parsing\", annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_3351.txt"
+  },
+  {
+    "issue": 3385,
+    "origin": "Server",
+    "channel": "single-layer-correct",
+    "surface_text": "RAISED:RuntimeError:Invalid structured content returned by tool inf: None is not of type 'number' | Failed validating 'type' in schema['properties']['result']: | {'title': 'Result', 'type': 'number'} | On instance['result']: | None",
+    "file": "real_3385.txt"
+  },
+  {
+    "issue": 3549,
+    "origin": "Server",
+    "channel": "silent",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-race', 'version': ''}} content=[TextContent(type='text', text='1', annotations=None, meta=None)] stru",
+    "file": "real_r_race_lost_update.txt"
+  },
+  {
+    "issue": 3554,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-bytes', 'version': ''}} content=[TextContent(type='text', text='Error executing tool get_bytes', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_r_bytes_output_crash.txt"
+  },
+  {
+    "issue": 3556,
+    "origin": "Transport",
+    "channel": "caller-exception",
+    "surface_text": "RAISED:ExceptionGroup:unhandled errors in a TaskGroup (1 sub-exception)",
+    "file": "real_r_session_reinit_404.txt"
+  },
+  {
+    "issue": 3557,
+    "origin": "Transport",
+    "channel": "caller-exception",
+    "surface_text": "status=400 | {\"jsonrpc\":\"2.0\",\"id\":null,\"error\":{\"code\":-32602,\"message\":\"Validation error: 4 validation errors for union[JSONRPCRequest,JSONRPCNotification,JSONRPCResponse,JSONRPCError]\\nJSONRPCRequest\\n  Input should be a valid dictionary or instance",
+    "file": "real_r_jsonrpc_error_code.txt"
+  },
+  {
+    "issue": 3560,
+    "origin": "Transport",
+    "channel": "caller-exception",
+    "surface_text": "RAISED:ExceptionGroup:unhandled errors in a TaskGroup (1 sub-exception)",
+    "file": "real_r_tool_timeout.txt"
+  },
+  {
+    "issue": 3569,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-perm', 'version': ''}} content=[TextContent(type='text', text='Error executing tool fragile2', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_r_permission_swallow.txt"
+  },
+  {
+    "issue": 3572,
+    "origin": "Host",
+    "channel": "pushed-server",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-val', 'version': ''}} content=[TextContent(type='text', text='Error executing tool lookup: 1 validation error for lookupArguments\\nname\\n  Input should be a valid string [type=string_type, input_value=12345, input_type=int]\\n    For further information visit https://errors.pydantic.dev/2.12/v/string_type', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_r_validation_echo_input.txt"
+  },
+  {
+    "issue": 3573,
+    "origin": "Server",
+    "channel": "registration-error",
+    "surface_text": "RAISED-AT-REG:PydanticSchemaGenerationError:Unable to generate pydantic-core schema for typing.Iterator[int]. Set `arbitrary_types_allowed=True` in the model_config to ignore this error or implement `__get_pydantic_core_schema__` on your type to fully support it. | If you got this error by calling handler(<some type>) within `__get_pydantic_core_schema__` then you likely need to call `handler.generate_schema(<some type>)` since we do not call `__get_pydantic_core_schema__` on `<some type>` otherwise to avoid infinite recursion. | For further information visit https://errors.pydantic.dev/2.12/u/schema-for-unknown-type",
+    "file": "real_r_iterator_meta_fail.txt"
+  },
+  {
+    "issue": 3578,
+    "origin": "Server",
+    "channel": "silent",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-dup', 'version': ''}} content=[TextContent(type='text', text='2', annotations=None, meta=None)] structured_content={'result': 2} is_error=False result_type='complete'",
+    "file": "real_r_duplicate_tool_shadow.txt"
+  },
+  {
+    "issue": 3579,
+    "origin": "Host",
+    "channel": "pushed-server",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-empty', 'version': ''}} content=[TextContent(type='text', text='Unknown tool: nonexistent', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_r_empty_server_components.txt"
+  },
+  {
+    "issue": 3585,
+    "origin": "Server",
+    "channel": "silent",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-media', 'version': ''}} content=[TextContent(type='text', text='image/jpg', annotations=None, meta=None)] structured_content={'result': 'image/jpg'} is_error=False result_type='complete'",
+    "file": "real_r_media_unregistered_mime.txt"
+  },
+  {
+    "issue": 3586,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-exc', 'version': ''}} content=[TextContent(type='text', text='Error executing tool fragile', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_r_non_tool_error_silent.txt"
+  },
+  {
+    "issue": 3592,
+    "origin": "Server",
+    "channel": "silent",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-flag', 'version': ''}} content=[TextContent(type='text', text='stale-cache-fallback:foo', annotations=None, meta=None)] structured_content={'result': 'stale-cache-fallback:foo'} is_error=False result_type='complete'",
+    "file": "real_r_fallback_success_flag.txt"
+  },
+  {
+    "issue": 3637,
+    "origin": "Host",
+    "channel": "pushed-server",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-flat', 'version': ''}} content=[TextContent(type='text', text=\"Error executing tool summarize: 1 validation error for summarizeArguments\\nbook\\n  Field required [type=missing, input_value={'title': 'x', 'pages': 5}, input_type=dict]\\n    For further information visit https://errors.pydantic.dev/2.12/v/missing\", annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_r_flat_argument.txt"
+  },
+  {
+    "issue": 3640,
+    "origin": "Server",
+    "channel": "silent",
+    "surface_text": "is_error=False | advertised_capabilities=experimental=None logging=None prompts=PromptsCapability(list_changed=True) resources=ResourcesCapability(subscribe=True, list_changed=True) tools=ToolsCapability(list_changed=True) completions=None extensions=None tasks=None",
+    "file": "real_r_capabilities_drop.txt"
+  },
+  {
+    "issue": 3643,
+    "origin": "Server",
+    "channel": "silent",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-ulist', 'version': ''}} description='' messages=[PromptMessage(role='user', content=TextContent(type='text', text='\"[PromptMessage(role=\\'user\\', content=TextContent(type=\\'text\\', text=\\'hi bob\\', annotations=None, meta=None))]\"', annotations=None, meta=None))] result_type='complete'",
+    "file": "real_r_userlist_prompt.txt"
+  },
+  {
+    "issue": 3644,
+    "origin": "Server",
+    "channel": "single-layer-correct",
+    "surface_text": "is_error=False | advertised_outputSchema={\"properties\": {\"fullTitle\": {\"title\": \"Fulltitle\", \"type\": \"string\"}}, \"required\": [\"fullTitle\"], \"title\": \"Out\", \"type\": \"object\"} | RAISED:RuntimeError:Invalid structured content returned by tool get: 'fullTitle' is a required property | Failed validating 'required' in schema: | {'properties': {'fullTitle': {'title': 'Fulltitle', 'type': 'string'}},",
+    "file": "real_r_outputschema_mode.txt"
+  },
+  {
+    "issue": 3646,
+    "origin": "Host",
+    "channel": "silent",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-3646', 'version': ''}} content=[TextContent(type='text', text='1', annotations=None, meta=None)] structured_content={'result': 1} is_error=Fa",
+    "file": "real_r_extra_arg_silent.txt"
+  },
+  {
+    "issue": 3656,
+    "origin": "Server",
+    "channel": "single-layer-masked",
+    "surface_text": "meta={'io.modelcontextprotocol/serverInfo': {'name': 'real-3656', 'version': ''}} content=[TextContent(type='text', text='Error executing tool a', annotations=None, meta=None)] structured_content=None is_error=True result_type='complete'",
+    "file": "real_3656.txt"
+  }
+]

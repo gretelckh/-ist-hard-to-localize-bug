@@ -1,0 +1,355 @@
+{
+  "items": [
+    {
+      "issue": 110,
+      "origin": "Client",
+      "channel": "pushed-server",
+      "reason": "genericised",
+      "evidence": "Error executing tool bad, is_error=True; real cause = non-UTF-8 bytes decode"
+    },
+    {
+      "issue": 1361,
+      "origin": "Client",
+      "channel": "pushed-server",
+      "reason": "genericised",
+      "evidence": "Error executing tool boom, is_error=True"
+    },
+    {
+      "issue": 2057,
+      "origin": "Client",
+      "channel": "silent",
+      "reason": "silent-ok",
+      "evidence": "HTTP 202; null-id accepted as notification, never rejected"
+    },
+    {
+      "issue": 2114,
+      "origin": "Client",
+      "channel": "pushed-server",
+      "reason": "genericised",
+      "evidence": "Error executing tool boom, is_error=True"
+    },
+    {
+      "issue": 3572,
+      "origin": "Host",
+      "channel": "pushed-server",
+      "reason": "genericised",
+      "evidence": "real_r_validation_echo_input.txt: Error executing tool lookup, is_error=True"
+    },
+    {
+      "issue": 3579,
+      "origin": "Host",
+      "channel": "pushed-server",
+      "reason": "insufficient",
+      "evidence": "real_r_empty_server_components.txt: Unknown tool, is_error=True"
+    },
+    {
+      "issue": 3637,
+      "origin": "Host",
+      "channel": "pushed-server",
+      "reason": "genericised",
+      "evidence": "real_r_flat_argument.txt: Error executing tool summarize, is_error=True"
+    },
+    {
+      "issue": 3646,
+      "origin": "Host",
+      "channel": "silent",
+      "reason": "silent-ok",
+      "evidence": "real_r_extra_arg_silent.txt: extra arg -> 1, is_error=False"
+    },
+    {
+      "issue": 234,
+      "origin": "Server",
+      "channel": "single-layer-correct",
+      "reason": "insufficient",
+      "evidence": "Unknown tool: no_such_tool, is_error=True"
+    },
+    {
+      "issue": 244,
+      "origin": "Server",
+      "channel": "registration-error",
+      "reason": "registration",
+      "evidence": "RAISED-AT-REG ValueError: URI template variables missing"
+    },
+    {
+      "issue": 348,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "Error executing tool img (real PydanticSchemaGenerationError hidden)"
+    },
+    {
+      "issue": 417,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "Error executing tool boom"
+    },
+    {
+      "issue": 698,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "Error executing tool boom"
+    },
+    {
+      "issue": 743,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "Error executing tool boom"
+    },
+    {
+      "issue": 891,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "Error executing tool f (real TypeError hidden)"
+    },
+    {
+      "issue": 1060,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "Error executing tool img"
+    },
+    {
+      "issue": 1579,
+      "origin": "Server",
+      "channel": "single-layer-correct",
+      "reason": "insufficient",
+      "evidence": "RAISED MCPError: Unknown resource"
+    },
+    {
+      "issue": 1702,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "Error executing tool get_name"
+    },
+    {
+      "issue": 1974,
+      "origin": "Server",
+      "channel": "registration-error",
+      "reason": "registration",
+      "evidence": "RAISED-AT-REG AttributeError: Handler has no __name__"
+    },
+    {
+      "issue": 2153,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "Error executing tool boom"
+    },
+    {
+      "issue": 2386,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "Error executing tool boom (CWE-209 sensitive value hidden)"
+    },
+    {
+      "issue": 2422,
+      "origin": "Server",
+      "channel": "single-layer-correct",
+      "reason": "insufficient",
+      "evidence": "Unknown tool: no_such_tool, is_error=True"
+    },
+    {
+      "issue": 2431,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "Error executing tool boom (McpError not pickle-safe)"
+    },
+    {
+      "issue": 2539,
+      "origin": "Server",
+      "channel": "silent",
+      "reason": "silent-ok",
+      "evidence": "{\"text\": null}, is_error=False; wrong result shape returned"
+    },
+    {
+      "issue": 2770,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "Error executing tool boom"
+    },
+    {
+      "issue": 3067,
+      "origin": "Server",
+      "channel": "silent",
+      "reason": "silent-ok",
+      "evidence": "call_tool(add,{typo:9}) -> 3, is_error=False; extra param silently dropped"
+    },
+    {
+      "issue": 3099,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "Error executing tool ext"
+    },
+    {
+      "issue": 3266,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "Error executing tool boom"
+    },
+    {
+      "issue": 3341,
+      "origin": "Server",
+      "channel": "single-layer-correct",
+      "reason": "genericised",
+      "evidence": "RAISED RuntimeError: Invalid structured content (nan)"
+    },
+    {
+      "issue": 3342,
+      "origin": "Server",
+      "channel": "single-layer-correct",
+      "reason": "genericised",
+      "evidence": "RAISED MCPError: Internal server error"
+    },
+    {
+      "issue": 3351,
+      "origin": "Server",
+      "channel": "single-layer-correct",
+      "reason": "genericised",
+      "evidence": "Error executing tool f: 1 validation error (detail retained)"
+    },
+    {
+      "issue": 3385,
+      "origin": "Server",
+      "channel": "single-layer-correct",
+      "reason": "genericised",
+      "evidence": "RAISED RuntimeError: Invalid structured content (inf)"
+    },
+    {
+      "issue": 3549,
+      "origin": "Server",
+      "channel": "silent",
+      "reason": "silent-ok",
+      "evidence": "real_r_race_lost_update.txt: 20 concurrent calls -> result 1, is_error=False (lost update)"
+    },
+    {
+      "issue": 3554,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "real_r_bytes_output_crash.txt: Error executing tool get_bytes"
+    },
+    {
+      "issue": 3569,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "real_r_permission_swallow.txt: Error executing tool fragile2"
+    },
+    {
+      "issue": 3573,
+      "origin": "Server",
+      "channel": "registration-error",
+      "reason": "registration",
+      "evidence": "real_r_iterator_meta_fail.txt: RAISED-AT-REG PydanticSchemaGenerationError"
+    },
+    {
+      "issue": 3578,
+      "origin": "Server",
+      "channel": "silent",
+      "reason": "silent-ok",
+      "evidence": "real_r_duplicate_tool_shadow.txt: dup tool shadow -> 2, is_error=False"
+    },
+    {
+      "issue": 3585,
+      "origin": "Server",
+      "channel": "silent",
+      "reason": "silent-ok",
+      "evidence": "real_r_media_unregistered_mime.txt: image/jpg, is_error=False (unregistered mime accepted)"
+    },
+    {
+      "issue": 3586,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "real_r_non_tool_error_silent.txt: Error executing tool fragile"
+    },
+    {
+      "issue": 3592,
+      "origin": "Server",
+      "channel": "silent",
+      "reason": "silent-ok",
+      "evidence": "real_r_fallback_success_flag.txt: stale-cache-fallback, is_error=False"
+    },
+    {
+      "issue": 3640,
+      "origin": "Server",
+      "channel": "silent",
+      "reason": "silent-ok",
+      "evidence": "real_r_capabilities_drop.txt: is_error=False; advertised capabilities dropped"
+    },
+    {
+      "issue": 3643,
+      "origin": "Server",
+      "channel": "silent",
+      "reason": "silent-ok",
+      "evidence": "real_r_userlist_prompt.txt: is_error=False; PromptMessage stringified"
+    },
+    {
+      "issue": 3644,
+      "origin": "Server",
+      "channel": "single-layer-correct",
+      "reason": "genericised",
+      "evidence": "real_r_outputschema_mode.txt: RAISED RuntimeError invalid structured content"
+    },
+    {
+      "issue": 3656,
+      "origin": "Server",
+      "channel": "single-layer-masked",
+      "reason": "genericised",
+      "evidence": "Error executing tool a"
+    },
+    {
+      "issue": 2618,
+      "origin": "Transport",
+      "channel": "silent",
+      "reason": "silent-ok",
+      "evidence": "HTTP 200; MCP-Protocol-Version header vs body mismatch not validated"
+    },
+    {
+      "issue": 2741,
+      "origin": "Transport",
+      "channel": "pushed-server",
+      "reason": "genericised",
+      "evidence": "Error executing tool boom, is_error=True; real cause only in \"Session crashed\" log"
+    },
+    {
+      "issue": 3556,
+      "origin": "Transport",
+      "channel": "caller-exception",
+      "reason": "caller-exception",
+      "evidence": "real_r_session_reinit_404.txt: RAISED ExceptionGroup"
+    },
+    {
+      "issue": 3557,
+      "origin": "Transport",
+      "channel": "caller-exception",
+      "reason": "caller-exception",
+      "evidence": "real_r_jsonrpc_error_code.txt: HTTP 400, JSON-RPC -32602"
+    },
+    {
+      "issue": 3560,
+      "origin": "Transport",
+      "channel": "caller-exception",
+      "reason": "caller-exception",
+      "evidence": "real_r_tool_timeout.txt: RAISED ExceptionGroup (timeout)"
+    }
+  ],
+  "reason_dist": {
+    "genericised": 28,
+    "insufficient": 4,
+    "registration": 3,
+    "silent-ok": 11,
+    "caller-exception": 3
+  },
+  "n": 49
+}

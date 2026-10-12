@@ -1,0 +1,50 @@
+﻿GitHub Issue,Origin Layer,Exposure Channel,Bug Title,Root-cause note
+#110,Client,pushed-to-Server,Client side JSON decode error when server does not use UTF-8,"Error executing tool bad, is_error=True; real cause = non-UTF-8 bytes decode"
+#234,Server,single-layer (correct),"{'content': [{'type': 'text', 'text': 'Error: Unknown tool: get_current_time'}], 'isError': False}","Unknown tool: no_such_tool, is_error=True"
+#244,Server,registration,`@app.resource()` does not accept `ctx: Context`,RAISED-AT-REG ValueError: URI template variables missing
+#348,Server,single-layer (genericised),No way to set isError=True for arbitrary tool result content,Error executing tool img (real PydanticSchemaGenerationError hidden)
+#417,Server,single-layer (genericised),MCP Server Internal Server Error Report,Error executing tool boom
+#698,Server,single-layer (genericised),Tool.run should not reveal exception value to the client,Error executing tool boom
+#743,Server,single-layer (genericised),RuntimeError but the actual root cause is not logged correctly,Error executing tool boom
+#891,Server,single-layer (genericised),"unsupported operand type(s) for +: 'dict' and 'str'"", annotations=None)], isError=True)",Error executing tool f (real TypeError hidden)
+#1060,Server,single-layer (genericised),PydanticSchemaGenerationError: Unable to generate pydantic-core schema for Image type,Error executing tool img
+#1361,Client,pushed-to-Server,ClientSession swallow call_tool exceptions,"Error executing tool boom, is_error=True"
+#1579,Server,single-layer (correct),FastMCP read_resource() returns incorrect error code when resource not found,RAISED MCPError: Unknown resource
+#1702,Server,single-layer (genericised),Clarify and improve behavior when tool output fails schema validation,Error executing tool get_name
+#1974,Server,registration,find_context_parameter() fails to detect Context parameter in callable class instances,RAISED-AT-REG AttributeError: Handler has no __name__
+#2057,Client,silent,"Requests with ""id"": null silently misclassified as notifications","HTTP 202; null-id accepted as notification, never rejected"
+#2114,Client,pushed-to-Server,ExceptionGroup wrapping obscures real errors from task groups,"Error executing tool boom, is_error=True"
+#2153,Server,single-layer (genericised),"MCPServer handlers should raise exceptions, not return error objects",Error executing tool boom
+#2386,Server,single-layer (genericised),Sanitize tool handler error messages by default (CWE-209 parity with C#/TS),Error executing tool boom (CWE-209 sensitive value hidden)
+#2422,Server,single-layer (correct),Specific ToolNotFoundError for easier handling than ToolError in multi-tenant environments,"Unknown tool: no_such_tool, is_error=True"
+#2431,Server,single-layer (genericised),McpError is not pickle-safe and fails to unpickle,Error executing tool boom (McpError not pickle-safe)
+#2539,Server,silent,"Bug: task_result_handler.py serializes None optional fields as JSON null, breaking Node SDK Zod validation","{""text"": null}, is_error=False; wrong result shape returned"
+#2618,Transport,silent,Streamable HTTP server accepts mismatched `MCP-Protocol-Version` header and body `protocolVersion` on `initialize`,HTTP 200; MCP-Protocol-Version header vs body mismatch not validated
+#2741,Transport,pushed-to-Server,"Stateful Streamable HTTP: in-session exceptions are masked as an empty -32603; real cause only in a separate ""Session crashed"" log","Error executing tool boom, is_error=True; real cause only in ""Session crashed"" log"
+#2770,Server,single-layer (genericised),McpError raised in tool handlers is swallowed as isError:true instead of propagating as JSON-RPC error,Error executing tool boom
+#3067,Server,silent,FastMCP tool argument models silently ignore unknown/misspelled arguments (extra=ignore default),"call_tool(add,{typo:9}) -> 3, is_error=False; extra param silently dropped"
+#3099,Server,single-layer (genericised),Field alias is published in the tool schema but forwarded as an invalid Python keyword,Error executing tool ext
+#3266,Server,single-layer (genericised),Log exceptions in tool calls,Error executing tool boom
+#3341,Server,single-layer (correct),A tool returning a non-finite float fails on the client with an error naming the tool,RAISED RuntimeError: Invalid structured content (nan)
+#3342,Server,single-layer (correct),Prompt validation errors are logged with an unnecessary traceback,RAISED MCPError: Internal server error
+#3351,Server,single-layer (correct),"Server.call_tool()'s input-validation error result discards jsonschema.ValidationError's structured fields, leaving only free-text prose",Error executing tool f: 1 validation error (detail retained)
+#3385,Server,single-layer (correct),A tool returning a non-finite float puts invalid JSON in the text content block,RAISED RuntimeError: Invalid structured content (inf)
+#3549,Server,silent,How can I manage resource across multiple tool calls during one session?,"real_r_race_lost_update.txt: 20 concurrent calls -> result 1, is_error=False (lost update)"
+#3554,Server,single-layer (genericised),Structured tool output: `-> bytes` return crashes with a generic error on non-UTF-8 payloads instead of returning the advertised base64/binary string,real_r_bytes_output_crash.txt: Error executing tool get_bytes
+#3556,Transport,caller-exception,"Streamable HTTP client treats 404 as terminal instead of re-initializing, as the spec requires",real_r_session_reinit_404.txt: RAISED ExceptionGroup
+#3557,Transport,caller-exception,Malformed requests get -32602 where JSON-RPC 2.0 requires -32600 (non-Request body) and -32601 (unknown method),"real_r_jsonrpc_error_code.txt: HTTP 400, JSON-RPC -32602"
+#3560,Transport,caller-exception,POST failure identical to task cancellation in streamable HTTP client,real_r_tool_timeout.txt: RAISED ExceptionGroup (timeout)
+#3569,Server,single-layer (genericised),Client transports/sessions swallow the original exception; applications cannot classify 401/403/429 transport failures,real_r_permission_swallow.txt: Error executing tool fragile2
+#3572,Host,pushed-to-Server,Tool validation errors echo the rejected input value (input_value) — add a masking option or a public validation-error hook,"real_r_validation_echo_input.txt: Error executing tool lookup, is_error=True"
+#3573,Server,registration,func_metadata raises uncaught PydanticSchemaGenerationError for Iterator/AsyncIterator tool return annotations instead of the unstructured fallback,real_r_iterator_meta_fail.txt: RAISED-AT-REG PydanticSchemaGenerationError
+#3578,Server,silent,ClientSessionGroup raises KeyError when connecting a server that exposes no components,"real_r_duplicate_tool_shadow.txt: dup tool shadow -> 2, is_error=False"
+#3579,Host,pushed-to-Server,`ClientSessionGroup` has no routed `read_resource` / `get_prompt` (only `call_tool`),"real_r_empty_server_components.txt: Unknown tool, is_error=True"
+#3585,Server,silent,"Image/Audio `format=` emits image/jpg, audio/mp3, audio/m4a — unregistered MIME types that disagree with the `path=` suffix table","real_r_media_unregistered_mime.txt: image/jpg, is_error=False (unregistered mime accepted)"
+#3586,Server,single-layer (genericised),"Streamable HTTP on Windows: after a tool raises a non-ToolError, no request is answered again (2.1.0+, 2.0.1 fine)",real_r_non_tool_error_silent.txt: Error executing tool fragile
+#3592,Server,silent,"Streamable HTTP client retries the standalone GET after a 401, 403, or 405","real_r_fallback_success_flag.txt: stale-cache-fallback, is_error=False"
+#3637,Host,pushed-to-Server,Pydantic model parameter not flattened in MCP tool schema — breaks SDK clients that send flat argument dicts,"real_r_flat_argument.txt: Error executing tool summarize, is_error=True"
+#3640,Server,silent,"ServerCapabilities drops unknown keys, so a server can't advertise `events` for ChatGPT's MCP Events",real_r_capabilities_drop.txt: is_error=False; advertised capabilities dropped
+#3643,Server,silent,Prompt handlers returning UserList are rendered as one text message,real_r_userlist_prompt.txt: is_error=False; PromptMessage stringified
+#3644,Server,single-layer (correct),"Tool outputSchema is generated in validation mode, so serialization aliases and computed fields don't match structuredContent",real_r_outputschema_mode.txt: RAISED RuntimeError invalid structured content
+#3646,Host,silent,Would opt-in rejection of unknown tool arguments be useful in 2.x?,"real_r_extra_arg_silent.txt: extra arg -> 1, is_error=False"
+#3656,Server,single-layer (genericised),"Audio(data=b"""") raises ""Either path or data can be provided"", while Image(data=b"""") works",Error executing tool a

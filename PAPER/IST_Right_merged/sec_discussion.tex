@@ -1,0 +1,130 @@
+% ============================================================
+% 正文：Discussion + Conclusion + Acknowledgement
+% 作者：Kehui Chen, Jacky Keung, Xiaoxue Ma
+% 主题：MCP 故障定位（fault localization）根因实证研究
+% ============================================================
+
+\section{Discussion}\label{sec:discussion}
+
+\subsection{Research Implications for the Research Community}
+
+First, our four-layer taxonomy and the open \textbf{real-bug dataset} complement existing MCP
+resources and provide reproducible fault cases for reliability evaluation. Our experiments
+reveal a \emph{three-channel exposure model}, namely pushed-to-Server, silent failure,
+and caller-exception, demonstrating that vanilla MCP SDKs lack sufficient observability
+support, which partly explains the high fault-localisation burden reported by industrial
+practitioners. Future research can build upon this dataset to develop automated fault
+diagnosis and root-cause inference approaches for MCP systems. Our repair experiment further
+shows that the difficulty is concentrated in \emph{finding} the fault: an LLM given the full
+source repairs 69.6\% of the auto-verifiable cases regardless of our diagnostic clue, so research
+effort should target \emph{localisation} and root-cause inference rather than code-fixing
+heuristics.
+
+Second, MCP research should move beyond benchmarks and security attacks to study
+\emph{ordinary runtime observability}. We show that MCP faults surface through qualitatively
+different channels \emph{simultaneously}, a defining property that existing taxonomies do not
+capture. Future fault taxonomies and diagnosis tools should be \emph{layer-aware} and account
+for this multi-channel nature, rather than assuming errors are uniformly reported at a single
+layer.
+
+Third, the prevalence of silent failure (11/49 = 22.4\% of the reproduced real bugs)
+motivates research into \emph{deterministic} silent-failure detection, which is more critical
+than handling intermittent cases, since the SDK always hides them.
+
+\subsection{Practical Guidance to Industry}
+
+\paragraph{SDK engineering.} Developers should enrich error metadata and, where the true
+origin is known, tag it directly so that errors are not uniformly surfaced as Server-side
+exceptions. Consistent with our three-channel model, robust MCP error handling must address all
+three channels: (i) prevent pushed-to-Server misattribution by surfacing the channel (or the
+true origin layer when determinable); (ii) introduce explicit warning flags for potential
+silent-failure conditions so that monitoring pipelines can capture logical misbehaviours that
+would otherwise remain hidden; and (iii) ensure caller-side Python exceptions (e.g.\
+cancellation, session-lifecycle violations) are surfaced through the MCP error protocol with
+stable, structured metadata rather than as ad-hoc runtime tracebacks. Our result shows that
+even \emph{without} exposing ground truth, packaging the exposure channel into directional
+guidance (the diagnostic-clue tool) measurably improves localisation, so SDKs should emit
+channel-aware guidance that points a debugger toward the request rather than only the reported
+layer.
+
+\paragraph{Deployment.} Enterprises should formulate unified MCP workflows covering tool
+registration, protocol adaptation, permission configuration, and fault troubleshooting
+\cite{domanski2023digitalization}, clarifying role boundaries across Host, Client, Server,
+and end users. A knowledge-management platform is recommended to aggregate documentation,
+FAQs, and troubleshooting cases. Dedicated monitoring systems should be deployed to shorten
+fault-recovery time, and standardised invocation logic reduces onboarding cost.
+
+\subsection{Threats to Validity}
+
+\textbf{Interview validity.} Interviewees may lack a full understanding of MCP concepts and
+modules. We mitigated this by providing an MCP architecture flowchart during interviews and
+allowing ``I don't know'' answers. Sampling bias restricts generalisability: participants are
+limited to FinTech and Internet practitioners bilingual in Chinese and English with GitHub
+open-source experience.
+
+\textbf{Experimental validity.} All experiments were conducted against a single pinned Python
+MCP SDK. Different implementations (e.g., TypeScript SDK) may exhibit divergent error-reporting
+behaviours, so our observations may not transfer directly. Our dataset is a complete census of
+one library's real reported defects but cannot exhaust all corner cases; and the 49 reproduced
+bugs are a representative subset of the 342 active defects (the remainder require
+authentication servers or other transports outside the study's scope), so our controlled
+observations are drawn from that reproducible subset.
+
+\emph{Data-collection honesty.} Our three-channel model is derived from the raw text returned
+by the SDK for each reproduced bug, not from any pre-assigned label. The 49 reproduced bugs are
+each bound to a real GitHub issue number, so no fault is fabricated, and we report the remaining
+342 active defects as confirmed-but-not-reproduced rather than forcing them into a channel. For
+the LLM diagnosis baseline we additionally ran a negative-control ablation
+(Section~\ref{sec:results}, \emph{Intervention}) that feeds the agent a bare channel \emph{label}
+rather than the guidance; it does \emph{not} improve (0.0\% on non-Server bugs, below the 15.4\%
+baseline), confirming that the honest 77.6\%/15.4\% figure is not lowered by our metadata
+stripping but reflects genuine difficulty, and that the gain comes from the guidance content
+rather than any leakable label.
+
+We do not implement a full-fledged fault-diagnosis system; rather, we expose the underlying
+SDK behaviours that cause debugging pain and release a reproducible benchmark. We mitigate
+this by comparing experimental findings against practitioner interview feedback, where
+observations align with reported industrial pain points. Our diagnosis baseline and the
+diagnostic-clue tool are deterministic and reproducible; the clue tool is rule-based (it does
+not itself depend on the LLM being diagnosed), and we verified it never reveals the origin
+layer, so the measured gain is not an artifact of leaking ground truth. Future work may extend
+it to a learned LLM-based diagnosis model.
+
+\section{Conclusion}\label{sec:concl}
+
+This paper presents a sequential-exploratory mixed-methods investigation into runtime fault
+localisation in Model Context Protocol (MCP) pipelines. Through semi-structured interviews
+with 20 practitioners and a real-bug dataset mined from the entire issue tracker of the
+official \verb|modelcontextprotocol/python-sdk| --- a census of 1,343 pure issues reduced to
+342 active defects, of which 49 are reproduced at runtime over the production Streamable-HTTP
+transport --- we quantify why MCP fault localisation is difficult. We define a four-layer
+runtime fault taxonomy and empirically derive a \emph{three-channel exposure model} that
+characterises how MCP faults actually surface: \emph{pushed-to-Server} (7/13 non-Server bugs),
+\emph{silent failure} (11/49 = 22.4\%), and \emph{caller-exception} (3/13), with a further
+17/49 = 34.7\% of Server-origin bugs \emph{genericised}, their real root cause replaced by a
+generic message. None of the 13 non-Server bugs is localised at its true origin (10/13 = 76.9\%
+generalised mismatch). A surface-text LLM diagnostic agent reading only the SDK's reported
+error text achieves 77.6\% overall but only \textbf{15.4\%} on the 13 non-Server bugs (0\% on
+both Host- and Client-origin faults, misattributed to the Server layer); a runnable
+diagnostic-clue tool that classifies the exposure channel and points the debugger in the right
+direction --- without revealing the origin layer --- raises non-Server accuracy to
+\textbf{23.1\%} (+7.7 pp), whereas a leaky channel-label control does not help (0\%). A
+complementary repair experiment confirms that the difficulty lies in localisation rather than
+fixing: given the full source an LLM repairs 69.6\% of the auto-verifiable cases with or
+without the clue. Our study converts a subjective industrial pain point into objective,
+reproducible technical evidence and a concrete observability fix, and releases the real-bug
+dataset for future research on MCP fault diagnosis and reliability.
+
+In the future, we plan to extend the dataset with additional MCP SDK implementations (e.g.\
+TypeScript), broader production failure modes, and to develop a learned LLM-based
+fault-diagnosis model evaluated on this benchmark.
+
+\section*{Acknowledgement}
+
+This work is partially supported by the Research Grants Council (RGC) of the Hong Kong
+Special Administrative Region, China under the General Research Fund (UGC/FDS16/\allowbreak E27/25),
+Hong Kong Metropolitan University Research Grant (RD/2025/\allowbreak 1.24), and research funds from City
+University of Hong Kong (6000871, 9229109, 9229029, 9229192). The authors declare no competing
+interests.
+
+\FloatBarrier

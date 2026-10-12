@@ -1,0 +1,33 @@
+# Secrets — NEVER commit
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# LaTeX auxiliary (generated on compile)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Temp / run artifacts (regenerable)
+run_err.txt
+_tmp_*.py
+_unproc.json
+*.zip

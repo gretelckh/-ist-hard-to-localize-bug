@@ -1,0 +1,92 @@
+{
+  "table": [
+    [
+      "1",
+      "Official pure issues in modelcontextprotocol/python-sdk",
+      1343,
+      "Full issue pool on GitHub, excluding pull requests."
+    ],
+    [
+      "2",
+      "Keyword-classified as BUG",
+      439,
+      "Automatic keyword screen; the remaining 904 fall into QUESTION / OTHER / FEATURE / CI-REFACTOR / DOC."
+    ],
+    [
+      "3",
+      "Confirmed real bugs (manual review)",
+      398,
+      "41 keyword-BUG candidates rejected as non-bugs after manual review."
+    ],
+    [
+      "4",
+      "Fixed in the current SDK (2.2.0), removed",
+      56,
+      "Behave correctly on mcp 2.2.0; excluded from the active dataset."
+    ],
+    [
+      "5",
+      "ACTIVE dataset (studied)",
+      342,
+      "= confirmed - fixed-in-current."
+    ],
+    [
+      "6",
+      "Reproduced at runtime (evidence-based)",
+      49,
+      "T1: each bug is bound to a real issue and reproduced over Streamable HTTP."
+    ],
+    [
+      "7",
+      "Not reproducible at runtime",
+      293,
+      "env-limited / auth-limited / spec- or observation-only (see breakdown)."
+    ]
+  ],
+  "detail": {
+    "pool_total": 1343,
+    "label_dist": {
+      "OTHER": 457,
+      "FEATURE": 88,
+      "CI/REFACTOR": 47,
+      "DOC": 35,
+      "BUG": 439,
+      "QUESTION": 277
+    },
+    "bug_candidates": 439,
+    "confirmed": 398,
+    "not_bug_rejected": 41,
+    "fixed_in_current": 56,
+    "active": 342,
+    "reproduced": 49,
+    "limited": 245,
+    "auth_skipped": 48,
+    "repro_tiers": {
+      "T2 env/dep-limited": 174,
+      "T3 auth-limited": 47,
+      "T1 reproducible-now": 49,
+      "T4 spec/behaviour-only": 63,
+      "T4 observation-only": 9
+    },
+    "not_reproducible_breakdown": {
+      "env_dep_limited": 174,
+      "auth_limited": 47,
+      "spec_behaviour_or_observation": 72
+    },
+    "not_reproducible_reasons_grouped": {
+      "env": 106,
+      "auth": 48,
+      "notex": 88,
+      "obs": 41,
+      "specgap": 6,
+      "ext": 4
+    },
+    "checks": {
+      "pool_minus_bug_cand": 904,
+      "confirmed_minus_fixed_equals_active": true,
+      "repro_plus_not_repro_equals_active": true,
+      "tiers_sum_equals_active": true,
+      "reasons_grouped_sum_equals_notrepro": true
+    }
+  }
+}

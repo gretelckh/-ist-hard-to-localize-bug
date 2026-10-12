@@ -1,0 +1,416 @@
+{
+  "items": [
+    {
+      "issue": 110,
+      "origin": "Client",
+      "exposure_channel": "pushed-server",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool bad, is_error=True; real cause = non-UTF-8 bytes decode"
+    },
+    {
+      "issue": 234,
+      "origin": "Server",
+      "exposure_channel": "single-layer-correct",
+      "root_cause": "err-type-code",
+      "root_cause_label": "Wrong error type / code / is_error",
+      "note": "Unknown tool: no_such_tool, is_error=True"
+    },
+    {
+      "issue": 244,
+      "origin": "Server",
+      "exposure_channel": "registration-error",
+      "root_cause": "registration",
+      "root_cause_label": "Server cannot build / register",
+      "note": "RAISED-AT-REG ValueError: URI template variables missing"
+    },
+    {
+      "issue": 348,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool img (real PydanticSchemaGenerationError hidden)"
+    },
+    {
+      "issue": 417,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool boom"
+    },
+    {
+      "issue": 698,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool boom"
+    },
+    {
+      "issue": 743,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool boom"
+    },
+    {
+      "issue": 891,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool f (real TypeError hidden)"
+    },
+    {
+      "issue": 1060,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool img"
+    },
+    {
+      "issue": 1361,
+      "origin": "Client",
+      "exposure_channel": "pushed-server",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool boom, is_error=True"
+    },
+    {
+      "issue": 1579,
+      "origin": "Server",
+      "exposure_channel": "single-layer-correct",
+      "root_cause": "err-type-code",
+      "root_cause_label": "Wrong error type / code / is_error",
+      "note": "RAISED MCPError: Unknown resource"
+    },
+    {
+      "issue": 1702,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool get_name"
+    },
+    {
+      "issue": 1974,
+      "origin": "Server",
+      "exposure_channel": "registration-error",
+      "root_cause": "registration",
+      "root_cause_label": "Server cannot build / register",
+      "note": "RAISED-AT-REG AttributeError: Handler has no __name__"
+    },
+    {
+      "issue": 2057,
+      "origin": "Client",
+      "exposure_channel": "silent",
+      "root_cause": "protocol-spec",
+      "root_cause_label": "Protocol / spec violation",
+      "note": "HTTP 202; null-id accepted as notification, never rejected"
+    },
+    {
+      "issue": 2114,
+      "origin": "Client",
+      "exposure_channel": "pushed-server",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool boom, is_error=True"
+    },
+    {
+      "issue": 2153,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool boom"
+    },
+    {
+      "issue": 2386,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool boom (CWE-209 sensitive value hidden)"
+    },
+    {
+      "issue": 2422,
+      "origin": "Server",
+      "exposure_channel": "single-layer-correct",
+      "root_cause": "err-type-code",
+      "root_cause_label": "Wrong error type / code / is_error",
+      "note": "Unknown tool: no_such_tool, is_error=True"
+    },
+    {
+      "issue": 2431,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool boom (McpError not pickle-safe)"
+    },
+    {
+      "issue": 2539,
+      "origin": "Server",
+      "exposure_channel": "silent",
+      "root_cause": "serialization",
+      "root_cause_label": "Schema / serialization / validation failure",
+      "note": "{\"text\": null}, is_error=False; wrong result shape returned"
+    },
+    {
+      "issue": 2618,
+      "origin": "Transport",
+      "exposure_channel": "silent",
+      "root_cause": "protocol-spec",
+      "root_cause_label": "Protocol / spec violation",
+      "note": "HTTP 200; MCP-Protocol-Version header vs body mismatch not validated"
+    },
+    {
+      "issue": 2741,
+      "origin": "Transport",
+      "exposure_channel": "pushed-server",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool boom, is_error=True; real cause only in \"Session crashed\" log"
+    },
+    {
+      "issue": 2770,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool boom"
+    },
+    {
+      "issue": 3067,
+      "origin": "Server",
+      "exposure_channel": "silent",
+      "root_cause": "silent-arg",
+      "root_cause_label": "Argument silently ignored / coerced",
+      "note": "call_tool(add,{typo:9}) -> 3, is_error=False; extra param silently dropped"
+    },
+    {
+      "issue": 3099,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool ext"
+    },
+    {
+      "issue": 3266,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool boom"
+    },
+    {
+      "issue": 3341,
+      "origin": "Server",
+      "exposure_channel": "single-layer-correct",
+      "root_cause": "serialization",
+      "root_cause_label": "Schema / serialization / validation failure",
+      "note": "RAISED RuntimeError: Invalid structured content (nan)"
+    },
+    {
+      "issue": 3342,
+      "origin": "Server",
+      "exposure_channel": "single-layer-correct",
+      "root_cause": "err-type-code",
+      "root_cause_label": "Wrong error type / code / is_error",
+      "note": "RAISED MCPError: Internal server error"
+    },
+    {
+      "issue": 3351,
+      "origin": "Server",
+      "exposure_channel": "single-layer-correct",
+      "root_cause": "err-type-code",
+      "root_cause_label": "Wrong error type / code / is_error",
+      "note": "Error executing tool f: 1 validation error (detail retained)"
+    },
+    {
+      "issue": 3385,
+      "origin": "Server",
+      "exposure_channel": "single-layer-correct",
+      "root_cause": "serialization",
+      "root_cause_label": "Schema / serialization / validation failure",
+      "note": "RAISED RuntimeError: Invalid structured content (inf)"
+    },
+    {
+      "issue": 3549,
+      "origin": "Server",
+      "exposure_channel": "silent",
+      "root_cause": "concurrency",
+      "root_cause_label": "Concurrency / lifecycle / timeout race",
+      "note": "real_r_race_lost_update.txt: 20 concurrent calls -> result 1, is_error=False (lost update)"
+    },
+    {
+      "issue": 3554,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "real_r_bytes_output_crash.txt: Error executing tool get_bytes"
+    },
+    {
+      "issue": 3556,
+      "origin": "Transport",
+      "exposure_channel": "caller-exception",
+      "root_cause": "concurrency",
+      "root_cause_label": "Concurrency / lifecycle / timeout race",
+      "note": "real_r_session_reinit_404.txt: RAISED ExceptionGroup"
+    },
+    {
+      "issue": 3557,
+      "origin": "Transport",
+      "exposure_channel": "caller-exception",
+      "root_cause": "err-type-code",
+      "root_cause_label": "Wrong error type / code / is_error",
+      "note": "real_r_jsonrpc_error_code.txt: HTTP 400, JSON-RPC -32602"
+    },
+    {
+      "issue": 3560,
+      "origin": "Transport",
+      "exposure_channel": "caller-exception",
+      "root_cause": "concurrency",
+      "root_cause_label": "Concurrency / lifecycle / timeout race",
+      "note": "real_r_tool_timeout.txt: RAISED ExceptionGroup (timeout)"
+    },
+    {
+      "issue": 3569,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "real_r_permission_swallow.txt: Error executing tool fragile2"
+    },
+    {
+      "issue": 3572,
+      "origin": "Host",
+      "exposure_channel": "pushed-server",
+      "root_cause": "serialization",
+      "root_cause_label": "Schema / serialization / validation failure",
+      "note": "real_r_validation_echo_input.txt: Error executing tool lookup, is_error=True"
+    },
+    {
+      "issue": 3573,
+      "origin": "Server",
+      "exposure_channel": "registration-error",
+      "root_cause": "registration",
+      "root_cause_label": "Server cannot build / register",
+      "note": "real_r_iterator_meta_fail.txt: RAISED-AT-REG PydanticSchemaGenerationError"
+    },
+    {
+      "issue": 3578,
+      "origin": "Server",
+      "exposure_channel": "silent",
+      "root_cause": "concurrency",
+      "root_cause_label": "Concurrency / lifecycle / timeout race",
+      "note": "real_r_duplicate_tool_shadow.txt: dup tool shadow -> 2, is_error=False"
+    },
+    {
+      "issue": 3579,
+      "origin": "Host",
+      "exposure_channel": "pushed-server",
+      "root_cause": "discovery",
+      "root_cause_label": "Unknown tool / resource (discovery)",
+      "note": "real_r_empty_server_components.txt: Unknown tool, is_error=True"
+    },
+    {
+      "issue": 3585,
+      "origin": "Server",
+      "exposure_channel": "silent",
+      "root_cause": "serialization",
+      "root_cause_label": "Schema / serialization / validation failure",
+      "note": "real_r_media_unregistered_mime.txt: image/jpg, is_error=False (unregistered mime accepted)"
+    },
+    {
+      "issue": 3586,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "real_r_non_tool_error_silent.txt: Error executing tool fragile"
+    },
+    {
+      "issue": 3592,
+      "origin": "Server",
+      "exposure_channel": "silent",
+      "root_cause": "protocol-spec",
+      "root_cause_label": "Protocol / spec violation",
+      "note": "real_r_fallback_success_flag.txt: stale-cache-fallback, is_error=False"
+    },
+    {
+      "issue": 3637,
+      "origin": "Host",
+      "exposure_channel": "pushed-server",
+      "root_cause": "serialization",
+      "root_cause_label": "Schema / serialization / validation failure",
+      "note": "real_r_flat_argument.txt: Error executing tool summarize, is_error=True"
+    },
+    {
+      "issue": 3640,
+      "origin": "Server",
+      "exposure_channel": "silent",
+      "root_cause": "protocol-spec",
+      "root_cause_label": "Protocol / spec violation",
+      "note": "real_r_capabilities_drop.txt: is_error=False; advertised capabilities dropped"
+    },
+    {
+      "issue": 3643,
+      "origin": "Server",
+      "exposure_channel": "silent",
+      "root_cause": "protocol-spec",
+      "root_cause_label": "Protocol / spec violation",
+      "note": "real_r_userlist_prompt.txt: is_error=False; PromptMessage stringified"
+    },
+    {
+      "issue": 3644,
+      "origin": "Server",
+      "exposure_channel": "single-layer-correct",
+      "root_cause": "serialization",
+      "root_cause_label": "Schema / serialization / validation failure",
+      "note": "real_r_outputschema_mode.txt: RAISED RuntimeError invalid structured content"
+    },
+    {
+      "issue": 3646,
+      "origin": "Host",
+      "exposure_channel": "silent",
+      "root_cause": "silent-arg",
+      "root_cause_label": "Argument silently ignored / coerced",
+      "note": "real_r_extra_arg_silent.txt: extra arg -> 1, is_error=False"
+    },
+    {
+      "issue": 3656,
+      "origin": "Server",
+      "exposure_channel": "single-layer-masked",
+      "root_cause": "err-masked",
+      "root_cause_label": "Error value / root cause stripped",
+      "note": "Error executing tool a"
+    }
+  ],
+  "categories": {
+    "err-masked": "Error value / root cause stripped",
+    "err-type-code": "Wrong error type / code / is_error",
+    "silent-arg": "Argument silently ignored / coerced",
+    "serialization": "Schema / serialization / validation failure",
+    "concurrency": "Concurrency / lifecycle / timeout race",
+    "protocol-spec": "Protocol / spec violation",
+    "discovery": "Unknown tool / resource (discovery)",
+    "registration": "Server cannot build / register"
+  },
+  "colors": {
+    "err-masked": "#e6a817",
+    "err-type-code": "#7570b3",
+    "silent-arg": "#e41a1c",
+    "serialization": "#4daf4a",
+    "concurrency": "#1b9e77",
+    "protocol-spec": "#f781bf",
+    "discovery": "#377eb8",
+    "registration": "#999999"
+  }
+}

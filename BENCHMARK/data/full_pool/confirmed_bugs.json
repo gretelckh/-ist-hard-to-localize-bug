@@ -1,0 +1,3186 @@
+[
+ {
+  "number": 76,
+  "title": "GitHub MCP server doesn't work in Python SDK",
+  "state": "closed",
+  "created_at": "2024-11-27T09:51:12Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/76",
+  "body_head": "The `@modelcontextprotocol/server-github` doesn't work with python SDK. Here is code to reproduce\r\n\r\n```py\r\nimport os\r\nfrom mcp import ClientSession, StdioServerParameters\r\nfrom mcp.client.stdio impor"
+ },
+ {
+  "number": 78,
+  "title": "Example server and client not working",
+  "state": "closed",
+  "created_at": "2024-11-28T00:51:09Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/78",
+  "body_head": "**Describe the bug**\r\nThe example servers, in the folder `examples/servers`, in combination with the clients from README.md do not work. \r\n\r\n1. Using mcp_simple_tool as an example, starting the server"
+ },
+ {
+  "number": 79,
+  "title": "`RuntimeError: Attempted to exit cancel scope in a different task than it was entered in` with AsyncExitStack",
+  "state": "closed",
+  "created_at": "2024-11-28T01:03:44Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/79",
+  "body_head": "**Describe the bug**\r\nI am pushing the `stdio_client` and `ClientSession` onto an `AsyncExitStack` to avoid needing to wrap everyting in `with` statements.  My client will have multiple simultaneous i"
+ },
+ {
+  "number": 88,
+  "title": "Random error thrown on response",
+  "state": "closed",
+  "created_at": "2024-12-04T09:45:48Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/88",
+  "body_head": "**Describe the bug**\r\nSometimes, I see a stacktrace printed in the logs of my mcp server. Claude eventually succeeds to response but I think its good to investigate it.\r\n\r\n**To Reproduce**\r\nIts hard t"
+ },
+ {
+  "number": 92,
+  "title": "Resource Templates not exposed to Claude UI",
+  "state": "closed",
+  "created_at": "2024-12-05T08:59:49Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/92",
+  "body_head": "**Describe the bug**\r\nWhen registered a resource_template with the python sdk (mcp==1.1.0), the server runs but no resources can be selected in the UI.\r\n\r\n**To Reproduce**\r\nSteps to reproduce the beha"
+ },
+ {
+  "number": 100,
+  "title": "list_tools() return only less than 10 tools.",
+  "state": "closed",
+  "created_at": "2024-12-12T08:40:40Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/100",
+  "body_head": "**Describe the bug**\r\nThe list_tools() return less than 10 tools.\r\n\r\n**To Reproduce**\r\nSteps to reproduce the behavior:\r\n\r\n1. prepare mcp-client (something like https://github.com/modelcontextprotocol"
+ },
+ {
+  "number": 101,
+  "title": "SSE client connect SSE Server got Error: \" Error in post_writer\" and \"TypeError: 'NoneType' object is not callable\"",
+  "state": "closed",
+  "created_at": "2024-12-12T13:48:56Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/101",
+  "body_head": "Hi Guys , I want to build sse server and client from sdk example , but I'm not lucky, it can't work, SSE server and client got  error :\r\n\r\nSSE Server got starlette error like this :\r\n\r\n.venv/lib/pytho"
+ },
+ {
+  "number": 103,
+  "title": "Bug: request_meta is not available in server.request_context",
+  "state": "closed",
+  "created_at": "2024-12-17T13:02:58Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/103",
+  "body_head": "**Describe the bug**\r\nThis makes it impossible to build a server with progress notifications\r\n\r\n**To Reproduce**\r\nSteps to reproduce the behavior:\r\ndo a tool_call for example:\r\n\r\n{\r\n  \"method\": \"tools"
+ },
+ {
+  "number": 110,
+  "title": "Client side JSON decode error when server does not use UTF-8",
+  "state": "closed",
+  "created_at": "2024-12-22T20:46:06Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/110",
+  "body_head": "**Describe the bug**\r\nIf the server sends a JSON RPC message that contains invalid characters it is possible to crash the client STDOUT reader.\r\n\r\n```\r\nUnicodeDecodeError: 'utf-8' codec can't decode b"
+ },
+ {
+  "number": 111,
+  "title": "Requirement name `mcp` matches project name `mcp`",
+  "state": "closed",
+  "created_at": "2024-12-24T06:11:32Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/111",
+  "body_head": "When I run the first step `uv add \"mcp[cli]\"`, \r\n\r\nit said: \r\n```error: Requirement name `mcp` matches project name `mcp`, but self-dependencies are not permitted without the `--dev` or `--optional` f"
+ },
+ {
+  "number": 122,
+  "title": "Maybe: using standand openai base url is not working",
+  "state": "closed",
+  "created_at": "2024-12-31T00:23:45Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/122",
+  "body_head": "I used the following as config json:\r\n```\r\n{\r\n   \"inference_server\": {\r\n      \"base_url\": \"https://api.openai.com/v1\",\r\n      \"api_key\": \"my key\"\r\n   },\r\n   \"mcp_sererver\": ...\r\n}\r\n\r\n```\r\nI ran it on "
+ },
+ {
+  "number": 123,
+  "title": "Garbled Japanese Characters When Using fastmcp",
+  "state": "closed",
+  "created_at": "2025-01-01T11:07:58Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/123",
+  "body_head": "**Describe the bug**\r\nHello, I encountered an issue where Japanese characters become garbled when using fastmcp.\r\n\r\n**To Reproduce**\r\nSteps to reproduce the behavior:\r\n1. Use mcp==1.2.0rc1\r\n2. Create "
+ },
+ {
+  "number": 124,
+  "title": "pip install mcp - Unable to find FastMCP",
+  "state": "closed",
+  "created_at": "2025-01-03T09:59:32Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/124",
+  "body_head": "**Describe the bug**\r\nI installed mcp using pip install mcp. But I see it doesnt have FastMCO installed. Is it not yet released?\r\n"
+ },
+ {
+  "number": 127,
+  "title": "Fail to import FastMCP",
+  "state": "closed",
+  "created_at": "2025-01-04T13:00:08Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/127",
+  "body_head": "I am trying the [quickstart](https://modelcontextprotocol.io/quickstart/server)\r\nBut after  I finished the code part, I failed to run it with error:\r\n```\r\nModuleNotFoundError: No module named 'mcp.ser"
+ },
+ {
+  "number": 131,
+  "title": "npx / node not found using lazy node with zsh",
+  "state": "closed",
+  "created_at": "2025-01-04T16:42:16Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/131",
+  "body_head": "**Describe the bug**\r\nA clear and concise description of what the bug is.\r\n\r\n**To Reproduce**\r\nSteps to reproduce the behavior:\r\n1. MacOS, have `zsh` as your shell and use lazy node (below)\r\n2. try to"
+ },
+ {
+  "number": 140,
+  "title": "Adding a RESOURCE HANDLER with parameter not working",
+  "state": "closed",
+  "created_at": "2025-01-07T10:35:30Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/140",
+  "body_head": "**Describe the bug**\r\nAdding the following parameter handler is fine:\r\n\r\n```\r\n@mcp.resource(\"echo://static\")\r\ndef echo_resource() -> str:\r\n    return \"Echo!\"\r\n```\r\n\r\nNext, I want to use a parameterize"
+ },
+ {
+  "number": 146,
+  "title": "error: No `pyproject.toml` found in current directory or any parent directory",
+  "state": "closed",
+  "created_at": "2025-01-10T07:37:07Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/146",
+  "body_head": "When attempting to install a Python package, encounter the following error message:\r\n\r\nwhen installed, error: No `pyproject.toml` found in current directory or any parent directory\r\n"
+ },
+ {
+  "number": 147,
+  "title": "MCP server disconnected",
+  "state": "closed",
+  "created_at": "2025-01-10T16:09:47Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/147",
+  "body_head": "I've got an MCP server running within claude desktop. Most operations work fine, but I'm finding that some mcp.tool commands can result in the MCP server disconnected and the below error message loggi"
+ },
+ {
+  "number": 148,
+  "title": "bug: mcp server installation doesn't work",
+  "state": "closed",
+  "created_at": "2025-01-10T20:08:48Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/148",
+  "body_head": "**Describe the bug**\r\nI tried to install my local mcp server using the `mcp install` command, but after installation it doesn't start in my Claude Desktop client.\r\n\r\n**To Reproduce**\r\nJust run `mcp in"
+ },
+ {
+  "number": 163,
+  "title": "Demo MCP and others are now failing for",
+  "state": "closed",
+  "created_at": "2025-01-23T04:02:15Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/163",
+  "body_head": "**Describe the bug**\nI created the demo MCP as in the README, and installed it with `mcp install server.py`. When I open Claude Desktop, I get the error messages:\n\n```\n2025-01-23T03:49:07.394Z [info] "
+ },
+ {
+  "number": 164,
+  "title": "Claude Desktop breaking down after asking to execute tool",
+  "state": "closed",
+  "created_at": "2025-01-23T06:32:19Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/164",
+  "body_head": "I create an interface to a literature database tool (Zotero) using the python-sdk,\nsometimes when I now request Claude Desktop to interact with the tool, Claude Desktop crashes.\n\n![Image](https://gith"
+ },
+ {
+  "number": 178,
+  "title": "Log_level DEBUG breaks when creating a resource.",
+  "state": "closed",
+  "created_at": "2025-01-29T11:57:45Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/178",
+  "body_head": "**Describe the bug**\n\nChanging log level to debug causes an error when you try to add a resource.\n\nSee the following simplified stack trace\n```\nTraceback (most recent call last):\n  File \"test.py\", lin"
+ },
+ {
+  "number": 182,
+  "title": "Failed to run server: Server.run() missing 3 required positional arguments: 'read_stream', 'write_stream', and 'initialization_options'",
+  "state": "closed",
+  "created_at": "2025-01-30T13:49:23Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/182",
+  "body_head": "**Describe the bug**\nI wrote a demo using a low-level server, but when I install it into claude Desktop and run it, it reports an error: Failed to run server: Server.run() missing 3 required positiona"
+ },
+ {
+  "number": 184,
+  "title": "inspector Unexpected token {",
+  "state": "closed",
+  "created_at": "2025-02-01T12:32:03Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/184",
+  "body_head": "My demo is currently working and has been tested on claude Desktop. But when I try to use inspector, it reports an error, screenshot below：\n\n![Image](https://github.com/user-attachments/assets/db6e239"
+ },
+ {
+  "number": 192,
+  "title": "Client hangs on valid server responses",
+  "state": "closed",
+  "created_at": "2025-02-06T07:45:37Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/192",
+  "body_head": "**Describe the bug**\n1. The client hangs when the server send a log notification after the initialization phase.\n2. The client hangs when the server sends a response having the id as string.\n\nBoth of "
+ },
+ {
+  "number": 196,
+  "title": "Tools list RuntimeError with SSE transport",
+  "state": "closed",
+  "created_at": "2025-02-08T19:54:26Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/196",
+  "body_head": "**Describe the bug**\nPosting a `tools/list` command message to the /messages endpoint with valid session causes a RuntimeError and closes the SSE connection.\n\n**To Reproduce**\nSteps to reproduce the b"
+ },
+ {
+  "number": 201,
+  "title": "Client hangs when ctx.info() logging with pure Python client",
+  "state": "closed",
+  "created_at": "2025-02-10T23:35:18Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/201",
+  "body_head": "**Describe the bug**\nWhen a tool includes client-side logging with, the client seems to hang.\n     The following tool works ok with Claude Desktop and Inspector, but does not complete with a Python cl"
+ },
+ {
+  "number": 212,
+  "title": "Tool timeout within 10 seconds causing MCP server disconnect",
+  "state": "closed",
+  "created_at": "2025-02-17T03:46:06Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/212",
+  "body_head": "## Description\nThe FastMCP server tools consistently timeout after 10 seconds of execution, triggering error code -32001 and forcing client disconnections:\n\n```log\n2025-02-17T03:13:34.973Z [web-reader"
+ },
+ {
+  "number": 234,
+  "title": "{'content': [{'type': 'text', 'text': 'Error: Unknown tool: get_current_time'}], 'isError': False}",
+  "state": "closed",
+  "created_at": "2025-02-26T03:30:17Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/234",
+  "body_head": "Describe the bug\n\nWhen a specific action or request is made, the system returns a response with the content {'content': [{'type': 'text', 'text': 'Error: Unknown tool: get_current_time'}], 'isError': "
+ },
+ {
+  "number": 238,
+  "title": "multiple servers deployment occur error",
+  "state": "closed",
+  "created_at": "2025-03-03T15:08:01Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/238",
+  "body_head": "When accessing the MCP server using a domain name (which is backed by multiple servers), an error occurs when using the client to make a request:\n\nError in post_writer: Client error '404 Not Found' fo"
+ },
+ {
+  "number": 240,
+  "title": "Cannot start client with npx",
+  "state": "closed",
+  "created_at": "2025-03-04T16:38:28Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/240",
+  "body_head": "**Describe the bug**\nI wanted to try running the client sample with the `server-everything` mcp server.\nUnfortunatly i always have the issue that i get the following error message : \n```\n[[WinError 2]"
+ },
+ {
+  "number": 244,
+  "title": "`@app.resource()` does not accept `ctx: Context`",
+  "state": "closed",
+  "created_at": "2025-03-06T12:06:21Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/244",
+  "body_head": "I'm having this exception:\n\n```bash\nTraceback (most recent call last):\n  File \"/Users/marcelotryle/dev/pydantic/logfire-mcp/main.py\", line 121, in <module>\n    @mcp.resource(\"schema://records\")\n     ^"
+ },
+ {
+  "number": 252,
+  "title": "Error during cleanup of server sqlite: Attempted to exit cancel scope in a different task than it was entered in",
+  "state": "closed",
+  "created_at": "2025-03-10T12:00:27Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/252",
+  "body_head": "**Describe the bug**\nWhen running examples\\clients\\simple-chatbot\\mcp_simple_chatbot\\main.py\n\n2025-03-10 19:55:12,391 - ERROR - Error during cleanup of server sqlite: Attempted to exit cancel scope in"
+ },
+ {
+  "number": 256,
+  "title": "fastmcp SSE mode cannot be connected",
+  "state": "closed",
+  "created_at": "2025-03-11T05:54:47Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/256",
+  "body_head": "```server.py\n#!/usr/bin/env python\nimport os\nimport pymysql\nimport logging\nfrom dotenv import load_dotenv  # 引入dotenv模块\nfrom mcp.server.fastmcp import FastMCP\n\n# Configure logging\nlogging.basicConfig("
+ },
+ {
+  "number": 262,
+  "title": "cannot get response from  await session.call_tool()",
+  "state": "open",
+  "created_at": "2025-03-12T03:08:44Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/262",
+  "body_head": "hello, I'm sorry to bother you. I've recently encountered a blocking issue with the MCP client.\nI've set up an MCP server, and it runs in Claude successfully. However, when I use the client I set up, "
+ },
+ {
+  "number": 263,
+  "title": "dynamic resource not working in Claude desktop",
+  "state": "closed",
+  "created_at": "2025-03-12T03:32:13Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/263",
+  "body_head": "**Describe the bug**\nA clear and concise description of what the bug is.\n\n**To Reproduce**\nuse the demo server in quick start document\n```\n# server.py\nfrom mcp.server.fastmcp import FastMCP\n\n# Create "
+ },
+ {
+  "number": 268,
+  "title": "Important - List Resource is not working",
+  "state": "closed",
+  "created_at": "2025-03-12T13:16:41Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/268",
+  "body_head": "I have trouble getting listresource working.. inspector is unable to list therreources.. I tried the example from the guide.. I tried both list resource and list template resources from inspector.. it"
+ },
+ {
+  "number": 280,
+  "title": "AttributeError: 'JSONRPCMessage' object has no attribute 'message' in MCP 1.4.0",
+  "state": "closed",
+  "created_at": "2025-03-14T00:51:07Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/280",
+  "body_head": "**Describe the bug**  \nI encountered an `AttributeError` when running the example code from [MCP Quickstart - Client](https://modelcontextprotocol.io/quickstart/client) with MCP version **1.4.0**. The"
+ },
+ {
+  "number": 281,
+  "title": "tool call: params tansfer bug when send request with pure number string",
+  "state": "closed",
+  "created_at": "2025-03-14T02:58:41Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/281",
+  "body_head": "I defined a server tool as follows\n@mcp.tool()\nasync def fill_form(selector: str, text: str) -> str:\nWhen I call:\nself.session.call_tool(tool_name, tool_args)\ntool_args passes in a dict, for example\n{"
+ },
+ {
+  "number": 283,
+  "title": "Clients fail and crash If initial GET request returns a redirect (e.g. 302)",
+  "state": "closed",
+  "created_at": "2025-03-14T09:34:35Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/283",
+  "body_head": "**Describe the bug**\nIf a remote (see transport) server responds to the initial GET request of the client with a redirect an error is thrown\n\n**To Reproduce**\nConnect a client to https://yo-mcp.com/mc"
+ },
+ {
+  "number": 290,
+  "title": "Expected ',' or ']' after array element in JSON in every MCP-Response",
+  "state": "closed",
+  "created_at": "2025-03-15T05:37:47Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/290",
+  "body_head": "**Describe the bug**\nEvery call to my custom python-sdk-based MCP server creates the following error message:\n`Error from MCP server: SyntaxError: Expected ',' or ']' after array element in JSON at po"
+ },
+ {
+  "number": 291,
+  "title": "MCP Python client fails to load the server",
+  "state": "closed",
+  "created_at": "2025-03-15T15:30:54Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/291",
+  "body_head": "**Describe the bug**\nI am following the documentation that shows building a Python client. I already have a sample server that works well with Claude Desktop. This server sample is https://github.com/"
+ },
+ {
+  "number": 298,
+  "title": "Python tool call longer than 3-5sec freezes and breaks the code",
+  "state": "closed",
+  "created_at": "2025-03-16T16:31:29Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/298",
+  "body_head": "**Describe the bug**\nWhen you're calling a tool that lasts more than three or five seconds, the whole Python SDK gets stuck, and it doesn't work. You have to restart the whole session to make it work "
+ },
+ {
+  "number": 310,
+  "title": "Unable to connect to mcp server",
+  "state": "closed",
+  "created_at": "2025-03-18T03:24:51Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/310",
+  "body_head": "I tried to test my tool on the mcp server, but it keeps showing that I can't connect, what is the problem?\nMy code is as follows:\n```\nimport os\nfrom pathlib import Path\n\nfrom mcp.server.fastmcp import"
+ },
+ {
+  "number": 320,
+  "title": "Python client not working with mcp/puppeteer",
+  "state": "closed",
+  "created_at": "2025-03-19T16:58:05Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/320",
+  "body_head": "**Describe the bug**\nWhen I try to take screenshot it hangs. Docker container logs show the output image generated properly. The same works with MCP inspector.\n\n**To Reproduce**\nHere is the sample cod"
+ },
+ {
+  "number": 326,
+  "title": "MCP client with npx not working when env parameter of StdioServerParameters is set",
+  "state": "closed",
+  "created_at": "2025-03-20T02:53:13Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/326",
+  "body_head": "MCP client code using StdioServerParameters with `npx` command is not working (with any MCP server) when its `env` parameter is set to something other than `None`.\n\nDemo code:\n```python\nfrom mcp impor"
+ },
+ {
+  "number": 332,
+  "title": "Client requests hang forever if server dies",
+  "state": "closed",
+  "created_at": "2025-03-20T14:05:49Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/332",
+  "body_head": "**Describe the bug**\nIf the stdio streams close before responding to a request (i.e. the server dies), the pending request waits forever (or for the read timeout) instead of erroring.\n\n**To Reproduce*"
+ },
+ {
+  "number": 334,
+  "title": "MCP Server Initialization Fails with \"spawn uv ENOENT\" Error",
+  "state": "closed",
+  "created_at": "2025-03-20T15:04:37Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/334",
+  "body_head": "Claude desktop app fails to initialize the MCP server with a \"spawn uv ENOENT\" error. The issue appears to be with the command configuration - the system cannot find the \"uv\" executable.\n\n## Here's th"
+ },
+ {
+  "number": 337,
+  "title": "Simple echo MCP server fails to start with `mcp.run()`",
+  "state": "closed",
+  "created_at": "2025-03-20T20:32:09Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/337",
+  "body_head": "**Describe the bug**\nUnable to start MCP server\n\n**To Reproduce**\n```python\nfrom mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP(\n    \"Echo Server\",\n    port=9000,\n    debug=True,\n    log_level=\"DEBU"
+ },
+ {
+  "number": 341,
+  "title": "Wrong types for logging_callback in Client. The callback is never called.",
+  "state": "closed",
+  "created_at": "2025-03-21T17:00:27Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/341",
+  "body_head": "**Describe the bug**\n\n`ClientSession` has the `logging_callback` optional arg presumably to allow capturing logs from the server.\nWhile the type of the argument is specified as `LoggingFnT` class, the"
+ },
+ {
+  "number": 342,
+  "title": "MCP Server Base64 encode/decode mismatch for Resources",
+  "state": "closed",
+  "created_at": "2025-03-21T22:44:08Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/342",
+  "body_head": "**Describe the bug**\n\nIn src/mcp/server/lowlevel/server.py, binary data is encoded using base64.urlsafe_b64encode(), which replaces + with - and / with _ to make it URL-safe.\nHowever, when the client "
+ },
+ {
+  "number": 348,
+  "title": "No way to set isError=True for arbitrary tool result content",
+  "state": "open",
+  "created_at": "2025-03-23T08:30:33Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/348",
+  "body_head": "There appears to be no way to manually toggle isError=True for non-text content. For example, you can't return an image with isError=True. I noticed this when implementing a proxy using mcp.tool that "
+ },
+ {
+  "number": 355,
+  "title": "Type error when using Lifespan context",
+  "state": "closed",
+  "created_at": "2025-03-24T08:24:02Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/355",
+  "body_head": "**Describe the bug**\nI attempted to use `AppContext` in my project by utilizing the sample code provided in the `README.md`. However, it raised the following type error:\n```\nerror: Cannot access attri"
+ },
+ {
+  "number": 357,
+  "title": "`@mcp.tool()` Fails to Find Context Argument if its Type `Context` Includes Type Variables",
+  "state": "closed",
+  "created_at": "2025-03-24T08:49:49Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/357",
+  "body_head": "**Describe the bug**\nThe code does not work because the type annotation for the `ctx` argument is not simply `Context`; it includes type variables `ServerSessionT` and `AppContext`.\n\n```python\n@mcp.to"
+ },
+ {
+  "number": 359,
+  "title": "stdio_client not starting in windows: getting NotImplementedError",
+  "state": "closed",
+  "created_at": "2025-03-24T09:38:32Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/359",
+  "body_head": "anyio.open_process in stdio_client not working in windows. It raises NotImplementedError.\n\n```python\nasync with stdio_client(server_params) as (read, write):\n        async with ClientSession(\n        "
+ },
+ {
+  "number": 360,
+  "title": "stdio_client context manager hangs",
+  "state": "closed",
+  "created_at": "2025-03-24T14:16:14Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/360",
+  "body_head": "**Describe the bug**\nWhen using the stdio_client context manager, the process is never cleaned up.\n\n**To Reproduce**\nSteps to reproduce the behavior:\n\n```\nimport asyncio\n\nfrom mcp import ClientSession"
+ },
+ {
+  "number": 369,
+  "title": "NotImplementedError in asyncio subprocess_exec when using MCP client on Windows with Python 3.12",
+  "state": "closed",
+  "created_at": "2025-03-25T12:21:52Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/369",
+  "body_head": "**Describe the bug**\nWhen using MCP client with Python 3.12 on Windows, it fails to connect to the server with a NotImplementedError. This is happening because asyncio subprocess functionality is not "
+ },
+ {
+  "number": 381,
+  "title": "Fastmcp tool parameter parsing type error",
+  "state": "closed",
+  "created_at": "2025-03-27T09:20:21Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/381",
+  "body_head": "When I define the tool parameter as string, the parameter parsing function of fastmcp parses the numeric string I pass in into a numeric value.\n\n- mcp/server/fastmcp/utilities/func_metadata.py\n\n```\n  "
+ },
+ {
+  "number": 382,
+  "title": "`stdio_client` hangs during `session.initialize()` due to failed message transfer via internal `anyio` memory stream",
+  "state": "closed",
+  "created_at": "2025-03-27T11:16:29Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/382",
+  "body_head": "**Labels:** `bug`, `transport:stdio`, `client`, `server`, `anyio` \n\n**Body:**\n\n**Environment:**\n\n*   **OS:** Debian GNU/Linux 11 (bullseye) / kernel: Linux 5.10.0-34-cloud-amd64 / x86-64 (on GCP Verte"
+ },
+ {
+  "number": 389,
+  "title": "Throwing an error when the function takes too long, TypeError: 'NoneType' object is not callable",
+  "state": "closed",
+  "created_at": "2025-03-28T12:40:43Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/389",
+  "body_head": "Throwing an error when the function takes too long\n\n```python\nimport asyncio\n\nfrom mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP(\"Demo\")\n\n\n@mcp.tool()\nasync def add(a: int, b: int) -> int:\n    # aw"
+ },
+ {
+  "number": 390,
+  "title": "MCPv1.6.0 - SSE Initialization Hang with FastMCP - 202 Accepted",
+  "state": "closed",
+  "created_at": "2025-03-28T17:26:42Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/390",
+  "body_head": "**Problem:**\n\nAccording to the MCP specification's [lifecycle documentation](https://spec.modelcontextprotocol.io/specification/2024-11-05/basic/lifecycle/)\n1.  Client sends `initialize` request.\n2.  "
+ },
+ {
+  "number": 396,
+  "title": "MCP Server: Inconsistent Exception Handling in @app.call_tool and Client Undetected Server Termination via Stdio",
+  "state": "closed",
+  "created_at": "2025-03-31T04:58:36Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/396",
+  "body_head": "**Describe the bug**\nThere are two distinct issues observed when using the MCP Python SDK with the stdio transport:\n\n1. Inconsistent Exception Handling: Exceptions raised within handlers decorated wit"
+ },
+ {
+  "number": 398,
+  "title": "Connect to MCP Server with SSE  Invalid transport type: undefined",
+  "state": "closed",
+  "created_at": "2025-03-31T10:41:55Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/398",
+  "body_head": "Error: Invalid transport type: undefined .Anyone helps me?\n\n![Image](https://github.com/user-attachments/assets/8fd5f1b6-db3d-4b52-bcd2-93a22dee74dc)\n\nI started my MCP Server with SSE ,and connected t"
+ },
+ {
+  "number": 399,
+  "title": "[Progress] ProgressNotification The message field is missing.",
+  "state": "closed",
+  "created_at": "2025-03-31T13:32:25Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/399",
+  "body_head": "hello. I noticed that the 3.26 version specification added a `message` field for progress updates. However, I couldn’t find it in the current 1.6.0 Python SDK. Could you please let me know when it wil"
+ },
+ {
+  "number": 402,
+  "title": "Claude throwing an error \"Server disconnected\"",
+  "state": "closed",
+  "created_at": "2025-04-01T00:09:33Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/402",
+  "body_head": "**Describe the bug**\nSo I was interested in learning to make MCPs, and I started with a simple python file called \"FastMCP-Intro.py\":\n\n```python\nfrom fastmcp import FastMCP\n\nmcp = FastMCP(\"LearningDem"
+ },
+ {
+  "number": 406,
+  "title": "MCP python server doesn't work in claude desktop app",
+  "state": "closed",
+  "created_at": "2025-04-01T16:31:13Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/406",
+  "body_head": "Hi,\n\nI didn't find any similar issues, but please let me know if there are any existing ones.\n\nI implemented a Python server as follows:\n```python\nfrom mcp.server.fastmcp import FastMCP\n\n# Create serv"
+ },
+ {
+  "number": 407,
+  "title": "Error: Timed out while waiting for response to ClientRequest. Waited 0:00:05 seconds",
+  "state": "closed",
+  "created_at": "2025-04-02T03:44:05Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/407",
+  "body_head": "i am trying to use\n\n`@Jira_MCP.tool()`\n`async def get_all_status() -> List[Dict[str, Any]]:`\n`    try:`\n`        statuses = jira_client.linker.statuses()`\n`        return [{\"id\": s.id, \"name\": s.name}"
+ },
+ {
+  "number": 409,
+  "title": "Error from MCP server: SyntaxError: Unexpected token 'E', \"Error: typ\"... is not valid JSON",
+  "state": "closed",
+  "created_at": "2025-04-02T08:33:06Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/409",
+  "body_head": "When i run the app with \ncmd = mcp dev server.py\n\nthen when i click on connect  button i got this issue\n\nStdio transport: command=C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\uv.exe, "
+ },
+ {
+  "number": 410,
+  "title": "The Python MCP server hangs when the `/messages` endpoint gives an unexpected response",
+  "state": "closed",
+  "created_at": "2025-04-02T13:55:02Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/410",
+  "body_head": "When the `/messages` endpoint returns say 404 or 405, a client hangs rather than raise the exception I would expect.\n\nI get the error summary printed:\n\n```\nError in post_writer: Client error '404 Not "
+ },
+ {
+  "number": 417,
+  "title": "MCP Server Internal Server Error Report",
+  "state": "closed",
+  "created_at": "2025-04-03T07:46:43Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/417",
+  "body_head": "# MCP Server Internal Server Error Report\n\n## Issue Summary\nThe MCP server is not running properly when tested locally. Additionally, when attempting to mount it on a client site using Uvicorn, it res"
+ },
+ {
+  "number": 432,
+  "title": "SSE Connection Failure Described as \"throw new Error(\"Not connected\")\"",
+  "state": "closed",
+  "created_at": "2025-04-04T21:26:02Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/432",
+  "body_head": "**Describe the bug**\nMCP initialization stucked at \"Set up MCP Proxy\" with node_modules/@modelcontextprotocol/sdk/dist/esm/server/sse.js:103\nthrow new Error(\"Not connected\") on Windows 11 24H2. I doub"
+ },
+ {
+  "number": 433,
+  "title": "SSE Connection Failure Described as \"throw new Error(\"Not connected\")\"",
+  "state": "closed",
+  "created_at": "2025-04-04T21:28:24Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/433",
+  "body_head": "**Describe the bug**\nMCP initialization stucked at \"Set up MCP Proxy\" with node_modules/@modelcontextprotocol/sdk/dist/esm/server/sse.js:103\nthrow new Error(\"Not connected\") on Windows 11 24H2. I doub"
+ },
+ {
+  "number": 447,
+  "title": "sse_client blocks indefinitely when server has incorrect base URL",
+  "state": "closed",
+  "created_at": "2025-04-07T12:24:44Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/447",
+  "body_head": "**Describe the bug**\nWhen using the `sse_client` function to connect to a remote MCP server, if the MCP server sets an incorrect base URL (like http://localhost:8080), the `sse_client` will raise an e"
+ },
+ {
+  "number": 464,
+  "title": "Wrong data path when MCP server mounted as ASGI SSE app under some subpath",
+  "state": "closed",
+  "created_at": "2025-04-09T13:41:27Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/464",
+  "body_head": "**Describe the bug**\n\nWhen I setup MCP server as a SSE app under some subpath in existing ASGI app, in response to `/my/sub/path/sse`, I receive wrong endpoint path in `data:` (missing `/my/sub/path` "
+ },
+ {
+  "number": 469,
+  "title": "sse_client connect to mcp server got server error 504",
+  "state": "closed",
+  "created_at": "2025-04-10T03:57:49Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/469",
+  "body_head": ""
+ },
+ {
+  "number": 478,
+  "title": "Fix ENOENT error when installing MCP server with `mcp install server.py`",
+  "state": "closed",
+  "created_at": "2025-04-10T16:14:28Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/478",
+  "body_head": "**Describe the bug**\nWhen using `mcp install server.py` to install a Model Context Protocol server in Claude Desktop, the installation appears successful but fails at runtime with \"spawn uv ENOENT\" er"
+ },
+ {
+  "number": 483,
+  "title": "AssertionError in ClientSession.initialize() when writing to anyio stdio stream",
+  "state": "closed",
+  "created_at": "2025-04-10T17:53:52Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/483",
+  "body_head": "\n\n**Body:**\n\n**Describe the bug**\nWhen using `mcp.ClientSession` with stdio streams obtained directly from `anyio.open_process`, calling `await session.initialize()` fails with an `AssertionError`. Th"
+ },
+ {
+  "number": 488,
+  "title": "`mcp.resource` doesn't generate correctly description from func.__doc__.",
+  "state": "closed",
+  "created_at": "2025-04-11T07:45:38Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/488",
+  "body_head": "**Describe the bug**\n`mcp.resource` doesn't generate correctly description from func.__doc__.\n**To Reproduce**\nSteps to reproduce the behavior:\n\n```\nimport asyncio\nfrom typing import Any\nfrom mcp.serv"
+ },
+ {
+  "number": 490,
+  "title": "SSE MCP server fails when URL contains subpaths",
+  "state": "closed",
+  "created_at": "2025-04-11T09:10:38Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/490",
+  "body_head": "### 问题描述\n当SSE MCP服务器的URL包含子路径时（例如：a.com/mcp/a/sse），使用Cline或Cherry Studio客户端会报错：\"error posting to endpoint http 404 could not find session\"。仅使用域名（不含子路径）时工作正常。\n\n### 重现步骤\n1. 部署一个SSE MCP服务器，配置子路径（如/mcp/a/"
+ },
+ {
+  "number": 491,
+  "title": "subscribe_resource return NotImplementedError",
+  "state": "closed",
+  "created_at": "2025-04-11T16:32:20Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/491",
+  "body_head": "```\nclass Event:\n    def __new__(cls) -> Event:\n        try:\n            return get_async_backend().create_event()\n        except AsyncLibraryNotFoundError:\n            return EventAdapter()\n\n    def "
+ },
+ {
+  "number": 492,
+  "title": "`post_writer` Client error `400 Bad Request` when initializing session between Python MCP Client and TypeScript MCP Server",
+  "state": "closed",
+  "created_at": "2025-04-11T17:02:08Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/492",
+  "body_head": "**Environment:**\n\n*   **Python SDK:** `mcp` v1.6.0 (installed via pip)\n*   **Node.js Server SDK:** `@modelcontextprotocol/sdk` v1.9.0 (installed via npm)\n*   **Python Version:** [Specify your Python v"
+ },
+ {
+  "number": 503,
+  "title": "Unable to work properly with SSE transport when perform long time task",
+  "state": "closed",
+  "created_at": "2025-04-13T22:45:57Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/503",
+  "body_head": "Dear mcp team,\n\n**Describe the bug**\nI'm building an mcp-server that reads large files, which can be time-consuming.\n\nWhen using stdio as the transport, everything works well. However, when switching "
+ },
+ {
+  "number": 507,
+  "title": "404 Not Found Error when Establishing SSE Connection via MCP Python SDK",
+  "state": "closed",
+  "created_at": "2025-04-14T09:52:57Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/507",
+  "body_head": "**Describe the bug**\nA clear and concise description of what the bug is.\n\nDescription​​\nWhen attempting to establish SSE connection with MCP Python SDK (v1.6.0), encountering persistent 404 errors on "
+ },
+ {
+  "number": 511,
+  "title": "Unable to add annotations data with @FastMCP.tool() decorator",
+  "state": "closed",
+  "created_at": "2025-04-14T16:45:56Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/511",
+  "body_head": "**Describe the bug**\nThe MCP documentation states that we can declare annotations in the `@mcp.tool()` decorator with the Python SDK, however this functionality is not present in the code.\n\nDocumentat"
+ },
+ {
+  "number": 514,
+  "title": "FastMCP server with SSE transport fails to shut down on a signal",
+  "state": "open",
+  "created_at": "2025-04-14T21:46:41Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/514",
+  "body_head": "A very simple server fails to shut down on a signal if it processed at least one request:\n\n```\n❯ python test-server.py --port=8085\nINFO:     Started server process [216035]\nINFO:     Waiting for appli"
+ },
+ {
+  "number": 521,
+  "title": "RuntimeError: Attempted to exit cancel scope in a different task than it was entered in",
+  "state": "closed",
+  "created_at": "2025-04-15T13:25:11Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/521",
+  "body_head": "## Description\nWhen attempting to stop an SSE client connection created with mcp.client.sse.sse_client(), the application throws a RuntimeError related to AnyIO cancel scopes being exited in different"
+ },
+ {
+  "number": 530,
+  "title": "VSCode cannot connect? Failing with `405 Method Not Allowed`",
+  "state": "closed",
+  "created_at": "2025-04-16T18:21:12Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/530",
+  "body_head": "**Describe the bug**\n\nI posted this on VSCode as well: https://github.com/microsoft/vscode/issues/246753\n\nConnecting to an MCP server via VSCode gets me:\n\n```\n2025-04-16 14:13:05.469 [info] 405 status"
+ },
+ {
+  "number": 533,
+  "title": "Example servers, ImportError during running",
+  "state": "closed",
+  "created_at": "2025-04-17T14:31:41Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/533",
+  "body_head": "**Relevant for:**\nThis is about the provided example servers under python-sdk/examples/servers. An example is the 'simple-resource'.\n\n**To Reproduce**\nSteps to reproduce the behavior:\n1. Go to 'python"
+ },
+ {
+  "number": 537,
+  "title": "Tool.from_function fails to detect parameterized Context subclasses",
+  "state": "closed",
+  "created_at": "2025-04-18T04:29:51Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/537",
+  "body_head": "**Describe the bug**  \nIn `Tool.from_function`, the detection of `Context` parameters only matches the bare `Context` type. Functions annotated with parameterized generics such as `Context[ServerSessi"
+ },
+ {
+  "number": 542,
+  "title": "MCP server with STDIO transport throws an 'Error: SSE connection not established' when attempting to connect via MCP Inspector",
+  "state": "closed",
+  "created_at": "2025-04-19T21:39:43Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/542",
+  "body_head": "I've been trying to run an example from the repo's Quickstart, but it keeps giving me `Error in /message route: Error: SSE connection not established\"`, when I click the \"Connect\" button in the webpag"
+ },
+ {
+  "number": 543,
+  "title": "[BUG] session.initialize() hangs indefinitely with stdio_client setup",
+  "state": "closed",
+  "created_at": "2025-04-20T03:22:52Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/543",
+  "body_head": "**Describe the bug**\n`await session.initialize()` runs forever (stopped it after >10 minutes)\n\nFor some reason all the other clients also run forever\n\n**To Reproduce**\n```python\nimport asyncio\nfrom mc"
+ },
+ {
+  "number": 552,
+  "title": "On Windows 11 when you initialize an mcp client it hangs indefinitely",
+  "state": "closed",
+  "created_at": "2025-04-21T16:03:05Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/552",
+  "body_head": "**Describe the bug**\nOn Windows 11 when you initialize an mcp client it hangs indefinitely.\n\n**To Reproduce**\nCode to reproduce:\n```python\n# ruff: noqa\nimport asyncio\n\nfrom mcp import ClientSession, S"
+ },
+ {
+  "number": 560,
+  "title": "Failed to run server: module 'mcp' has no attribute 'run'",
+  "state": "closed",
+  "created_at": "2025-04-22T08:04:42Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/560",
+  "body_head": "**Describe the bug**\nA clear and concise description of what the bug is.\n\n**To Reproduce**\nSteps to reproduce the behavior:\n1. uvx create-mcp-server\n2. cd my-server\n3. uv add \"mcp[cli]\"\n4. uv sync --d"
+ },
+ {
+  "number": 563,
+  "title": "`sse_client` fails if URL is not on the root path",
+  "state": "closed",
+  "created_at": "2025-04-22T14:00:36Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/563",
+  "body_head": "**Describe the bug**\nThis line is the problem: https://github.com/modelcontextprotocol/python-sdk/blob/babb477dffa33f46cdc886bc885eb1d521151430/src/mcp/client/sse.py#L64\n\n`urljoin` discards the whole "
+ },
+ {
+  "number": 572,
+  "title": "`NotImplementedError` on Windows with `stdio_client` and default `asyncio` backend",
+  "state": "closed",
+  "created_at": "2025-04-23T08:14:00Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/572",
+  "body_head": "`NotImplementedError` on Windows with `stdio_client` and default `asyncio` backend\n\n**Describe the bug**\nThe `stdio_client` fails to establish a connection to the server on Windows, raising a `NotImpl"
+ },
+ {
+  "number": 575,
+  "title": "Bug: RuntimeError during cleanup on Windows – no running event loop",
+  "state": "closed",
+  "created_at": "2025-04-23T18:26:36Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/575",
+  "body_head": "---\n\n### **Describe the bug**  \nWhen running the `mcp` client using `uv run client.py` on **Windows**, the client connects and runs correctly, but after the response is returned, a `RuntimeError: no r"
+ },
+ {
+  "number": 577,
+  "title": "`RuntimeError: Attempted to exit cancel scope in a different task` when cleaning up multiple MCPClient instances out-of-order",
+  "state": "open",
+  "created_at": "2025-04-24T01:39:22Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/577",
+  "body_head": "**Describe the bug**\nIf two `MCPClient` objects are instantiated and cleaned up in non-FILO order (i.e., the first-created client is cleaned up before the second), teardown fails with a cascade of `Ru"
+ },
+ {
+  "number": 583,
+  "title": "SSE connection not established while trying to list tools via inspector",
+  "state": "closed",
+  "created_at": "2025-04-24T17:00:48Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/583",
+  "body_head": "**Describe the bug**\nFacing the following error while trying to list tools via inspector.\n```\nindex-CMyU_PZH.js:17472 Uncaught (in promise) Error: Error POSTing to endpoint (HTTP 500): SSE connection "
+ },
+ {
+  "number": 585,
+  "title": "Python MCP SDK: Incorrect handling of absolute paths in SSE endpoint URLs leads to incorrect URL construction.",
+  "state": "closed",
+  "created_at": "2025-04-25T02:05:36Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/585",
+  "body_head": "**Describe the bug**\nWhen the MCP server, connected via SSE, returns an endpoint event with a data value that starts with / (e.g., /mcp/message?sessionId=...), the SDK appears to be using this absolut"
+ },
+ {
+  "number": 594,
+  "title": "call_tool Hangs During In-Memory Testing When Server Sends Notifications Before Response",
+  "state": "closed",
+  "created_at": "2025-04-28T08:19:14Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/594",
+  "body_head": "**Describe the Bug**\n\nWhen using the `mcp.shared.memory.create_connected_server_and_client_session` utility for integration testing, calls to client_session.call_tool hang indefinitely if the server-s"
+ },
+ {
+  "number": 602,
+  "title": "get_prompt doesn't return the prompt description",
+  "state": "closed",
+  "created_at": "2025-04-29T14:46:35Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/602",
+  "body_head": "**Describe the bug**\nWhen `session.get_prompt(prompt.name)` is called the `GetPromptResult` doesn't return the prompt description\n\n**To Reproduce**\nSteps to reproduce the behavior:\n1. Create a FastMCP"
+ },
+ {
+  "number": 608,
+  "title": "AttributeError: module 'mcp' has no attribute 'prompt'",
+  "state": "closed",
+  "created_at": "2025-04-30T10:55:12Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/608",
+  "body_head": "i have installed mcp-1.6.0 and why when i run the following code:\n\n```\n@mcp.prompt()\ndef sssd():\n    \n    return \"hi\".\n```\n\nit will throw exception like\n\n```\n\npython3.13/site-packages/mcp/__init__.py'"
+ },
+ {
+  "number": 613,
+  "title": "401 from /sse after upgrading to 1.7.0",
+  "state": "closed",
+  "created_at": "2025-05-02T00:40:24Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/613",
+  "body_head": "**Describe the bug**\nMCP stop working due to auth error after upgrading from 1.6.0 to 1.7.0\n\n**To Reproduce**\n```\nmcp: FastMCP = FastMCP()\n\n@mcp.tool()\ndef add_two_integers(a: int, b: int) -> int:\n   "
+ },
+ {
+  "number": 616,
+  "title": "When no authorization is required dont fail on missing user scope 401 Unauthorized #615",
+  "state": "closed",
+  "created_at": "2025-05-02T11:17:05Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/616",
+  "body_head": "While developing a mcp server that wil run locally I want to use the sse protocal and not stdio. Because im running local i dont need any authentication, but the default `RequireAuthMiddleware` will f"
+ },
+ {
+  "number": 617,
+  "title": "SSE not working with 'https' endpoint",
+  "state": "closed",
+  "created_at": "2025-05-02T12:15:29Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/617",
+  "body_head": "below is the stacktrace:\n\n\n + Exception Group Traceback (most recent call last):\n  |   File \"/Users/gaurav13.singh/Library/CloudStorage/OneDrive-MyCompany/Documents/Projects/OneSource/onboard-ai-assis"
+ },
+ {
+  "number": 623,
+  "title": "MCP Inspector can't connect with mcp server",
+  "state": "closed",
+  "created_at": "2025-05-04T04:50:19Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/623",
+  "body_head": "**Describe the bug**\nMCP Inspector can't connect with mcp server. \n\n**To Reproduce**\nSteps to reproduce the behavior:\n1. I run command `mcp dev main.py`\n2. i open url `http://127.0.0.1:6274`\n3. and cl"
+ },
+ {
+  "number": 647,
+  "title": "Bugs in simple-streamablehttp-stateless",
+  "state": "closed",
+  "created_at": "2025-05-07T09:29:30Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/647",
+  "body_head": "**Describe the bug**\nThere are two bugs in servers/simple-streamablehttp-stateless/mcp_simple_streamablehttp_stateless, main branch.\n\n- mcp.server.streamableHttp has been renamed\n- The method 'run' in"
+ },
+ {
+  "number": 662,
+  "title": "Error when calling MCP tool with arguments and tool name in live environment",
+  "state": "closed",
+  "created_at": "2025-05-08T07:07:38Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/662",
+  "body_head": "**Describe the bug**\nI am experiencing an issue when calling the MCP tool with arguments and tool name in the live environment using Railway. I am hosting both the FastAPI with the MCP client and the "
+ },
+ {
+  "number": 663,
+  "title": "When I connect to Python Server using Java Client, I get a 'Received request before initialization was complete' exception.",
+  "state": "closed",
+  "created_at": "2025-05-08T07:25:16Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/663",
+  "body_head": "**Describe the bug**\nI'm trying to use Spring boot's Client to connect to a Server written in Python with ASYNC mode, but I can't start a Spring Boot Application for any reason.\n\npython mcp version: 1"
+ },
+ {
+  "number": 668,
+  "title": "Will not work if multiple MCP inspector windows are open",
+  "state": "closed",
+  "created_at": "2025-05-08T18:14:20Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/668",
+  "body_head": "**Describe the bug**\nNot really a bug, it's just been driving me crazy for the past hour and I figured out what the problem was.  I had multiple inspector windows open.\n**To Reproduce**\n1. uv run mcp "
+ },
+ {
+  "number": 671,
+  "title": "MCP Tool execution hangs indefinitely in stdio mode when calling external Python scripts",
+  "state": "closed",
+  "created_at": "2025-05-09T06:17:05Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/671",
+  "body_head": "**Describe the bug**\nWhen using FastMCP in stdio transport mode, any tool that attempts to execute an external Python script will hang indefinitely until timeout, without returning any result or error"
+ },
+ {
+  "number": 679,
+  "title": "Running Simple Auth Github Example throws 404 error",
+  "state": "closed",
+  "created_at": "2025-05-09T21:39:33Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/679",
+  "body_head": "**Describe the bug**\nWhen running the example in https://github.com/modelcontextprotocol/python-sdk/blob/main/examples/servers/simple-auth/mcp_simple_auth/server.py exactly as is the MCP client (Claud"
+ },
+ {
+  "number": 680,
+  "title": "Streamable HTTP hangs forever when the server attempts any callback",
+  "state": "closed",
+  "created_at": "2025-05-10T22:34:04Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/680",
+  "body_head": "I'm debugging the issue described in https://github.com/jlowin/fastmcp/issues/393. \n\nEssentially, attempting to use a callback for sampling in conjunction with a Streamable HTTP connection results in "
+ },
+ {
+  "number": 688,
+  "title": "After \"uv run mcp\" getting TypeError: Parameter.make_metavar() missing 1 required positional argument: 'ctx'",
+  "state": "closed",
+  "created_at": "2025-05-12T06:21:53Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/688",
+  "body_head": "**Describe the bug**\nAfter running the following lines:\n```\nuv init mcp-server-demo\n\ncd mcp-server-demo\n\nuv venv\n\nsource .venv/bin/activate\n\nuv add \"mcp[cli]\"\n\nuv run mcp\n```\n\nGetting error:\n```\nUsage"
+ },
+ {
+  "number": 691,
+  "title": "'JSONRPCMessage' object has no attribute 'message' in mcp 1.8.0",
+  "state": "closed",
+  "created_at": "2025-05-12T13:20:04Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/691",
+  "body_head": "Running into [this error](https://github.com/modelcontextprotocol/python-sdk/issues/280) again in 1.8.0:\n\n```\nserver-1  | ERROR:    Exception in ASGI application\nserver-1  |   + Exception Group Traceb"
+ },
+ {
+  "number": 698,
+  "title": "Tool.run should not reveal exception value to the client",
+  "state": "closed",
+  "created_at": "2025-05-12T20:51:38Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/698",
+  "body_head": "If any exception is raised during a tool call, the exception error message is revealed to the client. This is generally bad practice in python, as private information about the server may be conveyed "
+ },
+ {
+  "number": 701,
+  "title": "StreamableHttp  Server send notify invalid",
+  "state": "closed",
+  "created_at": "2025-05-13T07:36:57Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/701",
+  "body_head": "StreamableHttp Server send notify invalid \n\nserver:\napp.request_context.session.send_log_message\n\nclient:\nasync with ClientSession(read_stream, write_stream, message_handler=message_handler) as sessio"
+ },
+ {
+  "number": 705,
+  "title": "SSE client doesn't raise exception if the MCP server responds with text/html",
+  "state": "closed",
+  "created_at": "2025-05-13T13:28:02Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/705",
+  "body_head": "**Describe the bug**\n\nThe SSE client will not raise any exception if MCP server responds with HTTP 200 and `text/html` content type at the time of connection: \n\n```\nasync with sse_client(url) as (read"
+ },
+ {
+  "number": 716,
+  "title": "ValueError: I/O operation on closed pipe",
+  "state": "closed",
+  "created_at": "2025-05-14T18:05:27Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/716",
+  "body_head": "**Describe the bug**\nThe code runs but at the end I get a ValueError: I/O operation on closed pipe\n\n```shell\nException ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000024FADDA1D00>\nT"
+ },
+ {
+  "number": 733,
+  "title": "SSE does not work on nested routes",
+  "state": "closed",
+  "created_at": "2025-05-16T10:42:04Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/733",
+  "body_head": "**Describe the bug**\nURL parts are being omitted on SSE client session connect.\n\nINFO:mcp.client.sse:Connecting to SSE endpoint: https://url-part1.url-part2.com/route1/route2/sse\nINFO:httpx:HTTP Reque"
+ },
+ {
+  "number": 737,
+  "title": "Bug Report: FastMCP `RuntimeError: Received request before initialization was complete` Leading to Empty SSE Responses When Embedded in FastAPI",
+  "state": "closed",
+  "created_at": "2025-05-16T17:12:07Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/737",
+  "body_head": "  ## Bug Report: FastMCP `RuntimeError: Received request before initialization was complete` Leading to Empty SSE Responses When Embedded in FastAPI\n\n        **Library Version:** `mcp[cli]==1.8.0` (Py"
+ },
+ {
+  "number": 743,
+  "title": "RuntimeError but the actual root cause is not logged correctly",
+  "state": "closed",
+  "created_at": "2025-05-17T11:52:32Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/743",
+  "body_head": "**Describe the bug**\nSuppose we have an AsyncContext manager inside an mcp server and some logic is written to manually close the context. However if we encounter an exception before it reaches this c"
+ },
+ {
+  "number": 753,
+  "title": "RuntimeError: Task group is not initialized. Make sure to use run().",
+  "state": "closed",
+  "created_at": "2025-05-19T12:32:05Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/753",
+  "body_head": ""
+ },
+ {
+  "number": 768,
+  "title": "Client example 'mcp_simple_auth' cannot connect to the server",
+  "state": "closed",
+  "created_at": "2025-05-21T08:07:26Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/768",
+  "body_head": "Respected Author:\n\nMy situation is like this\nThe server starts normally according to the instructions and can access the endpoint normally, the log is as follows:\n`\nsettings info: host='localhost' por"
+ },
+ {
+  "number": 776,
+  "title": "Misleading warning for progress callback exceptions",
+  "state": "closed",
+  "created_at": "2025-05-21T21:04:21Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/776",
+  "body_head": "**Describe the bug**\nCurrently a misleading warning is logged when a progress callback raises an exception.\nIt states that it \"Failed to validate notification\".\nI've already issued a PR to fix it: htt"
+ },
+ {
+  "number": 780,
+  "title": "mcp dev server.py Error: Cannot find module '../lib/cli.js'",
+  "state": "closed",
+  "created_at": "2025-05-22T01:36:12Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/780",
+  "body_head": "Dear all,\n\nI am trying to run QuickStart but encountered this error and cannot move forward. \n\nCould you tell me how I can resolve this error below, please?\n\nThanks in advance.\n\n-----\n\n$ mcp dev serve"
+ },
+ {
+  "number": 783,
+  "title": "mount_path does not work with sse_app",
+  "state": "closed",
+  "created_at": "2025-05-22T09:51:10Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/783",
+  "body_head": "while i start mcp server with mcp.run, provided with mount_path, then client get bad response with 404。\n\nthe endpoint for handling post message should be **normalized_message_endpoint**, not the origi"
+ },
+ {
+  "number": 788,
+  "title": "adding multiple servers using the ClientSessionGroup, an error occurs when closing the connection",
+  "state": "closed",
+  "created_at": "2025-05-23T01:49:55Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/788",
+  "body_head": "**Describe the bug**\nWhen adding multiple servers using the Client Session Group, an error occurs when closing the connection\n\nNo problem when adding only one server\n\n**code**\n```\nasync def test_conne"
+ },
+ {
+  "number": 789,
+  "title": "mcp-simple-streamablehttp-stateless not working as expected",
+  "state": "closed",
+  "created_at": "2025-05-23T05:29:26Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/789",
+  "body_head": "**Describe the bug**\nMCP client ( Roo Code ), get stuck when connecting to the `mcp-simple-streamablehttp-stateless` example.\n\n**To Reproduce**\nSteps to reproduce the behavior:\n1. run the `mcp-simple-"
+ },
+ {
+  "number": 790,
+  "title": "MCP servers can not be accessed via Docker and docker-compose anymore.",
+  "state": "closed",
+  "created_at": "2025-05-23T10:21:40Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/790",
+  "body_head": "Since the last update to version 1.9.1, any of the Docker setups that run any MCP servers are not working anymore. \nThis bug is because since 1.9.1, the `host` from line 90 in the `mcp/server/fastmcp/"
+ },
+ {
+  "number": 793,
+  "title": "The official example code does not work",
+  "state": "closed",
+  "created_at": "2025-05-23T14:47:49Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/793",
+  "body_head": "In the low level api part, the first example is:\n```python\nfrom contextlib import asynccontextmanager\nfrom collections.abc import AsyncIterator\n\nfrom fake_database import Database  # Replace with your"
+ },
+ {
+  "number": 804,
+  "title": "'uv run mcp' command does not work ! It gives me this [see screenshot]",
+  "state": "closed",
+  "created_at": "2025-05-26T06:32:55Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/804",
+  "body_head": "**Describe the bug**\nA clear and concise description of what the bug is.\n\n**To Reproduce**\nSteps to reproduce the behavior:\n1. Go to '...'\n2. Click on '....'\n3. Scroll down to '....'\n4. See error\n\n**E"
+ },
+ {
+  "number": 810,
+  "title": "CallToolResult type missing member structuredContent",
+  "state": "closed",
+  "created_at": "2025-05-26T17:34:14Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/810",
+  "body_head": "**Describe the bug**\n\nWhen a tool call is made to any tool with a defined outputSchema, the server absolutely blows up if the function implementing the tool call does not include structuredContent.  \n"
+ },
+ {
+  "number": 813,
+  "title": "MCP SDK hangs",
+  "state": "closed",
+  "created_at": "2025-05-27T14:13:58Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/813",
+  "body_head": "**Describe the bug**\n\nI have developed a local MCP server which performs retrieval to an ElasticSearch database using hybrid search. The MCP server works fine when adding it to Claude Desktop, or when"
+ },
+ {
+  "number": 814,
+  "title": "OAuthMetadata as define is too restrivtive, hence produces a ValidationError",
+  "state": "closed",
+  "created_at": "2025-05-27T14:16:54Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/814",
+  "body_head": "**Describe the bug**\nThe current implementation of OauthMetadata is too restrictive \n\n**To Reproduce**\nSteps to reproduce the behavior:\n1. Initialize an OAuth config as described in the [README](https"
+ },
+ {
+  "number": 817,
+  "title": "STDIO hangs forever when the  using multiprocessing in tools",
+  "state": "open",
+  "created_at": "2025-05-27T15:45:54Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/817",
+  "body_head": "**Describe the bug**\nwhen multiprocessing  in a tool, and start mcp client by  STDIO, the mcp server never response.\n\n**To Reproduce**\nSteps to reproduce the behavior:\n1.  write mcp server:\n```\n## tes"
+ },
+ {
+  "number": 820,
+  "title": "`tools/call` with string `arguments` breaks mcp server until restart",
+  "state": "closed",
+  "created_at": "2025-05-27T19:51:14Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/820",
+  "body_head": "**Describe the bug**\n\nWhen making a `tools/call` JSON-RPC request to the mcp server, passing the `arguments` parameter as a string instead of an object causes the server to stop responding to all HTTP"
+ },
+ {
+  "number": 831,
+  "title": "Errors during cleanup when using streamablehttp_client with AsyncExitStack instead of async with",
+  "state": "closed",
+  "created_at": "2025-05-28T13:43:15Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/831",
+  "body_head": "**Describe the bug**\nWhen using `streamablehttp_client` and `ClientSession` with an `AsyncExitStack` to manage their lifecycle outside of a standard `async with` block, I encounter several warnings an"
+ },
+ {
+  "number": 838,
+  "title": "`RuntimeError: Task group is not initialized` in the simplest possible MCP server with default config",
+  "state": "closed",
+  "created_at": "2025-05-29T14:26:49Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/838",
+  "body_head": "## The bug\n```\nRuntimeError: Task group is not initialized. Make sure to use run().\nResponse code: 500 (Internal Server Error); Time: 9ms (9 ms); Content length: 1677 bytes (1.68 kB)\n```\nReproduces in"
+ },
+ {
+  "number": 852,
+  "title": "Client Registration Fails with 502 Error When Connecting to Auth Server",
+  "state": "closed",
+  "created_at": "2025-05-30T08:12:45Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/852",
+  "body_head": "Description:  \nWhen running the MCP auth client against a locally started auth server, the client fails during registration with a 502 error, despite the server appearing to start successfully.\n\nSteps"
+ },
+ {
+  "number": 853,
+  "title": "Pydantic deserialize file takes much more memory than the actual json",
+  "state": "closed",
+  "created_at": "2025-05-30T08:36:46Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/853",
+  "body_head": "**Describe the bug**\nWhen pydantic deserialize large base64-encoded payload, its memory consumption is much larger than the object itself.\n\n**To Reproduce**\nSteps to reproduce the behavior:\n```python\n"
+ },
+ {
+  "number": 854,
+  "title": "stdio_client Fails with AttributeError: 'StreamToLogger' object has no attribute 'fileno' in Environments with Custom sys.stderr (e.g., Databricks)",
+  "state": "closed",
+  "created_at": "2025-05-30T08:37:37Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/854",
+  "body_head": "**Describe the bug**\nThe mcp.client.stdio.stdio_client (and its underlying subprocess creation mechanisms) encounters an AttributeError when running in an environment where sys.stderr has been replace"
+ },
+ {
+  "number": 858,
+  "title": "Unable to run a minimal MCP server and testing it with mcp inspector.",
+  "state": "closed",
+  "created_at": "2025-05-30T10:34:08Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/858",
+  "body_head": "**Describe the bug**\nUnable to run a minimal MCP server and testing it with mcp inspector.\nI tried different url in mcp inspector same problem:\nhttp://127.0.0.1:8000/\nhttp://127.0.0.1:8000/mcp\nhttp://"
+ },
+ {
+  "number": 862,
+  "title": "mcp.client.stdio Hangs",
+  "state": "closed",
+  "created_at": "2025-05-30T17:06:07Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/862",
+  "body_head": "**Describe the bug**\n\nTesting [QuickStart](https://modelcontextprotocol.io/) client & server examples hang and doesn't proceed.\n\n**To Reproduce**\n\n1. Ensure that the `client.py` from [For Client Devel"
+ },
+ {
+  "number": 872,
+  "title": "Mounting ASGI apps with a different named routes",
+  "state": "closed",
+  "created_at": "2025-06-03T06:25:48Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/872",
+  "body_head": "By default, the \"/\" routes get mounted. But if I want to mount my MCP app on a path to \"/weather\" to an existing FastAPI ASGI app, then the cursor/Claude throws an error."
+ },
+ {
+  "number": 874,
+  "title": "Cannot break out of session.initialize() when using streamable-http",
+  "state": "closed",
+  "created_at": "2025-06-03T07:04:28Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/874",
+  "body_head": "\nWhen I use streaming-http connection, I can't jump out of the session initialization. However, when I debug, I find that the initialization request has been sent and the message from the other party "
+ },
+ {
+  "number": 883,
+  "title": "AssertionError: Unexpected message while using middlewares",
+  "state": "open",
+  "created_at": "2025-06-04T03:16:59Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/883",
+  "body_head": "**Describe the bug**\nwhen I mount the mcp to starlette, and I use middleware to do some prechecks, I met this errors.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (m"
+ },
+ {
+  "number": 888,
+  "title": "import error",
+  "state": "closed",
+  "created_at": "2025-06-05T03:15:06Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/888",
+  "body_head": "\n```\nfrom mcp.server.fastmcp import FastMCP\n\nmcp = FastMCP(\"Weather Service\")\n\n@mcp.tool()\ndef get_weather(location: str) -> str:\n    \"\"\"Get the current weather for a specified location.\"\"\"\n    return"
+ },
+ {
+  "number": 891,
+  "title": "unsupported operand type(s) for +: 'dict' and 'str'\", annotations=None)], isError=True)",
+  "state": "closed",
+  "created_at": "2025-06-06T09:11:40Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/891",
+  "body_head": "**Describe the bug**\ntool_name = tool_call['function']['name']\ntool_args = json.loads(tool_call['function']['arguments'])\nresult = await self.session.call_tool(tool_name, tool_args)\nCallToolResult(met"
+ },
+ {
+  "number": 892,
+  "title": "Validation error when listing resources in simple-resource server example",
+  "state": "closed",
+  "created_at": "2025-06-06T10:26:48Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/892",
+  "body_head": "**Describe the bug**\nThe simple-resource example does not work - it throws an error when listing resources.\n\n**To Reproduce**\nSteps to reproduce the behavior:\n1. Go to examples/servers/simple-resource"
+ },
+ {
+  "number": 906,
+  "title": "Error in post_writer: Server disconnected without sending a response.",
+  "state": "closed",
+  "created_at": "2025-06-09T10:00:31Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/906",
+  "body_head": "**Error in post_writer: Server disconnected without sending a response.**\n\ncall_tool -> wait result\nbut report error , Error in post_writer: Server disconnected without sending a response.\nand call_to"
+ },
+ {
+  "number": 915,
+  "title": "Exception in `ClientSessionGroup` if `streamable_http` MCP server is not available",
+  "state": "open",
+  "created_at": "2025-06-10T09:49:49Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/915",
+  "body_head": "**Describe the bug**\nWhen I use the `ClientSessionGroup` for a remote MCP server via `remote_http` for a remote server that is not running, I get exception `RuntimeError: Attempted to exit cancel scop"
+ },
+ {
+  "number": 922,
+  "title": "Create and Close multiple client session result \"RuntimeError: Attempted to exit a cancel scope that isn't the current tasks's current cancel scope\"",
+  "state": "closed",
+  "created_at": "2025-06-10T10:49:28Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/922",
+  "body_head": "This is originally found in [issue#788](https://github.com/modelcontextprotocol/python-sdk/issues/788)， but after some debugging, I believe this related to how ClientSession is implemented.\n\n    impor"
+ },
+ {
+  "number": 929,
+  "title": "Successful tool calls in MCP Inspector but error in terminal",
+  "state": "closed",
+  "created_at": "2025-06-11T03:05:00Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/929",
+  "body_head": "Hi there,\n\nWe are testing MCP tool calls in a machine remotely located in a data centre. Our server needs to make a search on the internet. Through MCP Inspector, all works as expected. However, when "
+ },
+ {
+  "number": 932,
+  "title": "`simple-tool` exiting error",
+  "state": "closed",
+  "created_at": "2025-06-11T07:25:53Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/932",
+  "body_head": "**Describe the bug**\nI tried to run the `simple-tool` example and to exit the script I pressed CTRL+c and I got that error.\n\n**To Reproduce**\nSteps to reproduce the behavior:\n1. Go to 'python-sdk/exam"
+ },
+ {
+  "number": 949,
+  "title": "Bug in the simple-auth server example",
+  "state": "closed",
+  "created_at": "2025-06-12T16:08:53Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/949",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 987,
+  "title": "Bug Report: CallToolResult serialization fails with \"Input should be a valid dictionary\" error",
+  "state": "closed",
+  "created_at": "2025-06-19T17:43:42Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/987",
+  "body_head": "## Summary\nWhen an MCP server returns a `CallToolResult` object, it gets incorrectly serialized during stdio transport, resulting in a tuple format that causes Pydantic validation errors on the client"
+ },
+ {
+  "number": 1010,
+  "title": "BUG REPORT: HTTP errors are being silently swallowed in the StreamableHTTP client",
+  "state": "closed",
+  "created_at": "2025-06-23T19:49:05Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1010",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1051,
+  "title": "Bug Report: StreamableHTTP GET Requests Fail with \"Bad Request: Missing session ID\" During Initial Connection",
+  "state": "closed",
+  "created_at": "2025-06-28T10:00:24Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1051",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1053,
+  "title": "Streamable HTTP transport fails when accessing MCP server on Cloud Run using sdk",
+  "state": "closed",
+  "created_at": "2025-06-28T15:29:19Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1053",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1060,
+  "title": "PydanticSchemaGenerationError: Unable to generate pydantic-core schema for Image type",
+  "state": "open",
+  "created_at": "2025-06-30T18:40:50Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1060",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1070,
+  "title": "Unexpected connection closed",
+  "state": "closed",
+  "created_at": "2025-07-02T02:27:58Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1070",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1072,
+  "title": "Errors with Streamble HTTP",
+  "state": "closed",
+  "created_at": "2025-07-03T00:10:55Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1072",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1079,
+  "title": "Missing OPTIONS handler for Streamable HTTP",
+  "state": "closed",
+  "created_at": "2025-07-03T12:32:04Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1079",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1081,
+  "title": "Unexpected behavior of streamable-http transport on public server",
+  "state": "closed",
+  "created_at": "2025-07-03T15:49:48Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1081",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1082,
+  "title": "A JavaScript error occurred in the main process",
+  "state": "closed",
+  "created_at": "2025-07-03T16:23:59Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1082",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1084,
+  "title": "An error exists in the elicitation example",
+  "state": "closed",
+  "created_at": "2025-07-04T03:59:12Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1084",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1095,
+  "title": "Multiple bugs in `mcp` library related to async context management",
+  "state": "closed",
+  "created_at": "2025-07-06T09:28:14Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1095",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1097,
+  "title": "Roots/List Request Hangs in Client-Server Communication",
+  "state": "closed",
+  "created_at": "2025-07-06T21:13:21Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1097",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1100,
+  "title": "MCP connection fails silently",
+  "state": "closed",
+  "created_at": "2025-07-07T12:17:34Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1100",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1101,
+  "title": "Running into an `ImportError` when executing the MCP client in `examples/servers/simple-tool`",
+  "state": "closed",
+  "created_at": "2025-07-07T15:21:18Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1101",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1103,
+  "title": "MCP client not able to initiate StdioServerParameters while running in Jupyter Notebook",
+  "state": "open",
+  "created_at": "2025-07-08T08:28:27Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1103",
+  "body_head": "while initiating StdioServerParameters  in jupyter notebook there is an Exception from subprocess.Popen.\nException is : UnsupportedOperation fileno\n\nSame code works in idle and with quart server.\n\nOS "
+ },
+ {
+  "number": 1131,
+  "title": "Pydantic schema generation fails for non-standard output types in toolkit functions",
+  "state": "closed",
+  "created_at": "2025-07-12T10:37:42Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1131",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1141,
+  "title": "Progress notifications cause server to hang on stdio transport",
+  "state": "open",
+  "created_at": "2025-07-14T19:58:11Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1141",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1144,
+  "title": "streamable_http client call_tool hangs when receiving invalid JSONRPCMessage",
+  "state": "closed",
+  "created_at": "2025-07-15T02:32:44Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1144",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1152,
+  "title": "CancelledError causes duplicate response and server crash",
+  "state": "closed",
+  "created_at": "2025-07-16T10:27:09Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1152",
+  "body_head": "### Initial Checks\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before "
+ },
+ {
+  "number": 1160,
+  "title": "MCP cannot process fastapi JSONResponse",
+  "state": "closed",
+  "created_at": "2025-07-17T03:41:20Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1160",
+  "body_head": "### Description\n\nI found that when the tool returns fastapi JSONResponse, it cannot be parsed.\n"
+ },
+ {
+  "number": 1173,
+  "title": "Response parsing errors after OAuth flow",
+  "state": "closed",
+  "created_at": "2025-07-18T23:12:07Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1173",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1190,
+  "title": "MCP server in the HTTP Streamable mode broken",
+  "state": "closed",
+  "created_at": "2025-07-23T16:54:13Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1190",
+  "body_head": "Starting from v1.12.0 (checked with v1.12.0 and v1.12.1) any request to the MCP server in the HTTP Streamable mode produces an error:\n\n```plaintext\nINFO:     127.0.0.1:32926 - \"POST /mcp/ HTTP/1.1\" 30"
+ },
+ {
+  "number": 1192,
+  "title": "Auth server metadata fallbacks abort on non-404 failures",
+  "state": "closed",
+  "created_at": "2025-07-23T19:53:19Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1192",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1210,
+  "title": "Simple Auth example doesn't work with Claude Desktop",
+  "state": "closed",
+  "created_at": "2025-07-28T17:08:06Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1210",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1212,
+  "title": "When throwing the HTTP status exception, MCP client is disregarding the exception message!",
+  "state": "closed",
+  "created_at": "2025-07-29T04:31:07Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1212",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1213,
+  "title": "AsyncExitStack fails to close at the first attempt",
+  "state": "closed",
+  "created_at": "2025-07-29T12:49:47Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1213",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1214,
+  "title": "Unhandled GeneratorExit error",
+  "state": "closed",
+  "created_at": "2025-07-29T14:08:04Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1214",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1215,
+  "title": "mismatch between uri parameters set() and function parameters {'ctx'}",
+  "state": "closed",
+  "created_at": "2025-07-29T16:37:38Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1215",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1218,
+  "title": "`simple-streamablehttp-stateless` example will not return data if `id=0`",
+  "state": "closed",
+  "created_at": "2025-07-30T20:14:19Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1218",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1219,
+  "title": "_handle_stateless_request  ClosedResourceError",
+  "state": "closed",
+  "created_at": "2025-07-31T07:24:45Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1219",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1220,
+  "title": "Task Group inialization error on lifespan and mounting on FastMcp",
+  "state": "closed",
+  "created_at": "2025-07-31T10:58:21Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1220",
+  "body_head": "I am having issue on task group inialization, First I added the lifespan with session menager it work for some days but after some days it gives me this error then I directly mount it. and some days i"
+ },
+ {
+  "number": 1227,
+  "title": "SSE: ConnectionClosed exception after session disconnect",
+  "state": "closed",
+  "created_at": "2025-08-01T08:10:02Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1227",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1267,
+  "title": "Pydantic v2 compatibility issue: dumps_kwargs keyword arguments are no longer supported",
+  "state": "closed",
+  "created_at": "2025-08-12T22:58:27Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1267",
+  "body_head": "## Summary\n\nWhen using complex Pydantic models in MCP tool responses with the current Python SDK v1.12.4, tools fail with the error:\n\n```\nTypeError: `dumps_kwargs` keyword arguments are no longer supp"
+ },
+ {
+  "number": 1272,
+  "title": "Server hangs when shutting down if a connection is still open",
+  "state": "open",
+  "created_at": "2025-08-14T15:18:25Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1272",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1274,
+  "title": "Streamable HTTP client performance regression starting with v1.12.0",
+  "state": "open",
+  "created_at": "2025-08-14T20:32:40Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1274",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1278,
+  "title": "StdioServerTransport Fails to Invoke Tool Handlers on Linux (Python SDK)",
+  "state": "closed",
+  "created_at": "2025-08-16T09:31:18Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1278",
+  "body_head": "Hello,\n\nI'm hoping you might be able to offer some guidance. I'm trying to use the Python SDK to integrate a tool (Basic Memory) as a persistent stdio subprocess on Linux, but I'm encountering some be"
+ },
+ {
+  "number": 1307,
+  "title": "Error & Mismatch in OAuth scope resolution between Claude.ai/MCP Python SDK and Inspector",
+  "state": "open",
+  "created_at": "2025-08-26T03:00:35Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1307",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1313,
+  "title": "SyntaxError: Unexpected token '?'",
+  "state": "closed",
+  "created_at": "2025-08-27T11:08:30Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1313",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1318,
+  "title": "Critical Token Refresh Bugs - Prevents Proactive Refresh",
+  "state": "open",
+  "created_at": "2025-08-28T00:16:24Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1318",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1350,
+  "title": "Issue: Sticky Session / Session Affinity Not Working with Azure Web App + FastAPI +FastMCP + Gunicorn",
+  "state": "closed",
+  "created_at": "2025-09-08T03:21:54Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1350",
+  "body_head": "### Question\n\n### **Context**\n\nI’m running a FastAPI application on Azure Web App (Linux, containerized) using Gunicorn + Uvicorn workers.\n\nThe app is an MCP (Model Context Protocol) server that conne"
+ },
+ {
+  "number": 1356,
+  "title": "JSON Parsing Fails & Client Gets Stuck in Waiting When Tool Returns Results with Special Unicode Characters",
+  "state": "closed",
+  "created_at": "2025-09-09T15:29:02Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1356",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1361,
+  "title": "ClientSession swallow call_tool exceptions",
+  "state": "closed",
+  "created_at": "2025-09-10T23:52:46Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1361",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1363,
+  "title": "Race Condition in StreamableHTTP Transport Causes ClosedResourceError",
+  "state": "closed",
+  "created_at": "2025-09-13T08:08:13Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1363",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1367,
+  "title": "Mounting a Streamable HTTP MCP endpoint on existing FastAPI app does not work",
+  "state": "closed",
+  "created_at": "2025-09-15T11:38:00Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1367",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1372,
+  "title": "fastmcp.run() runtimeerror: task group is not initialized. make sure to use run().",
+  "state": "closed",
+  "created_at": "2025-09-17T12:04:27Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1372",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1379,
+  "title": "Visual Studio Code cannot authorize with FastMCP OAuth",
+  "state": "closed",
+  "created_at": "2025-09-19T16:59:20Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1379",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1382,
+  "title": "Cannot handle `Unexpected content type` when initializing MCP session",
+  "state": "closed",
+  "created_at": "2025-09-19T23:08:00Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1382",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1391,
+  "title": "wrapped tools using annotations fail",
+  "state": "closed",
+  "created_at": "2025-09-23T23:54:22Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1391",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1400,
+  "title": "RFC 9728 compliance: protected resource metadata URL mismatches when resource identifier has a path",
+  "state": "closed",
+  "created_at": "2025-09-25T08:22:28Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1400",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1415,
+  "title": "MCP Python SDK Protocol Compliance Gap: Missing Direction Validation for Cancellation Notifications",
+  "state": "closed",
+  "created_at": "2025-09-30T19:59:55Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1415",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1416,
+  "title": "buggg",
+  "state": "closed",
+  "created_at": "2025-09-30T22:34:58Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1416",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1420,
+  "title": "MCP Python SDK Protocol Compliance Gap-2: Missing Logging and Propagation of Cancellation Reasons",
+  "state": "closed",
+  "created_at": "2025-10-02T15:39:40Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1420",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1421,
+  "title": "MCP Python SDK Implementation Gap-3: Missing Built-in Rate Limiting for Callback Processing",
+  "state": "closed",
+  "created_at": "2025-10-02T16:40:35Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1421",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1422,
+  "title": "MCP Python SDK Implementation Gap-4: Missing Configurable Ping Frequency and Rate Limiting",
+  "state": "closed",
+  "created_at": "2025-10-02T17:18:55Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1422",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1423,
+  "title": "MCP Python SDK Implementation Gap-5: Missing Automatic Ping Mechanism for Connection Health Monitoring",
+  "state": "closed",
+  "created_at": "2025-10-02T17:26:25Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1423",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1437,
+  "title": "SSE Hangs After Disconnect",
+  "state": "closed",
+  "created_at": "2025-10-06T19:51:53Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1437",
+  "body_head": "When a client connects to an MCP server using SSE transport and disconnects before the server sends any events:\n\n1. Server sends `http.response.start` (HTTP 200 + headers)\n2. Client disconnects before"
+ },
+ {
+  "number": 1442,
+  "title": "MCP Python SDK Implementation Gap-10: MCP Python SDK Client Missing Token Issuer Validation",
+  "state": "closed",
+  "created_at": "2025-10-07T21:17:42Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1442",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1443,
+  "title": "MCP Python SDK Implementation Gap-11: Server Missing Resource Validation for Token Acceptance",
+  "state": "closed",
+  "created_at": "2025-10-07T21:53:33Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1443",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1444,
+  "title": "MCP Python SDK Implementation Gap-12: Server Missing Token Validation - \"MUST NOT accept or transit any other tokens\"",
+  "state": "closed",
+  "created_at": "2025-10-07T21:59:51Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1444",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1445,
+  "title": "MCP Python SDK Implementation Gap-13: Server Missing Token Issuer Validation",
+  "state": "closed",
+  "created_at": "2025-10-07T22:09:15Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1445",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1450,
+  "title": "Response leak in SSE handlers",
+  "state": "open",
+  "created_at": "2025-10-09T07:11:05Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1450",
+  "body_head": "I found a resource leak in the streamable HTTP client. When SSE streaming fails with an exception, the HTTP response isn't closed.\n\nLocation:\n`src/mcp/client/streamable_http.py`:\n- `_handle_sse_respon"
+ },
+ {
+  "number": 1451,
+  "title": "Build failure on Python 3.14 due to outdated pydantic-core dependency",
+  "state": "closed",
+  "created_at": "2025-10-09T07:12:00Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1451",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1452,
+  "title": "The `stdio_client` hangs indefinitely on session initialization",
+  "state": "closed",
+  "created_at": "2025-10-09T13:53:47Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1452",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1458,
+  "title": "MCP Python SDK Implementation Gap-17: Missing Cancellation Notifications on Request Timeout",
+  "state": "closed",
+  "created_at": "2025-10-09T21:50:30Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1458",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1469,
+  "title": "Bare bones MCP fastmcp_quickstart.py example fails out of the box in linux with `dev`",
+  "state": "closed",
+  "created_at": "2025-10-12T18:11:51Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1469",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1470,
+  "title": "SSLV3_ALERT_HANDSHAKE_FAILURE when using private gateway",
+  "state": "closed",
+  "created_at": "2025-10-13T11:41:45Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1470",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1480,
+  "title": "Token endpoint returns incorrect error code for client authentication failures",
+  "state": "closed",
+  "created_at": "2025-10-14T17:55:53Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1480",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1482,
+  "title": "Unable to call context.elicit(msg, schema) (using /examples/elicitation.py)",
+  "state": "closed",
+  "created_at": "2025-10-14T22:02:25Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1482",
+  "body_head": "`EDIT: It seems the reason is that Claude doesn't support elicitations: https://github.com/anthropics/claude-code/issues/2799\n`\n\n### Description\n\nConversation with Claude Code (getting same result on "
+ },
+ {
+  "number": 1487,
+  "title": "Bug: Calculator server fails with ModuleNotFoundError in mcp.server.transports",
+  "state": "closed",
+  "created_at": "2025-10-16T16:09:45Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1487",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1495,
+  "title": "Protected Resource Metadata request failed: 404",
+  "state": "closed",
+  "created_at": "2025-10-18T15:29:36Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1495",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1513,
+  "title": "MCP SDK Pydantic v2 Compatibility Bug Report",
+  "state": "closed",
+  "created_at": "2025-10-24T16:51:53Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1513",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1560,
+  "title": "Usage Error",
+  "state": "closed",
+  "created_at": "2025-10-31T03:46:56Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1560",
+  "body_head": "Usage Error"
+ },
+ {
+  "number": 1561,
+  "title": "Invalid method names return error code -32602 instead of -32601",
+  "state": "closed",
+  "created_at": "2025-10-31T09:28:08Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1561",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1564,
+  "title": "stdio_client fails with BrokenResourceError during initialization",
+  "state": "closed",
+  "created_at": "2025-11-02T22:49:56Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1564",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1574,
+  "title": "Python SDK incorrectly validates Resource URIs as strict URLs, breaking relative paths",
+  "state": "closed",
+  "created_at": "2025-11-04T14:36:27Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1574",
+  "body_head": "## Problem\n\nThe Python SDK is stricter than the MCP specification when validating resource URIs. It rejects relative paths like `'users/me'` that are valid according to the spec and accepted by the Ty"
+ },
+ {
+  "number": 1577,
+  "title": "Client tool call hangs forever if server crashes or connection dies when using streamable-http",
+  "state": "open",
+  "created_at": "2025-11-05T02:57:42Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1577",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1579,
+  "title": "FastMCP read_resource() returns incorrect error code when resource not found",
+  "state": "closed",
+  "created_at": "2025-11-05T09:31:33Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1579",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1585,
+  "title": "FastMCP import fails after httpx≥0.28 upgrade (TransportError removed)",
+  "state": "closed",
+  "created_at": "2025-11-06T16:06:27Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1585",
+  "body_head": "\n**Title:** FastMCP import fails after httpx≥0.28 upgrade (TransportError removed)\n\n- MCP version: 1.20.0 (also happens on 1.18.x)\n- Python: 3.12.10 on Windows 11\n- Install method: local venv (`pip in"
+ },
+ {
+  "number": 1600,
+  "title": "progressToken type mismatch breaks progress callback between spring-ai and python-sdk",
+  "state": "closed",
+  "created_at": "2025-11-10T06:54:37Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1600",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1602,
+  "title": "OAuth: 403 responses without insufficient_scope incorrectly retry with same token",
+  "state": "open",
+  "created_at": "2025-11-10T15:04:21Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1602",
+  "body_head": "## Summary\n\nThe OAuth client unconditionally retries all 403 responses, even when the error is not `insufficient_scope`. This causes an unnecessary retry attempt with the same token that will fail for"
+ },
+ {
+  "number": 1648,
+  "title": "ClientDisconnect returns HTTP 500",
+  "state": "open",
+  "created_at": "2025-11-20T18:04:12Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1648",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1658,
+  "title": "ClosedResourceError when using FastMCP(..., stateless_http=True, json_response=True) with MCP Inspector",
+  "state": "closed",
+  "created_at": "2025-11-24T14:14:33Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1658",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1672,
+  "title": "Python MCP Client ValidationError: Empty SSE data causes JSON parsing failure",
+  "state": "closed",
+  "created_at": "2025-11-26T17:13:52Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1672",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1702,
+  "title": "Clarify and improve behavior when tool output fails schema validation",
+  "state": "closed",
+  "created_at": "2025-11-28T15:40:46Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1702",
+  "body_head": "### Description\n\n## Summary\n\nTools can declare `outputSchema`, and the SDK validates the returned value against this schema **after** the tool executes. If validation fails:\n\n- the tool’s side effects"
+ },
+ {
+  "number": 1716,
+  "title": "Getting RuntimeError: Task group is not initialized. Make sure to use run() for Starlette mounts routes",
+  "state": "closed",
+  "created_at": "2025-12-03T08:51:15Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1716",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1717,
+  "title": "UnboundLocalError in send_request when response_or_error is not assigned",
+  "state": "closed",
+  "created_at": "2025-12-03T15:12:51Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1717",
+  "body_head": "## Description\n\nWe received a report of intermittent `UnboundLocalError` exceptions occurring in `send_request()`:\n\n```\nUnboundLocalError: cannot access local variable 'response_or_error' where it is "
+ },
+ {
+  "number": 1742,
+  "title": "Introduce typed error classes with metadata",
+  "state": "open",
+  "created_at": "2025-12-05T17:02:41Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1742",
+  "body_head": "## Summary\n\nReplace generic exceptions with SDK-native error classes that include useful metadata like fault attribution, retryability, and HTTP details.\n\n## Problem\n\nThe SDK currently raises generic "
+ },
+ {
+  "number": 1744,
+  "title": "Improve exception tracebacks for easier debugging",
+  "state": "open",
+  "created_at": "2025-12-05T17:08:13Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1744",
+  "body_head": "## Summary\n\nMake exception tracebacks clearer and easier to understand by reducing asyncio/anyio wrapper noise.\n\n## Problem\n\n- Exceptions are often wrapped in multiple layers of asyncio/anyio task gro"
+ },
+ {
+  "number": 1764,
+  "title": "Race condition in StreamableHTTP: zero-buffer memory streams cause deadlock with concurrent SSE responses",
+  "state": "closed",
+  "created_at": "2025-12-10T13:47:46Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1764",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1768,
+  "title": "UrlElicitationRequiredError not thrown as an McpError exception",
+  "state": "closed",
+  "created_at": "2025-12-10T23:37:52Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1768",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1789,
+  "title": "Client hangs forever",
+  "state": "closed",
+  "created_at": "2025-12-15T20:29:00Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1789",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1796,
+  "title": "Pydantic ValidationError when a call_tool response contains structuredContent but omits the content field",
+  "state": "closed",
+  "created_at": "2025-12-17T14:24:36Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1796",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1805,
+  "title": "Possible ressource leak / race condition in streamable_http_client",
+  "state": "open",
+  "created_at": "2025-12-19T13:46:48Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1805",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1811,
+  "title": "client's `read_stream_writer` open after SSE disconnection hanging `.receive()`",
+  "state": "open",
+  "created_at": "2025-12-21T04:41:07Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1811",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1821,
+  "title": "Clarify JSON-RPC error code for 'session not found' responses",
+  "state": "open",
+  "created_at": "2025-12-31T13:47:11Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1821",
+  "body_head": "## Summary\n\nThe Python SDK and TypeScript SDK use **different JSON-RPC error codes** for \"session not found\" responses (HTTP 404). The MCP specification does not define which error code to use, and th"
+ },
+ {
+  "number": 1830,
+  "title": "CancelledError from connection failures is indistinguishable from external cancellation",
+  "state": "closed",
+  "created_at": "2026-01-06T18:00:58Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1830",
+  "body_head": "### Initial Checks\n\n- [ ] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1835,
+  "title": "Http errors are not handled properly by streamable_http",
+  "state": "closed",
+  "created_at": "2026-01-06T18:53:41Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1835",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1843,
+  "title": "Function parameter coercion (\"false\" => False) failures in properly documented FastMCP tools?",
+  "state": "closed",
+  "created_at": "2026-01-09T15:51:01Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1843",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1844,
+  "title": "SSE transport: \"Received request before initialization was complete\" error with Claude Code client",
+  "state": "closed",
+  "created_at": "2026-01-09T18:23:50Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1844",
+  "body_head": "### Environment\n- MCP version: 1.25.0\n- Transport: SSE (FastMCP)\n- Client: Claude Code CLI\n\n### Problem\nWhen using SSE transport with Claude Code, tool calls fail with:\n```\nRuntimeError: Received requ"
+ },
+ {
+  "number": 1853,
+  "title": "Missing `call` capability in tasks.requests.tools causes VS Code Copilot to ignore task support",
+  "state": "closed",
+  "created_at": "2026-01-14T00:01:45Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1853",
+  "body_head": "## Bug Description\n\nWhen using `experimental.enable_tasks()`, the SDK creates `TasksToolsCapability()` without the nested `call` capability. This causes VS Code Copilot to silently fall back to synchr"
+ },
+ {
+  "number": 1873,
+  "title": "Bug: String parameters starting with digits coerced to numbers, causing UUID data loss",
+  "state": "open",
+  "created_at": "2026-01-15T22:42:02Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1873",
+  "body_head": "# FastMCP GitHub Issue: Parameter Type Coercion Ignores `str` Type Annotations\n\n## Title\n**Parameter Type Coercion Ignores `str` Type Annotations, Causing Data Loss for UUIDs**\n\n## Description\n\nFastMC"
+ },
+ {
+  "number": 1933,
+  "title": "Using transport=\"stdio\" closes real stdio, causing ValueError after server exits",
+  "state": "open",
+  "created_at": "2026-01-22T23:15:42Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1933",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1941,
+  "title": "streamable_http client hangs indefinitely when connecting to POST-only MCP servers (ex: GitHub MCP)",
+  "state": "closed",
+  "created_at": "2026-01-23T15:40:45Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1941",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1960,
+  "title": "BrokenResourceError race condition in stdio_client cleanup when context exits quickly",
+  "state": "closed",
+  "created_at": "2026-01-26T14:36:56Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1960",
+  "body_head": "# GitHub Issue: MCP SDK stdio_client Race Condition\n\n## Repository\n`modelcontextprotocol/python-sdk`\n\n## Title\n`BrokenResourceError` race condition in `stdio_client` cleanup when context exits quickly"
+ },
+ {
+  "number": 1967,
+  "title": "ClosedResourceError During MCP Stateless Server Shutdown When Sending Log Messages",
+  "state": "closed",
+  "created_at": "2026-01-27T20:55:08Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1967",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1970,
+  "title": "Cannot find reference 'MCPServer' in 'mcp.server.mcpserver'  in Quickstart code",
+  "state": "closed",
+  "created_at": "2026-01-28T21:44:05Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1970",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 1974,
+  "title": "find_context_parameter() fails to detect Context parameter in callable class instances",
+  "state": "open",
+  "created_at": "2026-01-30T01:24:08Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1974",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2057,
+  "title": "Requests with \"id\": null silently misclassified as notifications",
+  "state": "open",
+  "created_at": "2026-02-14T02:53:18Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2057",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2064,
+  "title": "ClientDisconnect during _handle_post_request crashes stateless session with ClosedResourceError",
+  "state": "closed",
+  "created_at": "2026-02-14T13:11:18Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2064",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2066,
+  "title": "Invalid JSON: EOF while parsing",
+  "state": "closed",
+  "created_at": "2026-02-16T01:25:15Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2066",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2107,
+  "title": "Handle list_changed notifications instead of dropping them",
+  "state": "closed",
+  "created_at": "2026-02-19T20:26:49Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2107",
+  "body_head": "## Summary\n\nThe SDK silently drops `notifications/tools/list_changed`, `notifications/prompts/list_changed`, and `notifications/resources/list_changed` notifications. They fall through to `case _: pas"
+ },
+ {
+  "number": 2110,
+  "title": "HTTP transport swallows non-2xx status codes causing client to hang",
+  "state": "open",
+  "created_at": "2026-02-19T20:29:41Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2110",
+  "body_head": "## Summary\n\nWhen an MCP server returns non-2xx HTTP status codes (401/403/404/5xx), the Streamable HTTP and SSE transports do not reliably propagate the error to the caller. In the Streamable HTTP tra"
+ },
+ {
+  "number": 2114,
+  "title": "ExceptionGroup wrapping obscures real errors from task groups",
+  "state": "open",
+  "created_at": "2026-02-19T21:52:58Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2114",
+  "body_head": "## Summary\n\nWhen SDK internal anyio task group tasks fail, the real error is wrapped in a `BaseExceptionGroup` alongside `Cancelled` exceptions from cancelled sibling tasks. This makes error classific"
+ },
+ {
+  "number": 2128,
+  "title": "ClientCredentialsOAuthProvider: Missing client_id in token request body for client_secret_post",
+  "state": "closed",
+  "created_at": "2026-02-23T17:59:04Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2128",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2153,
+  "title": "MCPServer handlers should raise exceptions, not return error objects",
+  "state": "open",
+  "created_at": "2026-02-27T11:51:05Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2153",
+  "body_head": "## Problem\n\nThe current error handling across the two server layers is inconsistent and confusing for users. As [noted by Marcelo](https://github.com/modelcontextprotocol/python-sdk/pull/2129#issuecom"
+ },
+ {
+  "number": 2156,
+  "title": "MCPServer.add_tool() missing `execution` parameter for task support declaration (spec compliance gap)",
+  "state": "closed",
+  "created_at": "2026-02-27T14:58:24Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2156",
+  "body_head": "## Description\n\nThe MCP spec (2025-11-25) requires tools to declare task support via `execution.taskSupport` in the `tools/list` response:\n\n> In the result of tools/list, tools declare support for tas"
+ },
+ {
+  "number": 2205,
+  "title": "Incorrect `ProtectedResourceMetadata` model for oauth authentication",
+  "state": "closed",
+  "created_at": "2026-03-04T10:42:50Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2205",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2216,
+  "title": "Bug: validate_scope rejects client scopes when required scopes in None",
+  "state": "open",
+  "created_at": "2026-03-05T16:27:00Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2216",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2232,
+  "title": "streamable_http_client hangs indefinitely when server sends POST-only endpoints without SSE fallback",
+  "state": "closed",
+  "created_at": "2026-03-06T12:42:00Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2232",
+  "body_head": "## Problem\n\nWhen an MCP server implements only POST-based endpoints (no SSE support), the `streamable_http_client` in `mcp/client/sse.py` hangs indefinitely during connection setup. The client assumes"
+ },
+ {
+  "number": 2233,
+  "title": "pywin32 installation fails on Windows — hard dep only needed for client stdio, but pulled in for all users via eager import in __init__.py",
+  "state": "open",
+  "created_at": "2026-03-06T14:14:50Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2233",
+  "body_head": "## Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before "
+ },
+ {
+  "number": 2260,
+  "title": "Server OAuth metadata hardcodes token_endpoint_auth_methods_supported, breaking public client flows",
+  "state": "closed",
+  "created_at": "2026-03-09T20:01:32Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2260",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2326,
+  "title": "Context Synchronization Failure Between Client and MCP Server",
+  "state": "closed",
+  "created_at": "2026-03-21T12:54:38Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2326",
+  "body_head": "Sometimes the MCP server fails to properly synchronize context updates from the client, leading to outdated or inconsistent data being used in responses. This can happen due to delayed message propaga"
+ },
+ {
+  "number": 2328,
+  "title": "[Bug] Server crashes with anyio.ClosedResourceError when receiving raw invalid UTF-8 bytes",
+  "state": "closed",
+  "created_at": "2026-03-22T05:33:37Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2328",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2375,
+  "title": "Harcoded Content-Type in the client cannot be overriden",
+  "state": "closed",
+  "created_at": "2026-03-29T08:00:53Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2375",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2376,
+  "title": "Image/ImageContent serialization fails in stateless HTTP mode",
+  "state": "open",
+  "created_at": "2026-03-29T12:32:53Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2376",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2386,
+  "title": "Sanitize tool handler error messages by default (CWE-209 parity with C#/TS)",
+  "state": "closed",
+  "created_at": "2026-04-02T17:18:29Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2386",
+  "body_head": "Currently `server.py:307` returns `str(e)` for any exception raised in a tool handler, so internal error details (DB connection strings, file paths, stack-trace fragments) reach the client verbatim vi"
+ },
+ {
+  "number": 2416,
+  "title": "Bug: AssertionError: Request already responded to — cancellation race in v1.27.0",
+  "state": "open",
+  "created_at": "2026-04-09T20:25:05Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2416",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2422,
+  "title": "Specific ToolNotFoundError for easier handling than ToolError in multi-tenant environments",
+  "state": "open",
+  "created_at": "2026-04-10T20:31:46Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2422",
+  "body_head": "### Description\n\nWe are running a remote MCP server and we are seeing errors like:\n```\nmcp.server.fastmcp.exceptions.ToolError: Unknown tool: <unknown-tool-name>\n```\nI'm unsure why our users are tryin"
+ },
+ {
+  "number": 2429,
+  "title": "[v1.x] Server-side outputSchema validation blocks tool error reporting (isError: true)",
+  "state": "open",
+  "created_at": "2026-04-13T00:04:50Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2429",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2431,
+  "title": "McpError is not pickle-safe and fails to unpickle",
+  "state": "open",
+  "created_at": "2026-04-13T08:38:08Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2431",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2432,
+  "title": "Initialize call hangs forever if MCP server does not return a `Content-Type: text/plain`",
+  "state": "open",
+  "created_at": "2026-04-13T09:34:14Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2432",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2454,
+  "title": "stdio_client crashes on malformed UTF-8 from child stdout instead of surfacing parse error",
+  "state": "open",
+  "created_at": "2026-04-16T15:37:25Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2454",
+  "body_head": "## Summary\n\n`mcp.client.stdio.stdio_client()` crashes when the spawned child process writes invalid UTF-8 bytes to stdout.\n\nThe transport currently decodes child stdout with `encoding_error_handler=\"s"
+ },
+ {
+  "number": 2480,
+  "title": "RequestResponder.cancel sends JSON-RPC response, violating cancellation spec",
+  "state": "closed",
+  "created_at": "2026-04-20T09:26:36Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2480",
+  "body_head": "## Description\n\n`RequestResponder.cancel` in `mcp/shared/session.py` sends an `ErrorData(code=0, message=\"Request cancelled\")` JSON-RPC response back to the sender after a `notifications/cancelled` is"
+ },
+ {
+  "number": 2519,
+  "title": "ResourceContents.uri made non-nullable in 1.27.0, breaking servers that return uri=null",
+  "state": "closed",
+  "created_at": "2026-04-29T11:42:37Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2519",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2527,
+  "title": "FastMCP.__init__ clobbers root logger with INFO RichHandler — hangs stdio servers under back-pressure",
+  "state": "closed",
+  "created_at": "2026-05-01T10:20:51Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2527",
+  "body_head": "# `FastMCP.__init__` clobbers the root logger with INFO-level RichHandler — hangs stdio servers under back-pressure\n\n## Summary\n\n`mcp.server.fastmcp.FastMCP.__init__` calls `configure_logging(\"INFO\")`"
+ },
+ {
+  "number": 2539,
+  "title": "Bug: task_result_handler.py serializes None optional fields as JSON null, breaking Node SDK Zod validation",
+  "state": "closed",
+  "created_at": "2026-05-04T23:07:55Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2539",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2541,
+  "title": "raise ValueError(str(e)) discards exception chain in get_prompt handler",
+  "state": "closed",
+  "created_at": "2026-05-05T01:52:12Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2541",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2543,
+  "title": "Pin `httpx<1.0` (or similar upper bound) — `pip install --pre` resolves `httpx 1.0.dev3` and breaks `httpx-sse`",
+  "state": "closed",
+  "created_at": "2026-05-05T03:13:44Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2543",
+  "body_head": "## Problem\n\n`mcp 1.27.0`'s declared dep is `httpx>=0.27.1` with no upper bound. When a downstream package is alpha (and so its users `pip install --pre`), pip's resolver picks `httpx 1.0.dev3` — a rea"
+ },
+ {
+  "number": 2546,
+  "title": "Bug: stdio transport fails to handle Content-Length header format from MCP clients",
+  "state": "closed",
+  "created_at": "2026-05-06T11:11:34Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2546",
+  "body_head": "# Bug: stdio transport fails to handle Content-Length header format from MCP clients\n\n## Description\n\nThe `stdio_server` transport in `mcp/server/stdio.py` reads stdin line-by-line and attempts to par"
+ },
+ {
+  "number": 2548,
+  "title": "BaseSession.send_request fails when forwarding a request received via ServerSession (envelope-fields collision)",
+  "state": "closed",
+  "created_at": "2026-05-06T20:19:01Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2548",
+  "body_head": "## Repro\n\nAny time a `ServerSession.incoming_messages` `RequestResponder.request` is forwarded to a `ClientSession.send_request(...)` — the canonical pattern for an MCP gateway/proxy — the SDK raises:"
+ },
+ {
+  "number": 2564,
+  "title": "raise without from discards exception chain in 12 remaining sites",
+  "state": "open",
+  "created_at": "2026-05-08T19:50:46Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2564",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2577,
+  "title": "MCP client does not retry authenticated request after successful OAuth token exchange",
+  "state": "closed",
+  "created_at": "2026-05-11T18:34:24Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2577",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2583,
+  "title": "Race condition between SSE session init and tools/call rejection (-32602)",
+  "state": "closed",
+  "created_at": "2026-05-13T04:31:03Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2583",
+  "body_head": "# [Issue Draft] MCP SDK: Race condition between SSE session init and tools/call rejection (-32602)\n\n## Summary\n\nWhen a MCP server uses the SSE transport, **a new SSE session can receive a `tools/list`"
+ },
+ {
+  "number": 2591,
+  "title": "FastMCP crashes when tool return type uses Python 3.10+ `A | B | C` union syntax",
+  "state": "closed",
+  "created_at": "2026-05-14T12:45:56Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2591",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2604,
+  "title": "streamable_http_client: one concurrent request HTTPStatusError tears down sibling requests",
+  "state": "closed",
+  "created_at": "2026-05-15T11:41:52Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2604",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2605,
+  "title": "Duplicate `initialize` with changed parameters can overwrite `ServerSession.client_params`",
+  "state": "open",
+  "created_at": "2026-05-15T13:34:52Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2605",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2610,
+  "title": "RequestResponder.__exit__ leaks CancelledError on cancelled request, killing the stdio receive loop",
+  "state": "open",
+  "created_at": "2026-05-15T19:52:52Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2610",
+  "body_head": "## Summary\n\nWhen a client sends `notifications/cancelled` for an in-flight request handled over stdio, the server's receive loop task group dies. The process stays alive but stops reading stdin, so ev"
+ },
+ {
+  "number": 2618,
+  "title": "Streamable HTTP server accepts mismatched `MCP-Protocol-Version` header and body `protocolVersion` on `initialize`",
+  "state": "closed",
+  "created_at": "2026-05-16T10:05:03Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2618",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2641,
+  "title": "Add `invalid_target` to `AuthorizationErrorCode` (RFC 8707)",
+  "state": "closed",
+  "created_at": "2026-05-18T21:16:10Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2641",
+  "body_head": "## Summary\n\n`mcp/server/auth/provider.py` defines `AuthorizationErrorCode` as a `Literal` of seven OAuth 2.0 error codes but is missing `\"invalid_target\"`, the error code defined by [RFC 8707 §2](http"
+ },
+ {
+  "number": 2644,
+  "title": "Bug: `anyio.Lock` in `oauth2.py` raises \"current task is not holding this lock\" under cross-task generator driving",
+  "state": "closed",
+  "created_at": "2026-05-19T13:57:13Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2644",
+  "body_head": "# Bug: `anyio.Lock` in `oauth2.py` raises \"current task is not holding this lock\" under cross-task generator driving\n\n## Summary\n\n`mcp/client/auth/oauth2.py` declares its OAuth state lock as `anyio.Lo"
+ },
+ {
+  "number": 2655,
+  "title": "Streamable HTTP server silently drops in-flight request when client reuses a JSON-RPC id",
+  "state": "open",
+  "created_at": "2026-05-21T19:59:05Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2655",
+  "body_head": "## Summary\n\nWhen a client sends two JSON-RPC requests with the same `id` on the same Streamable HTTP session before the first response is delivered, `StreamableHTTPServerTransport` overwrites the per-"
+ },
+ {
+  "number": 2663,
+  "title": "FastMCP.run(transport=\"stdio\") produces noisy traceback on KeyboardInterrupt instead of clean exit",
+  "state": "open",
+  "created_at": "2026-05-22T12:00:19Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2663",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2673,
+  "title": "ClientSession receive loop swallows callback exceptions, replying \"Invalid request parameters\" to the server instead of propagating to the call_tool awaiter",
+  "state": "open",
+  "created_at": "2026-05-24T03:45:45Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2673",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2687,
+  "title": "`OAuthClientInformationFull.redirect_uris`: pydantic strict-type-equality breaks `AnyUrl(x) != AnyHttpUrl(x)` round-trip",
+  "state": "open",
+  "created_at": "2026-05-26T10:37:28Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2687",
+  "body_head": "Summary\nWhen implementing a custom OAuth provider against the MCP Python SDK, callers must construct `OAuthClientInformationFull` instances. The SDK declares `redirect_uris: list[AnyUrl]` (where `AnyU"
+ },
+ {
+  "number": 2688,
+  "title": "`TransportSecuritySettings.allowed_hosts=[]` (default) silently rejects external Host headers with HTTP 421",
+  "state": "closed",
+  "created_at": "2026-05-26T10:42:34Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2688",
+  "body_head": "Summary\nWhen deploying an MCP server behind a reverse proxy (nginx, Cloudflare, etc.) for external access, the SDK's default `TransportSecuritySettings(allowed_hosts=[])` rejects HTTP requests whose `"
+ },
+ {
+  "number": 2695,
+  "title": "Dead code path in MCPServer._handle_call_tool and incorrect call_tool return type",
+  "state": "closed",
+  "created_at": "2026-05-26T18:07:55Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2695",
+  "body_head": "## Summary\n\n`MCPServer._handle_call_tool` in `src/mcp/server/mcpserver/server.py`\ncontains a dead `isinstance(result, dict)` branch, with an inline TODO\nthat already documents both the dead-code issue"
+ },
+ {
+  "number": 2702,
+  "title": "FastMCP: streamable_http_app() silently breaks when BaseHTTPMiddleware is added",
+  "state": "open",
+  "created_at": "2026-05-27T13:55:33Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2702",
+  "body_head": "## Description\n\nAdding a Starlette `BaseHTTPMiddleware` (e.g., for auth) to `FastMCP.streamable_http_app()` silently breaks the MCP server. Every request crashes with `ClosedResourceError` — the clien"
+ },
+ {
+  "number": 2727,
+  "title": "streamable_http client does not send `Origin` header → rejected with 403 by spec-compliant servers (e.g. go-sdk `CrossOriginProtection`)",
+  "state": "open",
+  "created_at": "2026-05-30T02:44:31Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2727",
+  "body_head": "## Summary\n\nThe Python SDK's `streamable_http_client` opens its POST handshake without an `Origin` header (and without `Sec-Fetch-Site`). The official Go SDK (`modelcontextprotocol/go-sdk` v1.4.x) wra"
+ },
+ {
+  "number": 2741,
+  "title": "Stateful Streamable HTTP: in-session exceptions are masked as an empty -32603; real cause only in a separate \"Session crashed\" log",
+  "state": "open",
+  "created_at": "2026-05-31T16:29:52Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2741",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2751,
+  "title": "Deep JSON-RPC request over stdio logs a validation error and leaves the original request pending",
+  "state": "open",
+  "created_at": "2026-06-01T12:48:53Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2751",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before"
+ },
+ {
+  "number": 2770,
+  "title": "McpError raised in tool handlers is swallowed as isError:true instead of propagating as JSON-RPC error",
+  "state": "closed",
+  "created_at": "2026-06-02T22:56:02Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2770",
+  "body_head": "## Bug\n  \n  When a tool handler raises McpError, the call_tool handler in src/mcp/server/lowlevel/server.py catches it via except Exception as e  and wraps it as CallToolResult(isError=True). This los"
+ },
+ {
+  "number": 2794,
+  "title": "Implement SEP-2164: Standardize resource not found error code (-32602)",
+  "state": "closed",
+  "created_at": "2026-06-06T09:22:12Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2794",
+  "body_head": "Tracking implementation of [SEP-2164](https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2164) for the 2026-07-28 MCP spec release.\n\nImplementation: #2344"
+ },
+ {
+  "number": 2826,
+  "title": "`simple-auth` is not working as expected",
+  "state": "open",
+  "created_at": "2026-06-10T07:58:22Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2826",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Description\n\nI am trying to follow the example as described in [examples/se"
+ },
+ {
+  "number": 2847,
+  "title": "Bug: anyio.Lock in async_auth_flow causes RuntimeError under concurrent OAuth MCP connections",
+  "state": "open",
+  "created_at": "2026-06-12T10:39:59Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2847",
+  "body_head": "## Summary\n\nConfirmed production occurrence of the bug described in #2644 (self-closed by the original reporter before they could follow through). Filing to provide a second validated repro and draw attention to the existing draft fix in #2660.\n\n## Environment\n\n- `mcp==1.26.0`\n- `anyio==4.13.0`\n- `h"
+ },
+ {
+  "number": 2848,
+  "title": "Invalid JSON-RPC envelope errors are not correlated with the original request id",
+  "state": "open",
+  "created_at": "2026-06-12T11:49:58Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2848",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Description\n\nAfter a normal initialization flow, several id-bearing JSON-RP"
+ },
+ {
+  "number": 2883,
+  "title": "AnyHttpUrl normalization adds trailing slash → breaks RFC 9728 canonical resource URL in ProtectedResourceMetadata",
+  "state": "closed",
+  "created_at": "2026-06-16T17:59:06Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2883",
+  "body_head": "## Repro\n\n```python\nfrom pydantic import AnyHttpUrl\nstr(AnyHttpUrl(\"https://example.com\"))\n# -> 'https://example.com/'\n```\n\n## Context\n\nWe use `mcp.shared.auth.ProtectedResourceMetadata.resource` for canonical resource URLs exposed at `/.well-known/oauth-protected-resource`. When `AnyHttpUrl` normal"
+ },
+ {
+  "number": 2958,
+  "title": "StreamableHTTP server accumulates CLOSE_WAIT sockets behind reverse proxy due to missing disconnect cleanup",
+  "state": "open",
+  "created_at": "2026-06-24T06:53:25Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2958",
+  "body_head": "## Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n## Description\n\nWhen running a StreamableHTTP MCP server behind a reverse proxy "
+ },
+ {
+  "number": 2960,
+  "title": "[Bug] validate_tool_use_result_messages raises false positive when tool_use is not followed by tool_result",
+  "state": "closed",
+  "created_at": "2026-06-25T03:53:24Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2960",
+  "body_head": "## Bug Description\n\n`validate_tool_use_result_messages()` in `src/mcp/server/validation.py:83-87` raises a false `ValueError` when a `tool_use` block in the previous message is **not** followed by a `tool_result` block in the last message.\n\n## Spec Context\n\nPer SEP-1577:\n- `tool_result` blocks MUST "
+ },
+ {
+  "number": 2961,
+  "title": "[Bug] ResourceTemplate.matches() does not escape regex special chars in URI template literals",
+  "state": "closed",
+  "created_at": "2026-06-25T03:53:34Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2961",
+  "body_head": "## Bug Description\n\n`ResourceTemplate.matches()` in `src/mcp/server/mcpserver/resources/templates.py:97` converts URI templates to regex patterns using simple string replacement, but does **not** escape regex-special characters in literal (non-parameter) parts of the template.\n\n```python\n# L97\npatte"
+ },
+ {
+  "number": 2965,
+  "title": "[Bug] check_capability does not validate elicitation sub-capabilities (form/url)",
+  "state": "open",
+  "created_at": "2026-06-25T10:16:27Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2965",
+  "body_head": "## Summary\n\n`Connection.check_capability()` returns `True` when a client has URL-mode elicitation but the caller checks for form-mode elicitation — the sub-capability (`ElicitationCapability.form` / `.url`) is never inspected.\n\n## Root cause\n\nIn `src/mcp/server/connection.py:340-341`:\n\n```python\nif "
+ },
+ {
+  "number": 3060,
+  "title": "streamable HTTP (stateful): concurrent requests with duplicate JSON-RPC ids cross-wire responses — one request receives another's payload, the other hangs",
+  "state": "open",
+  "created_at": "2026-07-03T17:58:18Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3060",
+  "body_head": "### Summary\n\nIn the stateful streamable-HTTP server transport, two concurrent POSTs on the same session that carry the **same JSON-RPC request id** cross-wire: the later request receives the earlier request's response (entire envelope, wrong arity and all), the later request's own response is silent"
+ },
+ {
+  "number": 3067,
+  "title": "FastMCP tool argument models silently ignore unknown/misspelled arguments (extra=ignore default)",
+  "state": "closed",
+  "created_at": "2026-07-06T10:57:21Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3067",
+  "body_head": "## Description\n\n`mcp.server.fastmcp.utilities.func_metadata.ArgModelBase` does not set `extra` in its\n`model_config`, so it inherits Pydantic v2's default, `extra=\"ignore\"`:\n\n```python\nclass ArgModelBase(BaseModel):\n    \"\"\"A model representing the arguments to a function.\"\"\"\n    ...\n    model_config"
+ },
+ {
+  "number": 3091,
+  "title": "streamable_http: HTTP status errors (401/403/5xx) on tools/list, tools/call never reach the caller — indistinguishable from a timeout",
+  "state": "closed",
+  "created_at": "2026-07-13T19:03:59Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3091",
+  "body_head": "## Description\n\n`StreamableHTTPTransport._handle_post_request` never notifies the caller of a specific pending request when the server returns a non-2xx status (e.g. 401/403). Instead of surfacing as an error to that request, the caller only ever observes a read timeout — indistinguishable from a ge"
+ },
+ {
+  "number": 3099,
+  "title": "Field alias is published in the tool schema but forwarded as an invalid Python keyword",
+  "state": "open",
+  "created_at": "2026-07-16T02:31:00Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3099",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK.\n- [x] I confirm that I searched the issue tracker before opening this issue.\n\n### Description\n\nFor a function parameter annotated with `Field(alias=\"externalX\")`, the generated tool schema correctly requires `ex"
+ },
+ {
+  "number": 3102,
+  "title": "Streamable HTTP server never returns the spec-mandated 405 for GET requests it won't serve as SSE (406/400 instead) — breaks client SSE-probe fallback",
+  "state": "open",
+  "created_at": "2026-07-16T11:26:42Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3102",
+  "body_head": "## Summary\n\nThe streamable-HTTP **server** transport never answers a GET it won't serve with **405 Method Not Allowed**, even though the spec makes 405 the required signal:\n\n> *The server MUST either return `Content-Type: text/event-stream` in response to this HTTP GET, or else return HTTP 405 Metho"
+ },
+ {
+  "number": 3103,
+  "title": "RequireAuthMiddleware omits RFC 6750 scope in WWW-Authenticate on 401/403",
+  "state": "open",
+  "created_at": "2026-07-16T12:58:17Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3103",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Description\n\n## Summary\n\n`RequireAuthMiddleware._send_auth_error` builds `W"
+ },
+ {
+  "number": 3123,
+  "title": "Image content blocks >99 bytes fail with \"illegal base64 at byte 0\"",
+  "state": "closed",
+  "created_at": "2026-07-18T00:19:29Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3123",
+  "body_head": "# Image Content Blocks >99 Bytes Fail Client-Side Decode in stdio Mode\n\n## Summary\n\nImage content blocks returned via `_mcp_content_blocks` fail client-side base64 decoding when the decoded image bytes exceed **99 bytes**, despite the server emitting spec-compliant MCP protocol messages. The issue m"
+ },
+ {
+  "number": 3150,
+  "title": "[v1.x] Backport #1912 and cut a release: a non-UTF-8 POST body on Streamable HTTP gets HTTP 500 INTERNAL_ERROR plus an ERROR cascade instead of the HTTP 400 PARSE_ERROR; the parse broadening ships only on main and the 2.0.0 pre-releases",
+  "state": "closed",
+  "created_at": "2026-07-23T12:27:51Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3150",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\nNote on the first box: we are on v1.28.1, the latest stable release; the only l"
+ },
+ {
+  "number": 3174,
+  "title": "[v2] JSON-RPC error responses leave client OpenTelemetry spans UNSET",
+  "state": "closed",
+  "created_at": "2026-07-26T04:29:12Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3174",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the latest version of MCP Python SDK\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Description\n\nAt current `main` (`11934c90aeff5e1e68aee223edd00c5d1fce1d5c`)"
+ },
+ {
+  "number": 3193,
+  "title": "Unknown methods return -32602 Invalid params instead of -32601 Method not found",
+  "state": "closed",
+  "created_at": "2026-07-27T21:51:02Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3193",
+  "body_head": "A server built on this SDK answers **every** unknown JSON-RPC method with `-32602 Invalid request parameters`, where JSON-RPC 2.0 requires `-32601 Method not found`.\n\n## Why it matters\n\nCatalogue scanners probe for optional capabilities and read the error code to decide whether a method is unsupport"
+ },
+ {
+  "number": 3209,
+  "title": "Bug: OAuth provider holds context.lock for the whole request, so the standalone GET SSE stream stalls the first tools/call by ~15s",
+  "state": "open",
+  "created_at": "2026-07-29T11:34:38Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3209",
+  "body_head": "## Summary\n\nWith `auth=OAuthClientProvider` on a **streamable-HTTP** connection, the *first* `tools/call` of every session blocks for ~15 s. No error, no warning — just latency. Nothing is concurrent here: one server, one client, one session, sequential calls.\n\nRoot cause is the same `context.lock`-"
+ },
+ {
+  "number": 3216,
+  "title": "URI templates does not work with Inspector v2",
+  "state": "closed",
+  "created_at": "2026-07-29T18:40:42Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3216",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3227,
+  "title": "NotRequired TypedDict return annotation raises PydanticForbiddenQualifier at tool registration on Python 3.10",
+  "state": "closed",
+  "created_at": "2026-07-30T20:43:07Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3227",
+  "body_head": "### Release line\n\n2.x (`main`), reproduced at `a4f4ccd0`.\n\n### Bug description\n\nOn Python 3.10 a tool whose return annotation is a `TypedDict` containing a `NotRequired` key\ncannot be registered at all. `@mcp.tool()` raises while the decorator runs, so the failure lands at\nimport time and the tool n"
+ },
+ {
+  "number": 3228,
+  "title": "Rejected streamable-HTTP requests leave live sessions behind: the session is registered before the request is validated",
+  "state": "closed",
+  "created_at": "2026-07-30T20:45:47Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3228",
+  "body_head": "### Release line\n\n2.x (`main`), reproduced at `a4f4ccd0`.\n\n### Bug description\n\nIn the default stateful streamable-HTTP configuration, `StreamableHTTPSessionManager` mints a\nsession id, registers a transport in `_server_instances`, and starts a long-lived session task\n**before the request has been v"
+ },
+ {
+  "number": 3240,
+  "title": "OAuth token refresh hits the wrong endpoint when the auth server lives under a path",
+  "state": "open",
+  "created_at": "2026-08-03T12:55:14Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3240",
+  "body_head": "Ran into this with a hosted MCP server whose authorization server isn't at the origin root — token endpoint is `https://host/oauth2/api/v1/token`, not `https://host/token`.\n\nIf a client starts up with a cached-but-expired access token (+ refresh token) and hasn't done discovery yet, `async_auth_flow"
+ },
+ {
+  "number": 3250,
+  "title": "OAuthClientProvider._initialize() breaks transparent refresh: missing update_token_expiry + missing oauth_metadata load",
+  "state": "open",
+  "created_at": "2026-08-04T19:35:00Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3250",
+  "body_head": "## Two bugs in `OAuthClientProvider._initialize()` combine to break transparent token refresh\n\n### Summary\n\nWhen a client process restarts (or any time `OAuthClientProvider` is reconstructed), the SDK fails to transparently refresh expired access_tokens even when a valid `refresh_token` is on disk a"
+ },
+ {
+  "number": 3266,
+  "title": "Log exceptions in tool calls",
+  "state": "closed",
+  "created_at": "2026-08-07T13:11:44Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3266",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3273,
+  "title": "[v2] ping returns 'Method not found' on 2026-07-28 connections: ping missing from CLIENT_REQUESTS for 2026-07-28 in mcp-types",
+  "state": "closed",
+  "created_at": "2026-08-09T00:45:29Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3273",
+  "body_head": "## Summary\n\nOn a server connection negotiated at protocol version `2026-07-28`, a client `ping` request fails with `MCPError: Method not found` (-32601). The same ping works on handshake-era (2025-11-25 and earlier) connections.\n\n## Root cause\n\n`mcp_types.methods.CLIENT_REQUESTS` (mcp-types 2.0.0) h"
+ },
+ {
+  "number": 3281,
+  "title": "streamable_http (legacy mode): early response.aclose() discards a TCP connection per JSON-RPC exchange — deterministic reproduction for #2707",
+  "state": "open",
+  "created_at": "2026-08-11T09:37:36Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3281",
+  "body_head": "## Summary\n\nIn `mcp` 2.0.0, the streamable-HTTP client in **legacy mode** uses a fresh TCP connection for every JSON-RPC exchange. The cause is the early-close pattern previously discussed in #2707 / PR #2712: `_handle_sse_response` calls `await response.aclose()` as soon as the JSON-RPC reply event"
+ },
+ {
+  "number": 3335,
+  "title": "Windows MCP SSH stdio transport closes after initialize when PROGRAMDATA is missing from inherited environment",
+  "state": "open",
+  "created_at": "2026-08-19T06:17:17Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3335",
+  "body_head": "## Description\n\nOn Windows, an MCP server launched through the stdio client can terminate shortly after the `initialize` message when the spawned process is given the SDK's restricted inherited environment.\n\nDuring investigation of Windows MCP + SSH behavior, I found that `PROGRAMDATA` is missing fr"
+ },
+ {
+  "number": 3337,
+  "title": "Recursive tool return type publishes an outputSchema with no root type, failing tools/list on 2025-11-25 sessions",
+  "state": "closed",
+  "created_at": "2026-08-19T16:11:34Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3337",
+  "body_head": "### Release line\n\n2.x (`main`), observed at b2025ab8 and on #3331.\n\n### Bug description\n\nWhen an MCPServer tool's return type is self-referential, pydantic emits the output schema as `{\"$defs\": {...}, \"$ref\": \"#/$defs/Node\"}` with no root `\"type\": \"object\"`. That's fine on 2026-07-28 sessions, but t"
+ },
+ {
+  "number": 3341,
+  "title": "A tool returning a non-finite float fails on the client with an error naming the tool",
+  "state": "open",
+  "created_at": "2026-08-20T07:04:18Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3341",
+  "body_head": "## Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (verified on 2.0.0)\n- [x] I confirm that I searched for my issue before opening this issue\n\n## Release line\n\n`2.x (current stable)`. Also reproduces on 1.29.0.\n\n## Bug description\n\nA tool returning a non-finite float fai"
+ },
+ {
+  "number": 3342,
+  "title": "Prompt validation errors are logged with an unnecessary traceback",
+  "state": "open",
+  "created_at": "2026-08-20T09:16:21Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3342",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3345,
+  "title": "Client treats JSON-null structuredContent as missing, skipping outputSchema validation",
+  "state": "closed",
+  "created_at": "2026-08-20T17:21:47Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3345",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3351,
+  "title": "Server.call_tool()'s input-validation error result discards jsonschema.ValidationError's structured fields, leaving only free-text prose",
+  "state": "open",
+  "created_at": "2026-08-21T09:24:45Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3351",
+  "body_head": "## Summary\n\n`Server.call_tool()`'s low-level dispatch validates tool arguments against `tool.inputSchema` and, on failure, builds the error result like this:\n\n```python\ntry:\n    jsonschema.validate(instance=arguments, schema=tool.inputSchema)\nexcept jsonschema.ValidationError as e:\n    return self._"
+ },
+ {
+  "number": 3353,
+  "title": "2025-11-25 `Tool.inputSchema`/`outputSchema` reject boolean sub-schemas in `properties`, failing the whole `tools/list`",
+  "state": "closed",
+  "created_at": "2026-08-21T12:02:52Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3353",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3356,
+  "title": "bug(client/streamable_http): prevent infinite SSE reconnect loops with bounded exponential backoff",
+  "state": "open",
+  "created_at": "2026-08-21T18:28:53Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3356",
+  "body_head": "### Problem\nIn `StreamableHTTPTransport.handle_get_stream`, when an SSE stream disconnects or closes (server-side EOF/backpressure), `attempt` was reset to 0 upon exit. If an upstream server disconnects continuously, the client bypasses `MAX_RECONNECTION_ATTEMPTS` and enters an infinite reconnection"
+ },
+ {
+  "number": 3382,
+  "title": "OAuthClientProvider auth lock is permanently poisoned when httpx closes async_auth_flow from a different task (RuntimeError: The current task is not holding this lock)",
+  "state": "open",
+  "created_at": "2026-08-25T00:56:27Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3382",
+  "body_head": "## Summary\n\n`OAuthClientProvider.async_auth_flow` holds `self.context.lock` (an `anyio.Lock`) across the entire httpx auth-flow generator, including every `yield` (`src/mcp/client/auth/oauth2.py:582` in v2.0.0; same code is present on v2.1.0 and main). `anyio.Lock.release()` is bound to the acquirin"
+ },
+ {
+  "number": 3384,
+  "title": "ClientSessionGroup raises KeyError when a server exposes no tools, resources or prompts",
+  "state": "open",
+  "created_at": "2026-08-25T04:47:21Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3384",
+  "body_head": "### Initial Checks\n\n- [X] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [X] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3385,
+  "title": "A tool returning a non-finite float puts invalid JSON in the text content block",
+  "state": "open",
+  "created_at": "2026-08-25T04:47:41Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3385",
+  "body_head": "### Initial Checks\n\n- [X] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [X] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3434,
+  "title": "In-process callback failures break tool calls and notification sends",
+  "state": "closed",
+  "created_at": "2026-09-03T07:11:40Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3434",
+  "body_head": "## Initial Checks\n\n- [x] I confirm that I am using the newest release of the 2.x line.\n- [x] I confirm that I searched the issue tracker before opening this issue.\n\n## Release line\n\n2.x (current stable)\n\n## Description\n\n`Client(server)` uses `DirectDispatcher`. If a progress callback raises, that ex"
+ },
+ {
+  "number": 3469,
+  "title": "StreamableHTTP: a client disconnect while reading the POST body is logged as an exception and answered 500",
+  "state": "open",
+  "created_at": "2026-09-07T12:50:05Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3469",
+  "body_head": "### Initial Checks\n\n- [X] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [X] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3473,
+  "title": "[Bug] Client sends empty _meta:{} on every request; strict servers (Meta Ads MCP) reject with HTTP 400",
+  "state": "closed",
+  "created_at": "2026-09-08T07:15:43Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3473",
+  "body_head": "## Description\n\n`JSONRPCDispatcher.send_raw_request` attaches `_meta` to `params` unconditionally:\n\n```python\nout_params = dict(params) if params is not None else {}\nout_meta = dict(out_params.get(\"_meta\") or {})\non_progress = opts.get(\"on_progress\")\nif on_progress is not None:\n    out_meta[\"progres"
+ },
+ {
+  "number": 3476,
+  "title": "Missing prompt-level _meta support in MCPServer.prompt() and Prompt model",
+  "state": "open",
+  "created_at": "2026-09-08T14:04:05Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3476",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3483,
+  "title": "Client never retries after -32020 HeaderMismatch, and there is no public way to pre-load the x-mcp-header map (SEP-2243 client SHOULD/MAY both unimplemented)",
+  "state": "closed",
+  "created_at": "2026-09-09T01:28:29Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3483",
+  "body_head": "### Summary\n\nAt `2026-07-28`, a `ClientSession` that has not listed a tool sends `tools/call` with no `Mcp-Param-*` headers, the server rejects it with `-32020`, and **the client stops there**. SEP-2243 says it SHOULD re-list and retry, and there is no way for an application to supply the map instea"
+ },
+ {
+  "number": 3484,
+  "title": "MCPServer has no x-mcp-header declaration mechanism and never validates one, so an invalid annotation is served happily and dropped by every client",
+  "state": "closed",
+  "created_at": "2026-09-09T01:28:35Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3484",
+  "body_head": "### Summary\n\n`MCPServer` offers no way to mark a tool parameter with `x-mcp-header`, and does not validate the annotation when one is smuggled in through pydantic. A server author who gets it wrong gets no signal at all: the tool is served happily, and every conforming client silently drops it.\n\nSEP"
+ },
+ {
+  "number": 3487,
+  "title": "pkg_version() in Server.create_initialization_options doesn't guard against importlib.metadata.version() returning None",
+  "state": "closed",
+  "created_at": "2026-09-09T19:09:13Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3487",
+  "body_head": "## Summary\n\n`Server.create_initialization_options` in `mcp/server/lowlevel/server.py:183` falls through to `pkg_version(\"mcp\")` when `self.version` is falsy. The fallback function catches exceptions and returns `\"unknown\"`, but doesn't guard against the (rare but real) case where `importlib.metadata"
+ },
+ {
+  "number": 3490,
+  "title": "ClientSessionGroup: a rejected connect_to_server leaves its transport running — the session is established before its components are validated",
+  "state": "open",
+  "created_at": "2026-09-10T16:06:41Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3490",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3492,
+  "title": "Streamable HTTP stateless servers hang clients on the listen-mode GET (_handle_get_request opens a hold-open SSE stream)",
+  "state": "open",
+  "created_at": "2026-09-11T02:50:59Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3492",
+  "body_head": "## Environment\nmcp Python SDK 1.29.1 / 1.30.0, FastMCP with `stateless_http=True` and `streamable_http_path=\"/\"`, mounted in a Starlette app.\n\n## Symptom\nA client that opens the listen-mode GET (`Accept: text/event-stream`) receives HTTP 200 with `Content-Type: text/event-stream` but the response ne"
+ },
+ {
+  "number": 3493,
+  "title": "MCPServer serves subscriptions/listen and advertises listChanged=true unconditionally — hold-open streams pin serverless invocations to the platform timeout",
+  "state": "closed",
+  "created_at": "2026-09-11T12:08:24Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3493",
+  "body_head": "## Summary\n\n`MCPServer` always registers the `subscriptions/listen` handler (`on_subscriptions_listen=ListenHandler(self._subscriptions)`), and `Server.get_capabilities()` derives `tools/prompts/resources.listChanged = true` and `resources.subscribe = true` from the mere presence of that handler on "
+ },
+ {
+  "number": 3496,
+  "title": "Windows stdio resolves .ps1 then fails to spawn it",
+  "state": "closed",
+  "created_at": "2026-09-13T09:06:08Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3496",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3503,
+  "title": "streamable HTTP client: the standalone GET stream advertises Accept: application/json but can only read text/event-stream, then gives up silently",
+  "state": "open",
+  "created_at": "2026-09-14T16:56:25Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3503",
+  "body_head": "_AI disclosure: I used Claude Code to read the transport, capture the headers and build the reproduction. I hit the problem myself, ran the repro, and stand behind the report._\n\n### Initial Checks\n\n- `2.2.0` (latest 2.x). The two files involved are byte-identical at `upstream/main` (`9972c21a`); `v1"
+ },
+ {
+  "number": 3504,
+  "title": "Does same-origin redirect enforcement break MCP servers behind a reverse proxy?",
+  "state": "open",
+  "created_at": "2026-09-15T02:47:19Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3504",
+  "body_head": "Reading the v2.2.0 release notes: the HTTP client now fails redirects with `MCPError` unless the target is same-origin. For self-hosted setups this seems like it could bite people running an MCP server behind something like Caddy or nginx — e.g. an HTTP→HTTPS redirect, or a redirect from a bare port"
+ },
+ {
+  "number": 3522,
+  "title": "Streamable HTTP client stays closed after an interrupted response and raises ExceptionGroup on cleanup",
+  "state": "open",
+  "created_at": "2026-09-17T13:50:42Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3522",
+  "body_head": "### Description\n\nWith the current 2.x release, one interrupted Streamable HTTP tool response permanently closes the Python client session. The failing request is reported, but a subsequent normal request on the same client fails with `MCPError: Connection closed`. Exiting `streamable_http_client(..."
+ },
+ {
+  "number": 3549,
+  "title": "How can I manage resource across multiple tool calls during one session?",
+  "state": "open",
+  "created_at": "2026-09-20T05:08:11Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3549",
+  "body_head": "### Description\n\nI was messing around multiple agents running in parallel, and suffered from some kind of race condition. I had to write a lock for them.\n\nIt looks like each agent has their own *session*, but I don't have any idea to handle how they create and terminate.\n\nThe code can be like below,"
+ },
+ {
+  "number": 3551,
+  "title": "stdio server ignores the first two Ctrl+C presses at a terminal (blocked stdin worker thread)",
+  "state": "open",
+  "created_at": "2026-09-20T13:48:22Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3551",
+  "body_head": "### Description\n\nRunning an `MCPServer` over stdio from a terminal, Ctrl+C does nothing the first time, nothing visible the second time, and the third ends the process with a traceback out of `threading._shutdown`. This is related to #2663 but is not the same problem, and the fix proposed there (cat"
+ },
+ {
+  "number": 3554,
+  "title": "Structured tool output: `-> bytes` return crashes with a generic error on non-UTF-8 payloads instead of returning the advertised base64/binary string",
+  "state": "open",
+  "created_at": "2026-09-21T01:45:22Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3554",
+  "body_head": "### Initial Checks\n\n- [X] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [X] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3556,
+  "title": "Streamable HTTP client treats 404 as terminal instead of re-initializing, as the spec requires",
+  "state": "open",
+  "created_at": "2026-09-21T13:08:49Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3556",
+  "body_head": "### Summary\n\nThe 2025-06-18 Streamable HTTP transport specification says that a client which receives\n`HTTP 404` in response to a request carrying an `Mcp-Session-Id` header MUST start a new\nsession by sending a new `InitializeRequest` without a session id.\n\n`StreamableHTTPTransport` never does this"
+ },
+ {
+  "number": 3557,
+  "title": "Malformed requests get -32602 where JSON-RPC 2.0 requires -32600 (non-Request body) and -32601 (unknown method)",
+  "state": "open",
+  "created_at": "2026-09-21T21:30:21Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3557",
+  "body_head": "Two malformed-request shapes are answered with `-32602 INVALID_PARAMS` where JSON-RPC 2.0 requires a different code. Both are still present on `main` (checked against the 2.2.0 wheel).\n\n### 1. A body that is valid JSON but not a JSON-RPC message → `-32600`, not `-32602`\n\n`mcp/server/streamable_http."
+ },
+ {
+  "number": 3560,
+  "title": "POST failure identical to task cancellation in streamable HTTP client",
+  "state": "open",
+  "created_at": "2026-09-22T17:40:30Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3560",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3566,
+  "title": "OAuth client scope handling breaks on comma-separated scope strings",
+  "state": "closed",
+  "created_at": "2026-09-23T13:04:17Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3566",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (verified on `main` and 2.2.0)\n- [x] I confirm that I searched for my issue in the issues before opening this one (searched \"comma scope\", \"scope separator\")\n\n### Release line\n\nv2 (v1 shares the code)\n\n### Description\n\n"
+ },
+ {
+  "number": 3569,
+  "title": "Client transports/sessions swallow the original exception; applications cannot classify 401/403/429 transport failures",
+  "state": "open",
+  "created_at": "2026-09-23T15:59:43Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3569",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (verified on `main` and 2.2.0)\n- [x] I confirm that I searched for my issue in the issues before opening this one (searched \"exception pending request\", \"error classification\", \"McpError generic\")\n\n### Release line\n\nv2 "
+ },
+ {
+  "number": 3572,
+  "title": "Tool validation errors echo the rejected input value (input_value) — add a masking option or a public validation-error hook",
+  "state": "open",
+  "created_at": "2026-09-23T18:44:34Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3572",
+  "body_head": "### What happens\n\nWhen a tool call's arguments fail pydantic validation, `Tool.run` wraps the `ValidationError` into a `ToolError` whose message includes the pydantic rendering — and `str(ValidationError)` carries the offending value:\n\n```\nError executing tool <name>: 1 validation error for <model>\n"
+ },
+ {
+  "number": 3573,
+  "title": "func_metadata raises uncaught PydanticSchemaGenerationError for Iterator/AsyncIterator tool return annotations instead of the unstructured fallback",
+  "state": "open",
+  "created_at": "2026-09-23T19:25:58Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3573",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3578,
+  "title": "ClientSessionGroup raises KeyError when connecting a server that exposes no components",
+  "state": "open",
+  "created_at": "2026-09-24T05:55:26Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3578",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [ ] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3579,
+  "title": "`ClientSessionGroup` has no routed `read_resource` / `get_prompt` (only `call_tool`)",
+  "state": "open",
+  "created_at": "2026-09-24T05:58:22Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3579",
+  "body_head": "### Description\n\n```markdown\n### What I ran into\n\n`ClientSessionGroup` aggregates tools, resources, and prompts into one view, and\n`call_tool(name, ...)` routes to the session that owns the tool. But that routing\nexists only for tools. There's no equivalent way to read an aggregated resource\nor fetc"
+ },
+ {
+  "number": 3585,
+  "title": "Image/Audio `format=` emits image/jpg, audio/mp3, audio/m4a — unregistered MIME types that disagree with the `path=` suffix table",
+  "state": "open",
+  "created_at": "2026-09-26T03:21:38Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3585",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my release line (2.2.0)\n- [x] I have searched GitHub issues and found no similar issue\n\n### Release Line\n\n2.x (current stable). The same code exists on `v1.x` (`src/mcp/server/fastmcp/utilities/types.py`).\n\n### Description\n\n`Im"
+ },
+ {
+  "number": 3586,
+  "title": "Streamable HTTP on Windows: after a tool raises a non-ToolError, no request is answered again (2.1.0+, 2.0.1 fine)",
+  "state": "closed",
+  "created_at": "2026-09-26T13:09:24Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3586",
+  "body_head": "## Initial Checks\n\n- [x] I confirm that I am using the newest release of the 2.x line.\n- [x] I confirm that I searched the issue tracker before opening this issue.\n\n## Release line\n\n2.x (current stable)\n\n## Description\n\nOn Windows, over the streamable-http transport, the first `tools/call` whose han"
+ },
+ {
+  "number": 3588,
+  "title": "Streamable HTTP: Client mode=\"auto\" fails on server/discover against MCPServer + uvicorn (RemoteProtocolError)",
+  "state": "closed",
+  "created_at": "2026-09-27T07:15:43Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3588",
+  "body_head": "### Summary\n\nWith `mcp` 2.2.0, a `Client` in the default `mode=\"auto\"` cannot talk to an `MCPServer` served over Streamable HTTP by uvicorn: the `server/discover` POST returns `200 OK`, but reading the response body fails with `httpx2.RemoteProtocolError('peer unexpectedly closed connection')`. `mod"
+ },
+ {
+  "number": 3592,
+  "title": "Streamable HTTP client retries the standalone GET after a 401, 403, or 405",
+  "state": "open",
+  "created_at": "2026-09-28T14:42:43Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3592",
+  "body_head": "On mcp 1.28.1 through 2.2.0, `StreamableHTTPTransport.handle_get_stream` treats a 401, 403, or 405 on the standalone server-push GET like a dropped stream. `raise_for_status()` raises, the except Exception increments the attempt, and the loop sleeps `DEFAULT_RECONNECTION_DELAY_MS` before trying agai"
+ },
+ {
+  "number": 3616,
+  "title": "SSE: a POST blocks forever (and SIGTERM hangs) when the server lifespan raises after an await",
+  "state": "open",
+  "created_at": "2026-10-02T05:18:44Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3616",
+  "body_head": "### Summary\n\nWith the SSE transport, if the server's lifespan raises **after its first `await`**, a client `POST /messages/` that arrives in the meantime is answered `202` and then blocks forever in `handle_post_message`. On SIGTERM, uvicorn then waits on that request task indefinitely (`Waiting for"
+ },
+ {
+  "number": 3631,
+  "title": "Streamable HTTP notification triggers duplicate response after HTTP 202",
+  "state": "open",
+  "created_at": "2026-10-02T17:12:26Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3631",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3637,
+  "title": "Pydantic model parameter not flattened in MCP tool schema — breaks SDK clients that send flat argument dicts",
+  "state": "closed",
+  "created_at": "2026-10-03T03:02:01Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3637",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3639,
+  "title": "Streamable HTTP client hangs on a null-id JSON-RPC error in a 200 JSON response",
+  "state": "open",
+  "created_at": "2026-10-03T04:03:31Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3639",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3640,
+  "title": "ServerCapabilities drops unknown keys, so a server can't advertise `events` for ChatGPT's MCP Events",
+  "state": "open",
+  "created_at": "2026-10-03T17:39:06Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3640",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x (current "
+ },
+ {
+  "number": 3641,
+  "title": "ClosedResourceError + 'Unexpected ASGI message ... after response already completed' race in _handle_post_request notification path (streamable-http)",
+  "state": "closed",
+  "created_at": "2026-10-03T18:56:43Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3641",
+  "body_head": "# Bug: `RuntimeError: Unexpected ASGI message 'http.response.start' sent, after response already completed` following `ClosedResourceError` in `_handle_post_request` notification/response path\n\n## Environment\n\n- `mcp`: 2.1.1\n- `starlette`: 1.6.0\n- `uvicorn`: 0.52.4\n- `anyio`: 4.14.2\n- Python: 3.13.1"
+ },
+ {
+  "number": 3643,
+  "title": "Prompt handlers returning UserList are rendered as one text message",
+  "state": "open",
+  "created_at": "2026-10-05T09:51:38Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3643",
+  "body_head": "### Initial Checks\n\n- [x] Reproduced with mcp 2.3.0, the latest release when checked.\n- [x] Searched the issue tracker for an existing report.\n\n### Release line\n\n2.x (current stable)\n\n### Description\n\nA prompt handler returning a `collections.UserList` of messages produces one user message containin"
+ },
+ {
+  "number": 3644,
+  "title": "Tool outputSchema is generated in validation mode, so serialization aliases and computed fields don't match structuredContent",
+  "state": "open",
+  "created_at": "2026-10-05T11:35:00Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3644",
+  "body_head": "On v2 (`2118f14`), a tool returning a model with a `serialization_alias` or a `@computed_field` advertises an `outputSchema` that its own `structuredContent` violates:\n\n```python\nfrom pydantic import BaseModel, Field, computed_field\nfrom mcp.server.mcpserver.utilities.func_metadata import func_metad"
+ },
+ {
+  "number": 3646,
+  "title": "Would opt-in rejection of unknown tool arguments be useful in 2.x?",
+  "state": "closed",
+  "created_at": "2026-10-06T09:49:31Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3646",
+  "body_head": "Related: #3067 and the closed PR #3068. I would like to ask whether maintainers want an **opt-in, per-tool policy** for this behavior, while preserving the existing 2.x default. If this is better discussed in #3067, I am happy to consolidate it there.\n\nOn current main (`91941ed4d3985d59def99e090baa3"
+ },
+ {
+  "number": 3649,
+  "title": "MCPServer completion handler returning more than 100 values fails on 2026-07-28 sessions and violates the 100-item limit on 2025-11-25 sessions",
+  "state": "open",
+  "created_at": "2026-10-06T17:10:46Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3649",
+  "body_head": "### Initial Checks\r\n\r\n- [X] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\r\n- [X] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\r\n\r\n### Release line\r\n\r\n2.x (c"
+ },
+ {
+  "number": 3656,
+  "title": "Audio(data=b\"\") raises \"Either path or data can be provided\", while Image(data=b\"\") works",
+  "state": "open",
+  "created_at": "2026-10-08T04:32:22Z",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3656",
+  "body_head": "### Initial Checks\n\n- [x] I confirm that I'm using the newest release of my line (the latest 2.x, or the latest 1.x if I'm still on v1)\n- [x] I confirm that I searched for my issue in https://github.com/modelcontextprotocol/python-sdk/issues before opening this issue\n\n### Release line\n\n2.x\n\n### Desc"
+ }
+]

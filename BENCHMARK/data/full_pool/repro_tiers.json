@@ -1,0 +1,2396 @@
+[
+ {
+  "number": 76,
+  "title": "GitHub MCP server doesn't work in Python SDK",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/76",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 78,
+  "title": "Example server and client not working",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/78",
+  "tier": "T2 env/dep-limited",
+  "reason": "example-config: bug is in an official example/quickstart code path, not reproducible via a fresh streamable-HTTP MCPServer; single tool call runs clean"
+ },
+ {
+  "number": 79,
+  "title": "`RuntimeError: Attempted to exit cancel scope in a different task than it was entered in` with AsyncExitStack",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/79",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 88,
+  "title": "Random error thrown on response",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/88",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 92,
+  "title": "Resource Templates not exposed to Claude UI",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/92",
+  "tier": "T2 env/dep-limited",
+  "reason": "example-config: bug is in an official example/quickstart code path, not reproducible via a fresh streamable-HTTP MCPServer; single tool call runs clean"
+ },
+ {
+  "number": 101,
+  "title": "SSE client connect SSE Server got Error: \" Error in post_writer\" and \"TypeError: 'NoneType' object is not callable\"",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/101",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 110,
+  "title": "Client side JSON decode error when server does not use UTF-8",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/110",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 111,
+  "title": "Requirement name `mcp` matches project name `mcp`",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/111",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 122,
+  "title": "Maybe: using standand openai base url is not working",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/122",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 124,
+  "title": "pip install mcp - Unable to find FastMCP",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/124",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 127,
+  "title": "Fail to import FastMCP",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/127",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 131,
+  "title": "npx / node not found using lazy node with zsh",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/131",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 146,
+  "title": "error: No `pyproject.toml` found in current directory or any parent directory",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/146",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 147,
+  "title": "MCP server disconnected",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/147",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: intermittent server-disconnect with no single reproducible trigger; single tool call returns cleanly"
+ },
+ {
+  "number": 148,
+  "title": "bug: mcp server installation doesn't work",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/148",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 163,
+  "title": "Demo MCP and others are now failing for",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/163",
+  "tier": "T2 env/dep-limited",
+  "reason": "example-config: bug is in an official example/quickstart code path, not reproducible via a fresh streamable-HTTP MCPServer; single tool call runs clean"
+ },
+ {
+  "number": 164,
+  "title": "Claude Desktop breaking down after asking to execute tool",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/164",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 178,
+  "title": "Log_level DEBUG breaks when creating a resource.",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/178",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: log_level DEBUG + resource creation path not triggered by this single call"
+ },
+ {
+  "number": 182,
+  "title": "Failed to run server: Server.run() missing 3 required positional arguments: 'read_stream', 'write_stream', and 'initialization_options'",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/182",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 184,
+  "title": "inspector Unexpected token {",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/184",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 196,
+  "title": "Tools list RuntimeError with SSE transport",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/196",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 201,
+  "title": "Client hangs when ctx.info() logging with pure Python client",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/201",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: ctx.info() logging callback path (pure-Python client hang); single tool call returning normally did not hang"
+ },
+ {
+  "number": 234,
+  "title": "{'content': [{'type': 'text', 'text': 'Error: Unknown tool: get_current_time'}], 'isError': False}",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/234",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 238,
+  "title": "multiple servers deployment occur error",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/238",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 240,
+  "title": "Cannot start client with npx",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/240",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 244,
+  "title": "`@app.resource()` does not accept `ctx: Context`",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/244",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 252,
+  "title": "Error during cleanup of server sqlite: Attempted to exit cancel scope in a different task than it was entered in",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/252",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 256,
+  "title": "fastmcp SSE mode cannot be connected",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/256",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 263,
+  "title": "dynamic resource not working in Claude desktop",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/263",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 280,
+  "title": "AttributeError: 'JSONRPCMessage' object has no attribute 'message' in MCP 1.4.0",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/280",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 283,
+  "title": "Clients fail and crash If initial GET request returns a redirect (e.g. 302)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/283",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 290,
+  "title": "Expected ',' or ']' after array element in JSON in every MCP-Response",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/290",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 291,
+  "title": "MCP Python client fails to load the server",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/291",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 298,
+  "title": "Python tool call longer than 3-5sec freezes and breaks the code",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/298",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: slow sync tool completed within client timeout (no freeze reproduced); needs async long-blocking path"
+ },
+ {
+  "number": 310,
+  "title": "Unable to connect to mcp server",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/310",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 320,
+  "title": "Python client not working with mcp/puppeteer",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/320",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 326,
+  "title": "MCP client with npx not working when env parameter of StdioServerParameters is set",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/326",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 332,
+  "title": "Client requests hang forever if server dies",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/332",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 334,
+  "title": "MCP Server Initialization Fails with \"spawn uv ENOENT\" Error",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/334",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 341,
+  "title": "Wrong types for logging_callback in Client. The callback is never called.",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/341",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: logging_callback is client-side config; single server call does not exercise it"
+ },
+ {
+  "number": 348,
+  "title": "No way to set isError=True for arbitrary tool result content",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/348",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 355,
+  "title": "Type error when using Lifespan context",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/355",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: AppContext lifespan type-annotation is a static typing issue, not a runtime fault; server runs"
+ },
+ {
+  "number": 359,
+  "title": "stdio_client not starting in windows: getting NotImplementedError",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/359",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 360,
+  "title": "stdio_client context manager hangs",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/360",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 369,
+  "title": "NotImplementedError in asyncio subprocess_exec when using MCP client on Windows with Python 3.12",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/369",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 382,
+  "title": "`stdio_client` hangs during `session.initialize()` due to failed message transfer via internal `anyio` memory stream",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/382",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 389,
+  "title": "Throwing an error when the function takes too long, TypeError: 'NoneType' object is not callable",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/389",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: slow tool returned after timeout; no TypeError NoneType observed (need server-side progress callback)"
+ },
+ {
+  "number": 390,
+  "title": "MCPv1.6.0 - SSE Initialization Hang with FastMCP - 202 Accepted",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/390",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 396,
+  "title": "MCP Server: Inconsistent Exception Handling in @app.call_tool and Client Undetected Server Termination via Stdio",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/396",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 398,
+  "title": "Connect to MCP Server with SSE  Invalid transport type: undefined",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/398",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 399,
+  "title": "[Progress] ProgressNotification The message field is missing.",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/399",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: ProgressNotification message field requires server to emit a progress notification; not triggered"
+ },
+ {
+  "number": 402,
+  "title": "Claude throwing an error \"Server disconnected\"",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/402",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: add() tool ran cleanly; disconnect is host/client-side, no runtime fault via streamable-HTTP"
+ },
+ {
+  "number": 406,
+  "title": "MCP python server doesn't work in claude desktop app",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/406",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 407,
+  "title": "Error: Timed out while waiting for response to ClientRequest. Waited 0:00:05 seconds",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/407",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: slow tool returned within client timeout (no -32001 timeout reproduced); needs longer tool + shorter client_timeout"
+ },
+ {
+  "number": 409,
+  "title": "Error from MCP server: SyntaxError: Unexpected token 'E', \"Error: typ\"... is not valid JSON",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/409",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 410,
+  "title": "The Python MCP server hangs when the `/messages` endpoint gives an unexpected response",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/410",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: /messages unexpected-response scenario needs a custom message endpoint; single tool call clean"
+ },
+ {
+  "number": 417,
+  "title": "MCP Server Internal Server Error Report",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/417",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): reproduced: tool handler raises -> client receives generic Error executing tool boom (is_error=True), real exception value masked (same error-masking theme)"
+ },
+ {
+  "number": 432,
+  "title": "SSE Connection Failure Described as \"throw new Error(\"Not connected\")\"",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/432",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 433,
+  "title": "SSE Connection Failure Described as \"throw new Error(\"Not connected\")\"",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/433",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 447,
+  "title": "sse_client blocks indefinitely when server has incorrect base URL",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/447",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 464,
+  "title": "Wrong data path when MCP server mounted as ASGI SSE app under some subpath",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/464",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 469,
+  "title": "sse_client connect to mcp server got server error 504",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/469",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 478,
+  "title": "Fix ENOENT error when installing MCP server with `mcp install server.py`",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/478",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 483,
+  "title": "AssertionError in ClientSession.initialize() when writing to anyio stdio stream",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/483",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 490,
+  "title": "SSE MCP server fails when URL contains subpaths",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/490",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 491,
+  "title": "subscribe_resource return NotImplementedError",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/491",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 492,
+  "title": "`post_writer` Client error `400 Bad Request` when initializing session between Python MCP Client and TypeScript MCP Server",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/492",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: serialization/validation defect needs a specific schema/response shape not produced by a ping tool call; clean run"
+ },
+ {
+  "number": 503,
+  "title": "Unable to work properly with SSE transport when perform long time task",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/503",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 507,
+  "title": "404 Not Found Error when Establishing SSE Connection via MCP Python SDK",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/507",
+  "tier": "T2 env/dep-limited",
+  "reason": "requires specific platform/Python/dependency/packaging not present"
+ },
+ {
+  "number": 511,
+  "title": "Unable to add annotations data with @FastMCP.tool() decorator",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/511",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: annotations passed via @tool() decorator; no visible defect on single call"
+ },
+ {
+  "number": 514,
+  "title": "FastMCP server with SSE transport fails to shut down on a signal",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/514",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 521,
+  "title": "RuntimeError: Attempted to exit cancel scope in a different task than it was entered in",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/521",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 530,
+  "title": "VSCode cannot connect? Failing with `405 Method Not Allowed`",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/530",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 533,
+  "title": "Example servers, ImportError during running",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/533",
+  "tier": "T2 env/dep-limited",
+  "reason": "example-config: bug is in an official example/quickstart code path, not reproducible via a fresh streamable-HTTP MCPServer; single tool call runs clean"
+ },
+ {
+  "number": 537,
+  "title": "Tool.from_function fails to detect parameterized Context subclasses",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/537",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 542,
+  "title": "MCP server with STDIO transport throws an 'Error: SSE connection not established' when attempting to connect via MCP Inspector",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/542",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 543,
+  "title": "[BUG] session.initialize() hangs indefinitely with stdio_client setup",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/543",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 552,
+  "title": "On Windows 11 when you initialize an mcp client it hangs indefinitely",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/552",
+  "tier": "T2 env/dep-limited",
+  "reason": "env-specific: Windows + stdio init hang; not reproducible via streamable-HTTP"
+ },
+ {
+  "number": 560,
+  "title": "Failed to run server: module 'mcp' has no attribute 'run'",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/560",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 563,
+  "title": "`sse_client` fails if URL is not on the root path",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/563",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 572,
+  "title": "`NotImplementedError` on Windows with `stdio_client` and default `asyncio` backend",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/572",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 575,
+  "title": "Bug: RuntimeError during cleanup on Windows – no running event loop",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/575",
+  "tier": "T2 env/dep-limited",
+  "reason": "env-specific: Windows terminate_windows_process event-loop cleanup; streamable-HTTP path not affected"
+ },
+ {
+  "number": 577,
+  "title": "`RuntimeError: Attempted to exit cancel scope in a different task` when cleaning up multiple MCPClient instances out-of-order",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/577",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 583,
+  "title": "SSE connection not established while trying to list tools via inspector",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/583",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 585,
+  "title": "Python MCP SDK: Incorrect handling of absolute paths in SSE endpoint URLs leads to incorrect URL construction.",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/585",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 608,
+  "title": "AttributeError: module 'mcp' has no attribute 'prompt'",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/608",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 613,
+  "title": "401 from /sse after upgrading to 1.7.0",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/613",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 616,
+  "title": "When no authorization is required dont fail on missing user scope 401 Unauthorized #615",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/616",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 617,
+  "title": "SSE not working with 'https' endpoint",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/617",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 623,
+  "title": "MCP Inspector can't connect with mcp server",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/623",
+  "tier": "T2 env/dep-limited",
+  "reason": "external-tool: MCP Inspector connection; not a streamable-HTTP server fault"
+ },
+ {
+  "number": 647,
+  "title": "Bugs in simple-streamablehttp-stateless",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/647",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 663,
+  "title": "When I connect to Python Server using Java Client, I get a 'Received request before initialization was complete' exception.",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/663",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 668,
+  "title": "Will not work if multiple MCP inspector windows are open",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/668",
+  "tier": "T2 env/dep-limited",
+  "reason": "external-tool: multiple MCP Inspector windows; not reproducible via streamable-HTTP"
+ },
+ {
+  "number": 671,
+  "title": "MCP Tool execution hangs indefinitely in stdio mode when calling external Python scripts",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/671",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 679,
+  "title": "Running Simple Auth Github Example throws 404 error",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/679",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 680,
+  "title": "Streamable HTTP hangs forever when the server attempts any callback",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/680",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: needs sampling callback round-trip (server->client create_message); single tool call clean"
+ },
+ {
+  "number": 688,
+  "title": "After \"uv run mcp\" getting TypeError: Parameter.make_metavar() missing 1 required positional argument: 'ctx'",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/688",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 691,
+  "title": "'JSONRPCMessage' object has no attribute 'message' in mcp 1.8.0",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/691",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 698,
+  "title": "Tool.run should not reveal exception value to the client",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/698",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 701,
+  "title": "StreamableHttp  Server send notify invalid",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/701",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 705,
+  "title": "SSE client doesn't raise exception if the MCP server responds with text/html",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/705",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 716,
+  "title": "ValueError: I/O operation on closed pipe",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/716",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 733,
+  "title": "SSE does not work on nested routes",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/733",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 737,
+  "title": "Bug Report: FastMCP `RuntimeError: Received request before initialization was complete` Leading to Empty SSE Responses When Embedded in FastAPI",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/737",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 743,
+  "title": "RuntimeError but the actual root cause is not logged correctly",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/743",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 768,
+  "title": "Client example 'mcp_simple_auth' cannot connect to the server",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/768",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 776,
+  "title": "Misleading warning for progress callback exceptions",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/776",
+  "tier": "T4 observation-only",
+  "reason": "server-log/notification behaviour; not visible via client return value: observation-only: misleading progress-callback warning is a server-side log; not visible via client return value"
+ },
+ {
+  "number": 780,
+  "title": "mcp dev server.py Error: Cannot find module '../lib/cli.js'",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/780",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 783,
+  "title": "mount_path does not work with sse_app",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/783",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 788,
+  "title": "adding multiple servers using the ClientSessionGroup, an error occurs when closing the connection",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/788",
+  "tier": "T2 env/dep-limited",
+  "reason": "scenario-specific: ClientSessionGroup multi-server teardown; single server call clean"
+ },
+ {
+  "number": 789,
+  "title": "mcp-simple-streamablehttp-stateless not working as expected",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/789",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 790,
+  "title": "MCP servers can not be accessed via Docker and docker-compose anymore.",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/790",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 793,
+  "title": "The official example code does not work",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/793",
+  "tier": "T2 env/dep-limited",
+  "reason": "example-config: bug is in an official example/quickstart code path, not reproducible via a fresh streamable-HTTP MCPServer; single tool call runs clean"
+ },
+ {
+  "number": 804,
+  "title": "'uv run mcp' command does not work ! It gives me this [see screenshot]",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/804",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 813,
+  "title": "MCP SDK hangs",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/813",
+  "tier": "T2 env/dep-limited",
+  "reason": "scenario-specific: external-service (ElasticSearch) retrieval; single tool call clean"
+ },
+ {
+  "number": 814,
+  "title": "OAuthMetadata as define is too restrivtive, hence produces a ValidationError",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/814",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 817,
+  "title": "STDIO hangs forever when the  using multiprocessing in tools",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/817",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 831,
+  "title": "Errors during cleanup when using streamablehttp_client with AsyncExitStack instead of async with",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/831",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: AsyncExitStack manual-teardown path; framework uses async-with"
+ },
+ {
+  "number": 852,
+  "title": "Client Registration Fails with 502 Error When Connecting to Auth Server",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/852",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 854,
+  "title": "stdio_client Fails with AttributeError: 'StreamToLogger' object has no attribute 'fileno' in Environments with Custom sys.stderr (e.g., Databricks)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/854",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 862,
+  "title": "mcp.client.stdio Hangs",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/862",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 872,
+  "title": "Mounting ASGI apps with a different named routes",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/872",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 874,
+  "title": "Cannot break out of session.initialize() when using streamable-http",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/874",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 883,
+  "title": "AssertionError: Unexpected message while using middlewares",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/883",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 888,
+  "title": "import error",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/888",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 891,
+  "title": "unsupported operand type(s) for +: 'dict' and 'str'\", annotations=None)], isError=True)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/891",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 892,
+  "title": "Validation error when listing resources in simple-resource server example",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/892",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: resource lists cleanly; defect needs a specific invalid resource return type not triggered here"
+ },
+ {
+  "number": 906,
+  "title": "Error in post_writer: Server disconnected without sending a response.",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/906",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 915,
+  "title": "Exception in `ClientSessionGroup` if `streamable_http` MCP server is not available",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/915",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 922,
+  "title": "Create and Close multiple client session result \"RuntimeError: Attempted to exit a cancel scope that isn't the current tasks's current cancel scope\"",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/922",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 932,
+  "title": "`simple-tool` exiting error",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/932",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 949,
+  "title": "Bug in the simple-auth server example",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/949",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1010,
+  "title": "BUG REPORT: HTTP errors are being silently swallowed in the StreamableHTTP client",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1010",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: tools/list returns 200 cleanly; defect is HTTP-error-swallowing needing a failing endpoint"
+ },
+ {
+  "number": 1051,
+  "title": "Bug Report: StreamableHTTP GET Requests Fail with \"Bad Request: Missing session ID\" During Initial Connection",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1051",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: GET-establish path; framework uses POST handshake"
+ },
+ {
+  "number": 1053,
+  "title": "Streamable HTTP transport fails when accessing MCP server on Cloud Run using sdk",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1053",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 1060,
+  "title": "PydanticSchemaGenerationError: Unable to generate pydantic-core schema for Image type",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1060",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 1070,
+  "title": "Unexpected connection closed",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1070",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: needs sampling_handler round-trip; single tool call clean"
+ },
+ {
+  "number": 1072,
+  "title": "Errors with Streamble HTTP",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1072",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 1079,
+  "title": "Missing OPTIONS handler for Streamable HTTP",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1079",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 1081,
+  "title": "Unexpected behavior of streamable-http transport on public server",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1081",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 1082,
+  "title": "A JavaScript error occurred in the main process",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1082",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 1084,
+  "title": "An error exists in the elicitation example",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1084",
+  "tier": "T2 env/dep-limited",
+  "reason": "example-config: bug is in an official example/quickstart code path, not reproducible via a fresh streamable-HTTP MCPServer; single tool call runs clean"
+ },
+ {
+  "number": 1095,
+  "title": "Multiple bugs in `mcp` library related to async context management",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1095",
+  "tier": "T4 observation-only",
+  "reason": "server-log/notification behaviour; not visible via client return value: observation-only: code-review async-context findings; no runtime fault on single call"
+ },
+ {
+  "number": 1097,
+  "title": "Roots/List Request Hangs in Client-Server Communication",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1097",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: roots capability client-server round-trip; single tool call clean"
+ },
+ {
+  "number": 1100,
+  "title": "MCP connection fails silently",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1100",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: silent connection failure needs specific endpoint/config; clean connect"
+ },
+ {
+  "number": 1101,
+  "title": "Running into an `ImportError` when executing the MCP client in `examples/servers/simple-tool`",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1101",
+  "tier": "T2 env/dep-limited",
+  "reason": "example-config: bug is in an official example/quickstart code path, not reproducible via a fresh streamable-HTTP MCPServer; single tool call runs clean"
+ },
+ {
+  "number": 1103,
+  "title": "MCP client not able to initiate StdioServerParameters while running in Jupyter Notebook",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1103",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1141,
+  "title": "Progress notifications cause server to hang on stdio transport",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1141",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1144,
+  "title": "streamable_http client call_tool hangs when receiving invalid JSONRPCMessage",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1144",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 1152,
+  "title": "CancelledError causes duplicate response and server crash",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1152",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: needs client-side cancellation mid-call; long tool returned cleanly"
+ },
+ {
+  "number": 1160,
+  "title": "MCP cannot process fastapi JSONResponse",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1160",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1173,
+  "title": "Response parsing errors after OAuth flow",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1173",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1190,
+  "title": "MCP server in the HTTP Streamable mode broken",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1190",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 1192,
+  "title": "Auth server metadata fallbacks abort on non-404 failures",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1192",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1210,
+  "title": "Simple Auth example doesn't work with Claude Desktop",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1210",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1212,
+  "title": "When throwing the HTTP status exception, MCP client is disregarding the exception message!",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1212",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: tools/list returns 200; defect needs an HTTP status exception with a message to check"
+ },
+ {
+  "number": 1213,
+  "title": "AsyncExitStack fails to close at the first attempt",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1213",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: AsyncExitStack manual teardown; framework uses async-with"
+ },
+ {
+  "number": 1214,
+  "title": "Unhandled GeneratorExit error",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1214",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: httpcore GeneratorExit teardown; framework async-with cleans up"
+ },
+ {
+  "number": 1218,
+  "title": "`simple-streamablehttp-stateless` example will not return data if `id=0`",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1218",
+  "tier": "T2 env/dep-limited",
+  "reason": "example-config: bug is in an official example/quickstart code path, not reproducible via a fresh streamable-HTTP MCPServer; single tool call runs clean"
+ },
+ {
+  "number": 1219,
+  "title": "_handle_stateless_request  ClosedResourceError",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1219",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: stateless request path; framework uses stateful session"
+ },
+ {
+  "number": 1220,
+  "title": "Task Group inialization error on lifespan and mounting on FastMcp",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1220",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1227,
+  "title": "SSE: ConnectionClosed exception after session disconnect",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1227",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1272,
+  "title": "Server hangs when shutting down if a connection is still open",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1272",
+  "tier": "T4 observation-only",
+  "reason": "server-log/notification behaviour; not visible via client return value: observation-only: shutdown-with-open-connection hang; framework cancels server task cleanly"
+ },
+ {
+  "number": 1274,
+  "title": "Streamable HTTP client performance regression starting with v1.12.0",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1274",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 1278,
+  "title": "StdioServerTransport Fails to Invoke Tool Handlers on Linux (Python SDK)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1278",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1307,
+  "title": "Error & Mismatch in OAuth scope resolution between Claude.ai/MCP Python SDK and Inspector",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1307",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1313,
+  "title": "SyntaxError: Unexpected token '?'",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1313",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1318,
+  "title": "Critical Token Refresh Bugs - Prevents Proactive Refresh",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1318",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1350,
+  "title": "Issue: Sticky Session / Session Affinity Not Working with Azure Web App + FastAPI +FastMCP + Gunicorn",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1350",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1361,
+  "title": "ClientSession swallow call_tool exceptions",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1361",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 1367,
+  "title": "Mounting a Streamable HTTP MCP endpoint on existing FastAPI app does not work",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1367",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1372,
+  "title": "fastmcp.run() runtimeerror: task group is not initialized. make sure to use run().",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1372",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: fastmcp.run() legacy entrypoint; framework uses run_streamable_http_async"
+ },
+ {
+  "number": 1379,
+  "title": "Visual Studio Code cannot authorize with FastMCP OAuth",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1379",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1382,
+  "title": "Cannot handle `Unexpected content type` when initializing MCP session",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1382",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: raw_post bypasses the MCP Client, so client-side Unexpected-content-type handling is not exercised; server rejects text/plain with HTTP 400 (correct)"
+ },
+ {
+  "number": 1400,
+  "title": "RFC 9728 compliance: protected resource metadata URL mismatches when resource identifier has a path",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1400",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1415,
+  "title": "MCP Python SDK Protocol Compliance Gap: Missing Direction Validation for Cancellation Notifications",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1415",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: serialization/validation defect needs a specific schema/response shape not produced by a ping tool call; clean run"
+ },
+ {
+  "number": 1416,
+  "title": "buggg",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1416",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 1420,
+  "title": "MCP Python SDK Protocol Compliance Gap-2: Missing Logging and Propagation of Cancellation Reasons",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1420",
+  "tier": "T2 env/dep-limited",
+  "reason": "spec-gap: SHOULD log/propagate cancellation reasons; no runtime crash, protocol-compliant gap"
+ },
+ {
+  "number": 1421,
+  "title": "MCP Python SDK Implementation Gap-3: Missing Built-in Rate Limiting for Callback Processing",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1421",
+  "tier": "T2 env/dep-limited",
+  "reason": "spec-gap: missing built-in rate limiting for callbacks; implementation gap, no runtime crash"
+ },
+ {
+  "number": 1422,
+  "title": "MCP Python SDK Implementation Gap-4: Missing Configurable Ping Frequency and Rate Limiting",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1422",
+  "tier": "T2 env/dep-limited",
+  "reason": "spec-gap: missing configurable ping frequency/rate limiting; implementation gap, no runtime crash"
+ },
+ {
+  "number": 1423,
+  "title": "MCP Python SDK Implementation Gap-5: Missing Automatic Ping Mechanism for Connection Health Monitoring",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1423",
+  "tier": "T2 env/dep-limited",
+  "reason": "spec-gap: missing automatic ping for health monitoring; implementation gap, no runtime crash"
+ },
+ {
+  "number": 1437,
+  "title": "SSE Hangs After Disconnect",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1437",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 1442,
+  "title": "MCP Python SDK Implementation Gap-10: MCP Python SDK Client Missing Token Issuer Validation",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1442",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1443,
+  "title": "MCP Python SDK Implementation Gap-11: Server Missing Resource Validation for Token Acceptance",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1443",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1444,
+  "title": "MCP Python SDK Implementation Gap-12: Server Missing Token Validation - \"MUST NOT accept or transit any other tokens\"",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1444",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1445,
+  "title": "MCP Python SDK Implementation Gap-13: Server Missing Token Issuer Validation",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1445",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1450,
+  "title": "Response leak in SSE handlers",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1450",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1451,
+  "title": "Build failure on Python 3.14 due to outdated pydantic-core dependency",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1451",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1452,
+  "title": "The `stdio_client` hangs indefinitely on session initialization",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1452",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1458,
+  "title": "MCP Python SDK Implementation Gap-17: Missing Cancellation Notifications on Request Timeout",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1458",
+  "tier": "T2 env/dep-limited",
+  "reason": "spec-gap: missing cancellation notifications on request timeout; implementation gap, no runtime crash"
+ },
+ {
+  "number": 1469,
+  "title": "Bare bones MCP fastmcp_quickstart.py example fails out of the box in linux with `dev`",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1469",
+  "tier": "T2 env/dep-limited",
+  "reason": "example-config: bug is in an official example/quickstart code path, not reproducible via a fresh streamable-HTTP MCPServer; single tool call runs clean"
+ },
+ {
+  "number": 1470,
+  "title": "SSLV3_ALERT_HANDSHAKE_FAILURE when using private gateway",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1470",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 1480,
+  "title": "Token endpoint returns incorrect error code for client authentication failures",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1480",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1482,
+  "title": "Unable to call context.elicit(msg, schema) (using /examples/elicitation.py)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1482",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: context.elicit requires client-side elicitation round-trip; single call not exercised"
+ },
+ {
+  "number": 1487,
+  "title": "Bug: Calculator server fails with ModuleNotFoundError in mcp.server.transports",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1487",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1495,
+  "title": "Protected Resource Metadata request failed: 404",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1495",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1513,
+  "title": "MCP SDK Pydantic v2 Compatibility Bug Report",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1513",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: serialization/validation defect needs a specific schema/response shape not produced by a ping tool call; clean run"
+ },
+ {
+  "number": 1560,
+  "title": "Usage Error",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1560",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 1564,
+  "title": "stdio_client fails with BrokenResourceError during initialization",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1564",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1579,
+  "title": "FastMCP read_resource() returns incorrect error code when resource not found",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1579",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): reproduced error path: read_resource on missing resource raises MCPError with JSON-RPC code -32602; the bug claims -32602 is incorrect (spec judgment, not a crash)"
+ },
+ {
+  "number": 1585,
+  "title": "FastMCP import fails after httpx≥0.28 upgrade (TransportError removed)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1585",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1600,
+  "title": "progressToken type mismatch breaks progress callback between spring-ai and python-sdk",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1600",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1602,
+  "title": "OAuth: 403 responses without insufficient_scope incorrectly retry with same token",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1602",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 1648,
+  "title": "ClientDisconnect returns HTTP 500",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1648",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: needs client disconnect mid-POST-body-read; framework reads body fully"
+ },
+ {
+  "number": 1658,
+  "title": "ClosedResourceError when using FastMCP(..., stateless_http=True, json_response=True) with MCP Inspector",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1658",
+  "tier": "T2 env/dep-limited",
+  "reason": "external-tool: stateless_http + json_response + Inspector; needs stateless config"
+ },
+ {
+  "number": 1672,
+  "title": "Python MCP Client ValidationError: Empty SSE data causes JSON parsing failure",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1672",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1702,
+  "title": "Clarify and improve behavior when tool output fails schema validation",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1702",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): reproduced: tool output fails outputSchema validation -> generic Error executing tool (is_error=True), hides schema detail"
+ },
+ {
+  "number": 1716,
+  "title": "Getting RuntimeError: Task group is not initialized. Make sure to use run() for Starlette mounts routes",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1716",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1717,
+  "title": "UnboundLocalError in send_request when response_or_error is not assigned",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1717",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: tools/list returns 200 cleanly; UnboundLocalError in send_request needs a specific response_or_error unassigned path not triggered here"
+ },
+ {
+  "number": 1742,
+  "title": "Introduce typed error classes with metadata",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1742",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1744,
+  "title": "Improve exception tracebacks for easier debugging",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1744",
+  "tier": "T4 observation-only",
+  "reason": "server-log/notification behaviour; not visible via client return value: observation-only: traceback-noise improvement (feature request); not a runtime fault"
+ },
+ {
+  "number": 1764,
+  "title": "Race condition in StreamableHTTP: zero-buffer memory streams cause deadlock with concurrent SSE responses",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1764",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1768,
+  "title": "UrlElicitationRequiredError not thrown as an McpError exception",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1768",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: UrlElicitationRequiredError needs client elicitation round-trip"
+ },
+ {
+  "number": 1789,
+  "title": "Client hangs forever",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1789",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: SSE read-timeout config; framework uses streamable-HTTP, clean"
+ },
+ {
+  "number": 1796,
+  "title": "Pydantic ValidationError when a call_tool response contains structuredContent but omits the content field",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1796",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: single call returns content + structuredContent together. The defect needs the server to emit structuredContent while OMITTING the content field (not producible via normal MCPServer tool)"
+ },
+ {
+  "number": 1805,
+  "title": "Possible ressource leak / race condition in streamable_http_client",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1805",
+  "tier": "T4 observation-only",
+  "reason": "server-log/notification behaviour; not visible via client return value: observation-only: resource-leak/race needs sustained load + monitoring; single call clean"
+ },
+ {
+  "number": 1811,
+  "title": "client's `read_stream_writer` open after SSE disconnection hanging `.receive()`",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1811",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1821,
+  "title": "Clarify JSON-RPC error code for 'session not found' responses",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1821",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 1830,
+  "title": "CancelledError from connection failures is indistinguishable from external cancellation",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1830",
+  "tier": "T4 observation-only",
+  "reason": "server-log/notification behaviour; not visible via client return value: observation-only: CancelledError ambiguity is a code-review finding; no runtime fault"
+ },
+ {
+  "number": 1835,
+  "title": "Http errors are not handled properly by streamable_http",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1835",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 1844,
+  "title": "SSE transport: \"Received request before initialization was complete\" error with Claude Code client",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1844",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1933,
+  "title": "Using transport=\"stdio\" closes real stdio, causing ValueError after server exits",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1933",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1941,
+  "title": "streamable_http client hangs indefinitely when connecting to POST-only MCP servers (ex: GitHub MCP)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1941",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: POST-only server needs GET-less endpoint; framework server supports GET"
+ },
+ {
+  "number": 1960,
+  "title": "BrokenResourceError race condition in stdio_client cleanup when context exits quickly",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1960",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 1967,
+  "title": "ClosedResourceError During MCP Stateless Server Shutdown When Sending Log Messages",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1967",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: stateless shutdown + log-message race; framework stateful clean"
+ },
+ {
+  "number": 1970,
+  "title": "Cannot find reference 'MCPServer' in 'mcp.server.mcpserver'  in Quickstart code",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1970",
+  "tier": "T2 env/dep-limited",
+  "reason": "example-config: bug is in an official example/quickstart code path, not reproducible via a fresh streamable-HTTP MCPServer; single tool call runs clean"
+ },
+ {
+  "number": 1974,
+  "title": "find_context_parameter() fails to detect Context parameter in callable class instances",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/1974",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 2057,
+  "title": "Requests with \"id\": null silently misclassified as notifications",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2057",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): reproduced: raw JSON-RPC with \"id\": null sent to tools/list -> HTTP 202 Accepted (treated as a notification). Spec requires id be string/int; id:null should be rejected, but SDK silently misclassifies it as a notification (#2057)."
+ },
+ {
+  "number": 2064,
+  "title": "ClientDisconnect during _handle_post_request crashes stateless session with ClosedResourceError",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2064",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: client disconnect mid-POST-body-read; framework reads body fully"
+ },
+ {
+  "number": 2107,
+  "title": "Handle list_changed notifications instead of dropping them",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2107",
+  "tier": "T4 observation-only",
+  "reason": "server-log/notification behaviour; not visible via client return value: observation-only: list_changed notification is dropped in SDK handler; list_tools() re-query returns fresh list"
+ },
+ {
+  "number": 2110,
+  "title": "HTTP transport swallows non-2xx status codes causing client to hang",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2110",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: needs non-2xx endpoint; framework endpoint returns 200"
+ },
+ {
+  "number": 2114,
+  "title": "ExceptionGroup wrapping obscures real errors from task groups",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2114",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 2128,
+  "title": "ClientCredentialsOAuthProvider: Missing client_id in token request body for client_secret_post",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2128",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 2153,
+  "title": "MCPServer handlers should raise exceptions, not return error objects",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2153",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 2156,
+  "title": "MCPServer.add_tool() missing `execution` parameter for task support declaration (spec compliance gap)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2156",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: add_tool execution param is a task-support spec gap; single call not exercised"
+ },
+ {
+  "number": 2205,
+  "title": "Incorrect `ProtectedResourceMetadata` model for oauth authentication",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2205",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 2216,
+  "title": "Bug: validate_scope rejects client scopes when required scopes in None",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2216",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 2232,
+  "title": "streamable_http_client hangs indefinitely when server sends POST-only endpoints without SSE fallback",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2232",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 2233,
+  "title": "pywin32 installation fails on Windows — hard dep only needed for client stdio, but pulled in for all users via eager import in __init__.py",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2233",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 2260,
+  "title": "Server OAuth metadata hardcodes token_endpoint_auth_methods_supported, breaking public client flows",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2260",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 2375,
+  "title": "Harcoded Content-Type in the client cannot be overriden",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2375",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: raw_post bypasses the MCP Client; server rejects override Content-Type with HTTP 400 (correct). Client-side hardcoded-content-type defect needs the real Client"
+ },
+ {
+  "number": 2386,
+  "title": "Sanitize tool handler error messages by default (CWE-209 parity with C#/TS)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2386",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 2416,
+  "title": "Bug: AssertionError: Request already responded to — cancellation race in v1.27.0",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2416",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 2422,
+  "title": "Specific ToolNotFoundError for easier handling than ToolError in multi-tenant environments",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2422",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 2429,
+  "title": "[v1.x] Server-side outputSchema validation blocks tool error reporting (isError: true)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2429",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-reproduced-with-this-trigger: tool raising an exception returns is_error=True correctly (error path runs before outputSchema). The described defect (unstructured error result being validated against outputSchema and blocking isError) needs a different trigger (return unstructured content for an error case)."
+ },
+ {
+  "number": 2431,
+  "title": "McpError is not pickle-safe and fails to unpickle",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2431",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 2454,
+  "title": "stdio_client crashes on malformed UTF-8 from child stdout instead of surfacing parse error",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2454",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 2480,
+  "title": "RequestResponder.cancel sends JSON-RPC response, violating cancellation spec",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2480",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: notifications/cancelled treated as notification (HTTP 202, correct); defect is client-side RequestResponder.cancel emitting a response, not exercised via raw_post"
+ },
+ {
+  "number": 2527,
+  "title": "FastMCP.__init__ clobbers root logger with INFO RichHandler — hangs stdio servers under back-pressure",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2527",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 2539,
+  "title": "Bug: task_result_handler.py serializes None optional fields as JSON null, breaking Node SDK Zod validation",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2539",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): reproduced: tool returns Pydantic model with text=None -> structured_content={'text': null}. None optional field is serialized as JSON null (breaking Node SDK Zod validation) instead of being omitted (#2539)."
+ },
+ {
+  "number": 2543,
+  "title": "Pin `httpx<1.0` (or similar upper bound) — `pip install --pre` resolves `httpx 1.0.dev3` and breaks `httpx-sse`",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2543",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 2546,
+  "title": "Bug: stdio transport fails to handle Content-Length header format from MCP clients",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2546",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 2548,
+  "title": "BaseSession.send_request fails when forwarding a request received via ServerSession (envelope-fields collision)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2548",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 2564,
+  "title": "raise without from discards exception chain in 12 remaining sites",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2564",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 2577,
+  "title": "MCP client does not retry authenticated request after successful OAuth token exchange",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2577",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 2583,
+  "title": "Race condition between SSE session init and tools/call rejection (-32602)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2583",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 2604,
+  "title": "streamable_http_client: one concurrent request HTTPStatusError tears down sibling requests",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2604",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: concurrent requests all succeeded (no HTTP error); race not triggered"
+ },
+ {
+  "number": 2605,
+  "title": "Duplicate `initialize` with changed parameters can overwrite `ServerSession.client_params`",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2605",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: duplicate-initialize needs two init requests on same session; single init"
+ },
+ {
+  "number": 2610,
+  "title": "RequestResponder.__exit__ leaks CancelledError on cancelled request, killing the stdio receive loop",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2610",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 2618,
+  "title": "Streamable HTTP server accepts mismatched `MCP-Protocol-Version` header and body `protocolVersion` on `initialize`",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2618",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): reproduced: initialize with MCP-Protocol-Version header=2025-06-18 but body protocolVersion=2024-11-05 -> HTTP 200, negotiated to body version. SDK does NOT validate the mismatch (should reject) (#2618)."
+ },
+ {
+  "number": 2641,
+  "title": "Add `invalid_target` to `AuthorizationErrorCode` (RFC 8707)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2641",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 2644,
+  "title": "Bug: `anyio.Lock` in `oauth2.py` raises \"current task is not holding this lock\" under cross-task generator driving",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2644",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 2655,
+  "title": "Streamable HTTP server silently drops in-flight request when client reuses a JSON-RPC id",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2655",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: single tools/list 200; defect needs concurrent duplicate JSON-RPC id requests"
+ },
+ {
+  "number": 2663,
+  "title": "FastMCP.run(transport=\"stdio\") produces noisy traceback on KeyboardInterrupt instead of clean exit",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2663",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 2673,
+  "title": "ClientSession receive loop swallows callback exceptions, replying \"Invalid request parameters\" to the server instead of propagating to the call_tool awaiter",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2673",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 2687,
+  "title": "`OAuthClientInformationFull.redirect_uris`: pydantic strict-type-equality breaks `AnyUrl(x) != AnyHttpUrl(x)` round-trip",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2687",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 2688,
+  "title": "`TransportSecuritySettings.allowed_hosts=[]` (default) silently rejects external Host headers with HTTP 421",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2688",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: default server accepts the request; defect needs TransportSecuritySettings(allowed_hosts=[]) with external Host header"
+ },
+ {
+  "number": 2695,
+  "title": "Dead code path in MCPServer._handle_call_tool and incorrect call_tool return type",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2695",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 2702,
+  "title": "FastMCP: streamable_http_app() silently breaks when BaseHTTPMiddleware is added",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2702",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: BaseHTTPMiddleware scenario not added to this server; single call not exercised"
+ },
+ {
+  "number": 2727,
+  "title": "streamable_http client does not send `Origin` header → rejected with 403 by spec-compliant servers (e.g. go-sdk `CrossOriginProtection`)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2727",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 2741,
+  "title": "Stateful Streamable HTTP: in-session exceptions are masked as an empty -32603; real cause only in a separate \"Session crashed\" log",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2741",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 2751,
+  "title": "Deep JSON-RPC request over stdio logs a validation error and leaves the original request pending",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2751",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 2770,
+  "title": "McpError raised in tool handlers is swallowed as isError:true instead of propagating as JSON-RPC error",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2770",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): reproduced: tool handler raises JSONRPCError(ErrorData(code=-32601, message=...)) -> client receives generic \"Error executing tool boom\" (is_error=True); the structured error code and message are LOST on the wire (#2770)"
+ },
+ {
+  "number": 2826,
+  "title": "`simple-auth` is not working as expected",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2826",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 2847,
+  "title": "Bug: anyio.Lock in async_auth_flow causes RuntimeError under concurrent OAuth MCP connections",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2847",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 2848,
+  "title": "Invalid JSON-RPC envelope errors are not correlated with the original request id",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2848",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: malformed envelope returned 202; defect needs an invalid envelope that returns an error response"
+ },
+ {
+  "number": 2883,
+  "title": "AnyHttpUrl normalization adds trailing slash → breaks RFC 9728 canonical resource URL in ProtectedResourceMetadata",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2883",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 2958,
+  "title": "StreamableHTTP server accumulates CLOSE_WAIT sockets behind reverse proxy due to missing disconnect cleanup",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2958",
+  "tier": "T4 observation-only",
+  "reason": "server-log/notification behaviour; not visible via client return value: observation-only: socket-leak needs reverse-proxy + sustained load + monitoring"
+ },
+ {
+  "number": 2961,
+  "title": "[Bug] ResourceTemplate.matches() does not escape regex special chars in URI template literals",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2961",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: resource template a+b://{name} registers but list_resources returns [] (no regex match observed)"
+ },
+ {
+  "number": 2965,
+  "title": "[Bug] check_capability does not validate elicitation sub-capabilities (form/url)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/2965",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 3060,
+  "title": "streamable HTTP (stateful): concurrent requests with duplicate JSON-RPC ids cross-wire responses — one request receives another's payload, the other hangs",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3060",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: serialization/validation defect needs a specific schema/response shape not produced by a ping tool call; clean run"
+ },
+ {
+  "number": 3067,
+  "title": "FastMCP tool argument models silently ignore unknown/misspelled arguments (extra=ignore default)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3067",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): reproduced: call_tool(add, {a:1, b:2, typo:9}) returns 3 (is_error=False) - unknown/misspelled arg typo is SILENTLY ignored (extra=ignore default), no validation error. This silent acceptance is the defect (#3067)."
+ },
+ {
+  "number": 3091,
+  "title": "streamable_http: HTTP status errors (401/403/5xx) on tools/list, tools/call never reach the caller — indistinguishable from a timeout",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3091",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 3099,
+  "title": "Field alias is published in the tool schema but forwarded as an invalid Python keyword",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3099",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): reproduced: Field(alias=externalX) published in schema, but call_tool(externalX=5) -> Error executing tool ext (invalid Python keyword x)"
+ },
+ {
+  "number": 3102,
+  "title": "Streamable HTTP server never returns the spec-mandated 405 for GET requests it won't serve as SSE (406/400 instead) — breaks client SSE-probe fallback",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3102",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 3103,
+  "title": "RequireAuthMiddleware omits RFC 6750 scope in WWW-Authenticate on 401/403",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3103",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 3123,
+  "title": "Image content blocks >99 bytes fail with \"illegal base64 at byte 0\"",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3123",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: Image data='A'*400 is valid base64 and returned OK; defect needs non-base64 byte sequence"
+ },
+ {
+  "number": 3150,
+  "title": "[v1.x] Backport #1912 and cut a release: a non-UTF-8 POST body on Streamable HTTP gets HTTP 500 INTERNAL_ERROR plus an ERROR cascade instead of the HTTP 400 PARSE_ERROR; the parse broadening ships only on main and the 2.0.0 pre-releases",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3150",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: clean 200; defect needs a raw non-UTF-8 POST body (framework sends JSON only)"
+ },
+ {
+  "number": 3174,
+  "title": "[v2] JSON-RPC error responses leave client OpenTelemetry spans UNSET",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3174",
+  "tier": "T4 observation-only",
+  "reason": "server-log/notification behaviour; not visible via client return value: observation-only: defect is about OpenTelemetry span state (UNSET) on JSON-RPC error responses, which requires OTel instrumentation/export to observe; a plain tool raise only exercises the generic 'Error executing tool boom' masking already covered by #698/#743, NOT the OTel span bug. Not reproducible as a runtime fault."
+ },
+ {
+  "number": 3209,
+  "title": "Bug: OAuth provider holds context.lock for the whole request, so the standalone GET SSE stream stalls the first tools/call by ~15s",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3209",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 3216,
+  "title": "URI templates does not work with Inspector v2",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3216",
+  "tier": "T2 env/dep-limited",
+  "reason": "external-tool: Inspector v2 URI-template rendering; streamable-HTTP resource listed cleanly"
+ },
+ {
+  "number": 3228,
+  "title": "Rejected streamable-HTTP requests leave live sessions behind: the session is registered before the request is validated",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3228",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 3240,
+  "title": "OAuth token refresh hits the wrong endpoint when the auth server lives under a path",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3240",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 3250,
+  "title": "OAuthClientProvider._initialize() breaks transparent refresh: missing update_token_expiry + missing oauth_metadata load",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3250",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 3266,
+  "title": "Log exceptions in tool calls",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3266",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 3273,
+  "title": "[v2] ping returns 'Method not found' on 2026-07-28 connections: ping missing from CLIENT_REQUESTS for 2026-07-28 in mcp-types",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3273",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: default protocol ping returns Method-not-found artifact; bug is 2026-07-28 protocol-version-specific (send_ping not in CLIENT_REQUESTS for that version)"
+ },
+ {
+  "number": 3281,
+  "title": "streamable_http (legacy mode): early response.aclose() discards a TCP connection per JSON-RPC exchange — deterministic reproduction for #2707",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3281",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: serialization/validation defect needs a specific schema/response shape not produced by a ping tool call; clean run"
+ },
+ {
+  "number": 3335,
+  "title": "Windows MCP SSH stdio transport closes after initialize when PROGRAMDATA is missing from inherited environment",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3335",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 3341,
+  "title": "A tool returning a non-finite float fails on the client with an error naming the tool",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3341",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): reproduced: tool returns float(nan) -> client raises RuntimeError Invalid structured content (None is not number), naming the tool"
+ },
+ {
+  "number": 3342,
+  "title": "Prompt validation errors are logged with an unnecessary traceback",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3342",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): reproduced: get_prompt with missing required arg -> generic MCPError: Internal server error, hides the real validation error"
+ },
+ {
+  "number": 3351,
+  "title": "Server.call_tool()'s input-validation error result discards jsonschema.ValidationError's structured fields, leaving only free-text prose",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3351",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): "
+ },
+ {
+  "number": 3353,
+  "title": "2025-11-25 `Tool.inputSchema`/`outputSchema` reject boolean sub-schemas in `properties`, failing the whole `tools/list`",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3353",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: boolean sub-schemas require manually set Tool.inputSchema (default generated schema has no boolean); trigger not yet written"
+ },
+ {
+  "number": 3356,
+  "title": "bug(client/streamable_http): prevent infinite SSE reconnect loops with bounded exponential backoff",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3356",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 3382,
+  "title": "OAuthClientProvider auth lock is permanently poisoned when httpx closes async_auth_flow from a different task (RuntimeError: The current task is not holding this lock)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3382",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 3384,
+  "title": "ClientSessionGroup raises KeyError when a server exposes no tools, resources or prompts",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3384",
+  "tier": "T2 env/dep-limited",
+  "reason": "scenario-specific: ClientSessionGroup KeyError needs a real multi-server session group, not a single call"
+ },
+ {
+  "number": 3385,
+  "title": "A tool returning a non-finite float puts invalid JSON in the text content block",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3385",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): reproduced: tool returns non-finite float inf -> client raises RuntimeError Invalid structured content (None is not number), not a clean isError"
+ },
+ {
+  "number": 3434,
+  "title": "In-process callback failures break tool calls and notification sends",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3434",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: in-process callback failure needs a callback/notification send path"
+ },
+ {
+  "number": 3469,
+  "title": "StreamableHTTP: a client disconnect while reading the POST body is logged as an exception and answered 500",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3469",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: client disconnect mid-body-read; framework reads fully"
+ },
+ {
+  "number": 3483,
+  "title": "Client never retries after -32020 HeaderMismatch, and there is no public way to pre-load the x-mcp-header map (SEP-2243 client SHOULD/MAY both unimplemented)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3483",
+  "tier": "T2 env/dep-limited",
+  "reason": "spec-gap: SEP-2243 client SHOULD/MAY unimplemented; no runtime crash, protocol gap"
+ },
+ {
+  "number": 3490,
+  "title": "ClientSessionGroup: a rejected connect_to_server leaves its transport running — the session is established before its components are validated",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3490",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 3492,
+  "title": "Streamable HTTP stateless servers hang clients on the listen-mode GET (_handle_get_request opens a hold-open SSE stream)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3492",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 3496,
+  "title": "Windows stdio resolves .ps1 then fails to spawn it",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3496",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 3503,
+  "title": "streamable HTTP client: the standalone GET stream advertises Accept: application/json but can only read text/event-stream, then gives up silently",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3503",
+  "tier": "T2 env/dep-limited",
+  "reason": "no defect captured by this trigger (clean success); scenario not exercised"
+ },
+ {
+  "number": 3504,
+  "title": "Does same-origin redirect enforcement break MCP servers behind a reverse proxy?",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3504",
+  "tier": "T2 env/dep-limited",
+  "reason": "observation/scenario-specific: defect is client/host-side, cross-server, or needs a custom endpoint/外部服务; single tool call runs clean"
+ },
+ {
+  "number": 3522,
+  "title": "Streamable HTTP client stays closed after an interrupted response and raises ExceptionGroup on cleanup",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3522",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: interrupted-response scenario; framework single call clean"
+ },
+ {
+  "number": 3549,
+  "title": "How can I manage resource across multiple tool calls during one session?",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3549",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http2.py::case_race"
+ },
+ {
+  "number": 3551,
+  "title": "stdio server ignores the first two Ctrl+C presses at a terminal (blocked stdin worker thread)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3551",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 3554,
+  "title": "Structured tool output: `-> bytes` return crashes with a generic error on non-UTF-8 payloads instead of returning the advertised base64/binary string",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3554",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http.py::b_bytes_output"
+ },
+ {
+  "number": 3556,
+  "title": "Streamable HTTP client treats 404 as terminal instead of re-initializing, as the spec requires",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3556",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http2.py::case_404"
+ },
+ {
+  "number": 3557,
+  "title": "Malformed requests get -32602 where JSON-RPC 2.0 requires -32600 (non-Request body) and -32601 (unknown method)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3557",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http2.py::case_jsonrpc_code"
+ },
+ {
+  "number": 3560,
+  "title": "POST failure identical to task cancellation in streamable HTTP client",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3560",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http.py::b_slow_timeout"
+ },
+ {
+  "number": 3566,
+  "title": "OAuth client scope handling breaks on comma-separated scope strings",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3566",
+  "tier": "T3 auth-limited",
+  "reason": "requires OAuth/auth provider or credentials not available locally"
+ },
+ {
+  "number": 3569,
+  "title": "Client transports/sessions swallow the original exception; applications cannot classify 401/403/429 transport failures",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3569",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http.py::b_perm_raise"
+ },
+ {
+  "number": 3572,
+  "title": "Tool validation errors echo the rejected input value (input_value) — add a masking option or a public validation-error hook",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3572",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http.py::b_validation_echo"
+ },
+ {
+  "number": 3573,
+  "title": "func_metadata raises uncaught PydanticSchemaGenerationError for Iterator/AsyncIterator tool return annotations instead of the unstructured fallback",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3573",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http.py::b_iterator_meta"
+ },
+ {
+  "number": 3578,
+  "title": "ClientSessionGroup raises KeyError when connecting a server that exposes no components",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3578",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http.py::b_duplicate_tool"
+ },
+ {
+  "number": 3579,
+  "title": "`ClientSessionGroup` has no routed `read_resource` / `get_prompt` (only `call_tool`)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3579",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http.py::b_empty_server"
+ },
+ {
+  "number": 3585,
+  "title": "Image/Audio `format=` emits image/jpg, audio/mp3, audio/m4a — unregistered MIME types that disagree with the `path=` suffix table",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3585",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http.py::b_media_mime"
+ },
+ {
+  "number": 3586,
+  "title": "Streamable HTTP on Windows: after a tool raises a non-ToolError, no request is answered again (2.1.0+, 2.0.1 fine)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3586",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http.py::b_nontool_exc"
+ },
+ {
+  "number": 3588,
+  "title": "Streamable HTTP: Client mode=\"auto\" fails on server/discover against MCPServer + uvicorn (RemoteProtocolError)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3588",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 3592,
+  "title": "Streamable HTTP client retries the standalone GET after a 401, 403, or 405",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3592",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http.py::b_unregistered_result"
+ },
+ {
+  "number": 3616,
+  "title": "SSE: a POST blocks forever (and SIGTERM hangs) when the server lifespan raises after an await",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3616",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 3631,
+  "title": "Streamable HTTP notification triggers duplicate response after HTTP 202",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3631",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: notification-after-202 duplicate-response needs custom notify handler; clean"
+ },
+ {
+  "number": 3637,
+  "title": "Pydantic model parameter not flattened in MCP tool schema — breaks SDK clients that send flat argument dicts",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3637",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http2.py::case_flat"
+ },
+ {
+  "number": 3639,
+  "title": "Streamable HTTP client hangs on a null-id JSON-RPC error in a 200 JSON response",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3639",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: null-id request treated as notification (HTTP 202); defect is client-side handling of null-id error in 200 JSON"
+ },
+ {
+  "number": 3640,
+  "title": "ServerCapabilities drops unknown keys, so a server can't advertise `events` for ChatGPT's MCP Events",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3640",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http2.py::case_capabilities"
+ },
+ {
+  "number": 3641,
+  "title": "ClosedResourceError + 'Unexpected ASGI message ... after response already completed' race in _handle_post_request notification path (streamable-http)",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3641",
+  "tier": "T2 env/dep-limited",
+  "reason": "env/transport-config: bug requires specific environment/transport (stdio/SSE/Windows/npx/特定依赖/反代/挂载子路径) to trigger; single streamable-HTTP tool call runs clean"
+ },
+ {
+  "number": 3643,
+  "title": "Prompt handlers returning UserList are rendered as one text message",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3643",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http2.py::case_userlist"
+ },
+ {
+  "number": 3644,
+  "title": "Tool outputSchema is generated in validation mode, so serialization aliases and computed fields don't match structuredContent",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3644",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http2.py::case_outputschema_mode"
+ },
+ {
+  "number": 3646,
+  "title": "Would opt-in rejection of unknown tool arguments be useful in 2.x?",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3646",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): VERIFIED real-issue (18-issue set, pre-refactor run_real_http*.py). Code: run_real_http2.py::case_extra_arg"
+ },
+ {
+  "number": 3649,
+  "title": "MCPServer completion handler returning more than 100 values fails on 2026-07-28 sessions and violates the 100-item limit on 2025-11-25 sessions",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3649",
+  "tier": "T4 spec/behaviour-only",
+  "reason": "needs a special trigger not yet exercised: not-exercised: completion handler >100 values requires a completion trigger with >100 values"
+ },
+ {
+  "number": 3656,
+  "title": "Audio(data=b\"\") raises \"Either path or data can be provided\", while Image(data=b\"\") works",
+  "url": "https://github.com/modelcontextprotocol/python-sdk/issues/3656",
+  "tier": "T1 reproducible-now",
+  "reason": "reproduced on this machine (mcp 2.2.0 + streamable-HTTP): reproduced: Audio(data=b\"\") rejects empty payload -> Error executing tool a (is_error=True), while Image(data=b\"\") works"
+ }
+]

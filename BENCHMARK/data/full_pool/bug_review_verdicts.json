@@ -1,0 +1,2639 @@
+{
+ "total_initial": 439,
+ "verdicts": {
+  "73": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "feature request (better logging)",
+   "dup_of": null
+  },
+  "76": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "78": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "79": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "88": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "92": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "100": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "101": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "103": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "110": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "111": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "122": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "123": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "124": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "127": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "129": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "unverifiable (reporter says it works)",
+   "dup_of": null
+  },
+  "131": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "140": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "146": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "147": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "148": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "163": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "164": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "173": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (set client session timeout)",
+   "dup_of": null
+  },
+  "178": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "182": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "184": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "189": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (run uv without full path)",
+   "dup_of": null
+  },
+  "192": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "196": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "201": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "212": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "234": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "238": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "240": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "244": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "252": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "256": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "262": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "263": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "268": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "280": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "281": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "283": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "290": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "291": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "298": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "310": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "320": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "326": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "332": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "334": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "337": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "341": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "342": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "344": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (duplicate request IDs)",
+   "dup_of": null
+  },
+  "348": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "355": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "357": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "359": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "360": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "369": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "381": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "382": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "389": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "390": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "396": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "398": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "399": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "402": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "406": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "407": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "409": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "410": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "417": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "432": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "433": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "447": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "454": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "env/packaging (uv-dynamic-versioning)",
+   "dup_of": null
+  },
+  "462": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "CI/test (tests fail with Pydantic 2.11)",
+   "dup_of": null
+  },
+  "464": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "469": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "478": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "483": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "488": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "490": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "491": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "492": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "493": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (available_tools)",
+   "dup_of": null
+  },
+  "503": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "507": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "511": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "514": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "521": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "530": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "532": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "other SDK (TypeScript/Node), not python-sdk",
+   "dup_of": null
+  },
+  "533": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "537": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "542": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "543": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "547": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "duplicate",
+   "dup_of": 552
+  },
+  "552": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "560": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "563": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "570": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "env (pydantic_core build in alpine container)",
+   "dup_of": null
+  },
+  "571": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "env (mysql connector dep)",
+   "dup_of": null
+  },
+  "572": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "575": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "577": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "579": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "packaging (pip install script placement)",
+   "dup_of": null
+  },
+  "583": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "585": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "594": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "602": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "605": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "env (missing sqlalchemy dep)",
+   "dup_of": null
+  },
+  "608": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "613": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "616": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "617": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "623": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "643": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "feature request (run() args)",
+   "dup_of": null
+  },
+  "647": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "660": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "env/packaging (hatchling/uv build)",
+   "dup_of": null
+  },
+  "662": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "663": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "668": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "671": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "679": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "680": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "688": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "691": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "698": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "701": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "705": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "710": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (trigger resources_changed)",
+   "dup_of": null
+  },
+  "716": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "733": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "737": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "743": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "753": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "768": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "776": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "780": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "783": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "788": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "789": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "790": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "793": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "803": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "env (uv dependency resolution)",
+   "dup_of": null
+  },
+  "804": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "810": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "813": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "814": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "817": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "820": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "831": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "838": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "852": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "853": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "854": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "855": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "duplicate",
+   "dup_of": 854
+  },
+  "858": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "862": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "872": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "874": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "875": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (broadcast list_changed)",
+   "dup_of": null
+  },
+  "883": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "888": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "891": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "892": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "906": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "915": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "922": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "929": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "932": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "949": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "965": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (avoid endpoint origin mismatch)",
+   "dup_of": null
+  },
+  "987": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1010": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1051": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1053": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1060": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1064": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (env vars in stdio)",
+   "dup_of": null
+  },
+  "1070": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1072": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1079": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1081": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1082": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1084": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1095": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1096": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "other SDK (TypeScript/Node), not python-sdk",
+   "dup_of": null
+  },
+  "1097": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1100": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1101": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1103": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1131": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1141": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1144": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1152": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1160": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1167": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (session id)",
+   "dup_of": null
+  },
+  "1173": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1190": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1192": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1210": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1212": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1213": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1214": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1215": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1218": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1219": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1220": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1227": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1267": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1272": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1274": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1278": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1307": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1313": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1318": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1350": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1356": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1358": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (handle exception in ClientSession)",
+   "dup_of": null
+  },
+  "1361": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1363": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1367": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1372": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1379": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1382": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1391": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1393": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (lazy http error handling)",
+   "dup_of": null
+  },
+  "1400": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1401": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (client error handling design)",
+   "dup_of": null
+  },
+  "1415": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1416": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1420": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1421": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1422": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1423": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1428": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (elicitation timeout)",
+   "dup_of": null
+  },
+  "1437": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1442": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1443": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1444": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1445": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1450": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1451": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1452": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1458": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1469": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1470": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1480": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1482": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1487": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1495": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1513": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1560": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1561": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1564": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1574": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1577": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1579": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1585": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1600": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1602": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1612": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (middleware not work)",
+   "dup_of": null
+  },
+  "1628": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (SSL verification)",
+   "dup_of": null
+  },
+  "1648": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1658": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1672": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1690": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "feature/refactor (shared transport abstraction)",
+   "dup_of": null
+  },
+  "1702": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1716": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1717": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1742": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1744": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1764": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1768": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1788": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "feature/design (extensible pattern)",
+   "dup_of": null
+  },
+  "1789": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1796": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1798": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question/guide (DNS rebinding)",
+   "dup_of": null
+  },
+  "1805": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1811": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1814": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (what is the problem)",
+   "dup_of": null
+  },
+  "1821": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1830": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1835": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1843": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1844": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1853": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1873": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1933": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1941": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1960": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1967": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1970": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "1974": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2057": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2064": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2066": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2107": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2110": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2114": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2128": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2153": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2156": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2205": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2216": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2232": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2233": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2260": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2288": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (unicode validation)",
+   "dup_of": null
+  },
+  "2326": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2328": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2375": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2376": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2385": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "CI/packaging (packit upstream pull)",
+   "dup_of": null
+  },
+  "2386": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2416": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2422": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2429": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2431": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2432": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2454": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2480": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2517": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "usage question (why connect fails)",
+   "dup_of": null
+  },
+  "2519": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2527": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2539": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2541": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2543": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2546": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2548": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2563": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "CI/packaging (packit upstream pull)",
+   "dup_of": null
+  },
+  "2564": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2575": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "refactor (raise-site chaining)",
+   "dup_of": null
+  },
+  "2577": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2583": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2591": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2604": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2605": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2610": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2618": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2641": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2644": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2655": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2663": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2673": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2687": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2688": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2695": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2702": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2727": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2741": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2751": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2770": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2794": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2826": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2847": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2848": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2883": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2958": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2960": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2961": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "2965": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3060": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3067": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3091": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3099": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3102": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3103": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3123": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3136": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "perf/refactor (smart union scores all branches)",
+   "dup_of": null
+  },
+  "3150": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3174": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3193": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3209": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3216": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3227": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3228": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3240": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3250": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3266": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3273": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3281": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3335": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3337": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3341": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3342": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3345": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3351": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3353": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3356": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3382": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3384": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3385": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3434": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3469": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3473": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3476": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3483": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3484": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3487": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3490": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3492": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3493": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3496": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3503": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3504": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3522": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3549": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3551": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3554": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3556": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3557": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3560": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3566": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3569": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3572": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3573": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3578": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3579": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3585": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3586": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3588": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3592": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3596": {
+   "verdict": "NOT_BUG",
+   "bug_type": null,
+   "reason": "duplicate",
+   "dup_of": 3551
+  },
+  "3616": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3631": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3637": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3639": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3640": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3641": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3643": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3644": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3646": {
+   "verdict": "BUG",
+   "bug_type": "verified-repro",
+   "reason": "verified reproducible in study",
+   "dup_of": null
+  },
+  "3649": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  },
+  "3656": {
+   "verdict": "BUG",
+   "bug_type": "defect",
+   "reason": "real defect (runtime fault / feature-missing / spec-non-compliance)",
+   "dup_of": null
+  }
+ }
+}

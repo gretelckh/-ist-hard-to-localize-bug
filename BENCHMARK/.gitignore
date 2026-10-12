@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+
+# Data / outputs (regenerate via runners)
+data/raw/*.txt
+data/dataset_runs.json
+data/advanced_runs.json
+data/*.json
+figs/*.png
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+
+# LaTeX auxiliary
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz

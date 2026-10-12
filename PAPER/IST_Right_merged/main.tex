@@ -1,0 +1,165 @@
+%% ============================================================
+%% IST (Information and Software Technology) manuscript
+%% Why Is It So Hard to Localize Bugs in Model Context Protocol (MCP) Pipelines?
+%% An Empirical Study with a Reproducible Fault-Injection Benchmark
+%% Authors: Kehui Chen, Yicheng Sun, Jacky Keung, Zhenyu Mao, Xiaoxue Ma
+%% Template: Elsevier CAS (cas-dc).
+%% Each section is \input from its own file (sec_*.tex) for easy editing.
+%% ============================================================
+
+\documentclass[a4paper,fleqn]{cas-dc}
+
+%\documentclass[a4paper,fleqn,longmktitle]{cas-dc}
+
+\usepackage[authoryear,longnamesfirst]{natbib}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{makecell}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs} % professional table rules used in main_body.tex
+\usepackage{microtype} % improves line breaking and reduces overfull boxes
+\usepackage{xurl} % allows robust line breaks in long URLs/identifiers
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{placeins}
+\usepackage{caption}
+\usepackage{fontawesome5}
+
+% Compact, publication-style float spacing for a two-column Elsevier layout.
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\floatsep}{9pt plus 2pt minus 2pt}
+\setlength{\intextsep}{9pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\dblfloatsep}{9pt plus 2pt minus 2pt}
+
+
+\def\tsc#1{\csdef{#1}{\textsc{\lowercase{#1}}\xspace}}
+\tsc{WGM}
+\tsc{QE}
+
+\begin{document}
+\let\WriteBookmarks\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+\let\printorcid\relax
+
+% Short title
+\shorttitle{Why MCP Fault Localization Is Hard}
+
+% Short author
+\shortauthors{K. Chen et al.}
+
+% Main title of the paper
+\title [mode = title]{Why Is It So Hard to Localize Bugs in Model Context Protocol (MCP)
+Pipelines? An Empirical Study with a Reproducible Fault-Injection Benchmark}
+
+% Title footnote
+\tnotemark[1]
+\tnotetext[1]{This work is partially supported by the Research Grants Council (RGC) of the
+Hong Kong Special Administrative Region, China under the General Research Fund
+(UGC/FDS16/E27/25), Hong Kong Metropolitan University Research Grant (RD/2025/1.24), and
+research funds from City University of Hong Kong (6000871, 9229109, 9229192).}
+
+% First author
+\author[1]{Kehui Chen}
+\ead{kehuichen2-c@my.cityu.edu.hk}
+
+% \author[1]{Yicheng Sun}
+% \ead{yicsun2-c@my.cityu.edu.hk}
+
+\author[1]{Jacky Keung}
+\ead{Jacky.Keung@cityu.edu.hk}
+
+% \author[1]{Zhenyu Mao}
+% \ead{zhenyumao2-c@my.cityu.edu.hk}
+
+\author[2]{Xiaoxue Ma\cormark[1]}
+\ead{kxma@hkmu.edu.hk}
+\cortext[cor1]{Corresponding author}
+
+\affiliation[1]{organization={Department of Computer Science, City University of Hong Kong},
+            city={Kowloon},
+            country={Hong Kong SAR}}
+
+\affiliation[2]{organization={Department of Computer Science, Hong Kong Metropolitan University},
+            city={Kowloon},
+            country={Hong Kong SAR}}
+
+% Abstract (structured: Context / Objective / Methods / Results / Conclusion)
+\begin{abstract}
+\noindent \textbf{Context}: Large language models (LLMs) are increasingly used in AI-driven
+software engineering through the Model Context Protocol (MCP), which orchestrates external
+tools across the Host, Client, and Server components and the transport between them. Yet
+practitioners report that localizing the root cause of a runtime fault is extremely difficult.
+
+\noindent \textbf{Objective}: This study investigates \emph{why} MCP fault localization is so
+hard, and whether automated diagnostic guidance can alleviate it. It aims to move beyond
+subjective industrial complaints to objective, reproducible technical evidence.
+
+\noindent \textbf{Methods}: We adopt a sequential-exploratory mixed-methods design. First, we
+conduct semi-structured interviews with 20 MCP practitioners from FinTech and Internet
+enterprises, and analyse the data with open coding. Second, guided by the reported
+fault-diagnosis pain points, we define a four-layer runtime fault taxonomy and build a
+\textbf{real-bug dataset} by mining the entire issue tracker of the official
+\verb|modelcontextprotocol/python-sdk|: a funnel of 1,343 pure issues to 398
+confirmed real bugs to 342 active (56 already fixed in the
+pinned SDK removed), of which \textbf{49 are reproduced at runtime} over the production
+Streamable-HTTP transport, each bound to a real issue number. We then run a genuine LLM
+diagnosis over these 49 bugs and compare its localisation accuracy with and without the output
+of a runnable diagnostic-clue tool that classifies the exposure channel and emits directional
+guidance without revealing the root-cause layer.
+
+\noindent \textbf{Results}: Interviews identify fault localization as the leading operational
+obstacle. Controlled experiments over the 49 reproduced real bugs derive a \emph{three-channel
+exposure model}: non-Server MCP faults are pushed to the Server layer (7/13), silently
+swallowed (3/13 non-Server, 11/49 = 22.4\% overall), or surfaced as raw Python exceptions in
+the calling code (3/13); a further 17/49 = 34.7\% of Server-origin bugs are \emph{genericised},
+their real root cause replaced by a generic message. A genuine LLM reading only the SDK's
+reported error text achieves 77.6\% overall but only \textbf{15.4\%} on the 13 non-Server bugs
+(0\% on both Host- and Client-origin faults, which are all pushed onto the Server, and only
+23.1\% at Top-1); a runnable diagnostic-clue tool that packages the exposure channel into
+directional guidance --- without revealing the origin layer --- raises non-Server accuracy to
+23.1\% (+7.7 pp), whereas a bare channel-label control does not help (0\%).
+
+\noindent \textbf{Conclusion}: MCP fault localization is hard primarily because default SDK
+error reporting routes faults through distinct channels that hide the true origin, and
+lacks root-cause layer metadata. Honest, automated diagnostic guidance that packages these
+channels measurably improves localization of the hard non-Server faults. A repair experiment
+confirms the difficulty is localization rather than fixing: given the full source an LLM
+repairs 69.6\% of the auto-verifiable cases with or without the guidance. We release the
+real-bug dataset to support future research on MCP reliability and fault diagnosis.
+\end{abstract}
+
+% Keywords
+\begin{keywords}
+Model Context Protocol \sep
+Fault localization \sep
+Root-cause analysis \sep
+Large language models \sep
+Observability \sep
+Empirical software engineering
+\end{keywords}
+
+\maketitle
+
+% Main content (each part in its own file for easy editing)
+\input{sec_intro}
+\input{sec_related}
+\input{sec_method}
+\input{sec_setup}
+\input{sec_results}
+\input{sec_discussion}
+
+% Credit authorship contribution details (optional)
+%\printcredits
+
+%% Bibliography style
+\bibliographystyle{cas-model2-names}
+\bibliography{cas-refs}
+
+\end{document}
