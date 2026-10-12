@@ -1,10 +1,6 @@
 # MCP-IST-Release
 
-本目录是 **IST 论文（49-bug / 真实 bug 口径）最新版的干净整理**，用于后续发布到 GitHub。
-所有旧口径（MCP-Fault-20 / 80 runs / 45% / 52.5% / 23-48）的内容**均不在此目录**，只保留最新版。
 
-> 论文标题：《Why Is It So Hard to Localize Bugs in Model Context Protocol (MCP) Pipelines?
-> An Empirical Study with a Reproducible Fault-Injection Benchmark》（IST 期刊版）
 
 ---
 
